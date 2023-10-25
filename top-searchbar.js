@@ -6,7 +6,10 @@
         // Função para criar os elementos HTML dos produtos
         function createProductElement(product) {
             const productDiv = document.createElement("div");
-            productDiv.className = "product";
+            productDiv.className = "search-product";
+
+            const productInfoDiv = document.createElement("div");
+            productInfoDiv.className = "search-product-info";
 
             const productImage = document.createElement("img");
             productImage.src = product.image;
@@ -23,8 +26,9 @@
             productLink.target = "_blank";
 
             productDiv.appendChild(productImage);
-            productDiv.appendChild(productTitle);
-            productDiv.appendChild(productauthor);
+            productDiv.appendChild(productInfoDiv);
+            productInfoDiv.appendChild(productTitle);
+            productInfoDiv.appendChild(productauthor);
             productDiv.appendChild(productLink);
 
             return productDiv;
