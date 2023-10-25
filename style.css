@@ -38,6 +38,12 @@ nav {
     height: 100%;
 }
 
+@media (max-width: 800px){
+    .div-logo h2{
+        display: none;
+    }
+}
+
 /* Style the logo container */
 .div-logo {
     display: flex;
@@ -69,6 +75,55 @@ nav {
     list-style: none;
 }
 
+@media (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    /*  nav{
+        position: fixed;
+    }  */
+    #top-list{
+        position: fixed;
+        top: 8vh;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #dd4e50;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        z-index: 50;
+    }
+    #top-list.active{
+        transform: translateX(0);
+    }
+    #top-list a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-logo{
+        z-index: 1;
+    }
+    .mobile-menu{
+        display: block !important;
+        z-index: 10;
+    }
+    #top-list li{
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+}
 /* Style the top list links */
 #top-list a {
     text-decoration: none;
@@ -78,7 +133,44 @@ nav {
 }
 #top-list a:hover{
     color: #ffc0c0;
+    transition: background-color 0.5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.886);
 }
+
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu.active .line1{
+    transform: rotate(-45deg) translate(-8px, 8px)
+}
+.mobile-menu.active .line2{
+    opacity: 0;
+}
+.mobile-menu.active .line3{
+    transform: rotate(45deg) translate(-5px, -7px)
+}
+
 
 /* Style the login container */
 .div-login {
@@ -171,8 +263,7 @@ nav {
 #logo-slogan h2 {
     font-weight: 300;
     font-style: italic;
-    color: #dd4e50
-    ;
+    color: #dd4e50;
 }
 
 /*Style the slogan UP text*/
@@ -181,8 +272,14 @@ nav {
     font-size: 25px;
 }
 
+@media (max-width: 800px) {
+    #comic-reader-welcome-text{
+        display: none;
+    }
+}
+
 /*Style the who we are text*/
-#comic-reader-welcome-text {
+.comic-reader-welcome-text-class {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -192,7 +289,7 @@ nav {
 }
 
 /*Style the who we are text description*/
-#comic-reader-welcome-text p {
+.comic-reader-welcome-text-class p {
     width: 90%;
     font-size: 20px;
     line-height: 1.5;
@@ -236,6 +333,13 @@ nav {
 .most-selled-items{
     width: 100%;
 }
+
+@media (max-width: 800px){
+    .most-selled-items h1{
+        font-size: 18px;
+    }
+}
+
 
 #top-sellers-books{
     display: grid;
