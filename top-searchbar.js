@@ -11,6 +11,10 @@
             const productInfoDiv = document.createElement("div");
             productInfoDiv.className = "search-product-info";
 
+
+            const productInfoLinkDiv = document.createElement("div");
+            productInfoLinkDiv.className = "search-product-info-link";
+
             const productImage = document.createElement("img");
             productImage.src = product.image;
 
@@ -26,10 +30,12 @@
             productLink.target = "_blank";
 
             productDiv.appendChild(productImage);
-            productDiv.appendChild(productInfoDiv);
+            productDiv.appendChild(productInfoLinkDiv);
+            productInfoLinkDiv.appendChild(productInfoDiv);
             productInfoDiv.appendChild(productTitle);
             productInfoDiv.appendChild(productauthor);
-            productDiv.appendChild(productLink);
+            productInfoDiv.appendChild(productauthor);
+            productInfoLinkDiv.appendChild(productLink);
 
             return productDiv;
         }
