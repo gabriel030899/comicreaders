@@ -1,14 +1,14 @@
 
-        import { books } from './books-gallery.js';
+        import { products } from './all-products.js';
 
-        import { createProductElement } from './create-books-gallery.js';
+        import { createBooksElement } from './create-books-gallery.js';
 
         // Adicione produtos à galeria
         const topSellersBooksGallery = document.querySelector("#top-sellers-books");
         
-        books.forEach(product => {
-            if( product.topSeller){
-            const productElement = createProductElement(product);
+        products.forEach(product => {
+            if( product.topSeller && product.itemType === "book"){
+            const productElement = createBooksElement(product);
             topSellersBooksGallery.appendChild(productElement);
             }
         });

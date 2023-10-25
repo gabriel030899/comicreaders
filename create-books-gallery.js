@@ -1,4 +1,4 @@
-export  function    createProductElement(product) {
+export  function    createBooksElement(product) {
                 const productDiv = document.createElement("div");
                 productDiv.className = "product";
 
