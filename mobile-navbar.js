@@ -25,7 +25,7 @@ class MobileNavbar {
 
     showMainContent() {
         this.mainContent.style.display = "flex";
-        this.footerContent.style.display = "flex";
+        this.footerContent.style.display = "block";
     }
 
     handleClick() {
