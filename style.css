@@ -17,7 +17,7 @@ body {
 /* Style the header */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #dd4e50;
     height: 70px;
@@ -65,6 +65,12 @@ nav {
     font-size: 20px;
 }
 
+.top-search-bar{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+
 /* Style the top list container */
 #top-list {
     display: flex;
@@ -107,6 +113,12 @@ nav {
     .div-logo{
         z-index: 1;
     }
+    .top-search-bar{
+        width: 100% !important;
+    }
+    nav{
+        width: 20% !important;
+    }
     .mobile-menu{
         display: block !important;
         z-index: 10;
@@ -127,11 +139,24 @@ nav {
     color: white;
     font-size: 17px;
     transition: color 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 #top-list a:hover{
-    color: #ffc0c0;
+    color: #dd4e50;
     transition: background-color 0.5s ease-in-out;
-    background-color: rgba(255, 255, 255, 0.886);
+    background-color: #e9ebeaf0;
+    
+}
+.top-list-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .mobile-menu{
