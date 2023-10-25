@@ -412,8 +412,21 @@ nav {
 /* Style the up your life section logo */
 .register-button-section img{
     width: auto;
-    height: 150px;
+    height: 200px;
 }
+
+@media (max-width:800px){
+    .register-button-text{
+        width: 300px;
+    }
+    .register-button-text h1{
+        font-size: 17px;
+    }
+    #up-text-underline{
+        font-size: 18px;
+    }
+}
+
 /* Style the up your life button div */
 .register-button-text{
     display: flex;
@@ -481,6 +494,12 @@ nav {
   
     40% {
       transform: scale(1) rotate(0);
+    }
+}
+
+@media(max-width:800px){
+    .about-platform-section{
+        display: none !important;
     }
 }
 
@@ -564,6 +583,31 @@ nav {
     display: flex;
     width: 100%;
 }
+
+@media(max-width: 800px){
+    
+    .expectation-items{
+        width: 90% !important;
+    }
+    
+    .expectation-items img{
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .expectation-content{
+        background-color: #D0D0D0;
+    }
+
+    .expectation-title h1{
+        font-size: 20px !important;
+    }
+
+    #expectation-explorer h2{
+        font-size: 20px;
+    }
+}
+
 .expectation-items img{
     width: 40px;
     height: 40px;
@@ -573,6 +617,12 @@ nav {
     margin: 30px 0 0 20px;
     width: 100%;
     justify-content: center;
+}
+
+@media (max-width: 800px){
+    .pg-footer{
+        margin-top: 20px;
+    }
 }
 
 .pg-footer {
