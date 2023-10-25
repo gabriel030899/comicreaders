@@ -2,8 +2,6 @@
         // Suponha que você tenha uma lista de produtos
         import { products } from './all-products.js';
 
-        import { createBooksElement } from './create-books-gallery.js';
-
 
         // Função para criar os elementos HTML dos produtos
         function createProductElement(product) {
@@ -32,6 +30,12 @@
             return productDiv;
         }
         
-    
-
-  
+    // Adicione produtos à galeria
+    const searchBarItems = document.querySelector("#searched-list");
+        
+    products.forEach(product => {
+        if( product.topSeller && product.itemType === "book"){
+        const productElement = createProductElement(product);
+        searchBarItems.appendChild(productElement);
+        }
+    });
