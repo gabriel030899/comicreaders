@@ -43,25 +43,32 @@
             return productDiv;
         }
         
-    // Função para atualizar a lista de produtos com base na consulta
-    function updateProductList(query) {
-        const searchBarItems = document.querySelector("#searched-list");
-        searchBarItems.innerHTML = ""; // Limpe a lista atual
-    
-        products.forEach(product => {
-            if (product && product.topSeller) { // Verifica se o objeto product é definido
-                const productInfo = [
-                    product.title,
-                    product.author,
-                    product.brand
-                ].map(info => info ? info.toLowerCase() : "").join(" "); // Verifica se os campos estão definidos
-    
-                if (productInfo.includes(query)) {
-                    const productElement = createProductElement(product);
-                    searchBarItems.appendChild(productElement);
+        // Função para atualizar a lista de produtos com base na consulta
+        function updateProductList(query) {
+            const searchBarItems = document.querySelector("#searched-list");
+            searchBarItems.innerHTML = ""; // Limpe a lista atual
+
+            // Crie uma cópia da lista de produtos e ordene-a em ordem alfabética por título
+            const sortedProducts = products.slice().sort((a, b) => {
+                const titleA = a.title.toLowerCase();
+                const titleB = b.title.toLowerCase();
+                return titleA.localeCompare(titleB);
+            });
+        
+            sortedProducts.forEach(product => {
+                if (product) { // Verifica se o objeto product é definido
+                    const productInfo = [
+                        product.title,
+                        product.author,
+                        product.brand
+                    ].map(info => info ? info.toLowerCase() : "").join(" "); // Verifica se os campos estão definidos
+        
+                    if (productInfo.includes(query)) {
+                        const productElement = createProductElement(product);
+                        searchBarItems.appendChild(productElement);
+                    }
                 }
-            }
-        });
+            });
     }
 
     // Adicione um ouvinte de eventos ao campo de entrada
@@ -72,5 +79,5 @@
         updateProductList(query);
     });
 
-    // Inicialize a lista com todos os produtos topSeller
+    // Inicialize a lista com todos os produtos
     updateProductList("");

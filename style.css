@@ -571,6 +571,11 @@ nav {
         font-size: 18px;
     }
 }
+@media (max-width:400px){
+    .register-button-text h1 {
+        font-size: 13px !important;
+    }
+}
 
 /* Style the up your life button div */
 .register-button-text{
@@ -715,6 +720,15 @@ nav {
         display: none;
     }
 }
+@media (max-width:400px){
+    .expectation-section{
+        height: 750px !important;
+    }
+    .register-button-text h1 {
+        font-size: 13px;
+    }
+}
+
 #expectation-text{
     display: flex;
     flex-direction: column;
@@ -757,6 +771,11 @@ nav {
 
     #expectation-explorer h2{
         font-size: 20px;
+    }
+}
+@media (max-width: 400px){
+    .expectation-title h1 {
+        font-size: 17px !important;
     }
 }
 
