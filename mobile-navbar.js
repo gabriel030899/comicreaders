@@ -1,9 +1,10 @@
 class MobileNavbar {
-    constructor(mobileMenu, navList, navLinks, mainContent, footerContent) {
+    constructor(mobileMenu, navList, navLinks, mainContent, footerContent, searchBar) {
         this.mobileMenu = document.querySelector(mobileMenu);
         this.navList = document.querySelector(navList);
         this.navLinks = document.querySelectorAll(navLinks);
         this.mainContent = document.querySelector(mainContent);
+        this.searchBar = document.querySelector(searchBar);
         this.footerContent = document.querySelector(footerContent);
         this.activeClass = "active";
 
@@ -21,11 +22,13 @@ class MobileNavbar {
     hideMainContent() {
         this.mainContent.style.display = "none";
         this.footerContent.style.display = "none";
+        this.searchBar.style.display = "none";
     }
 
     showMainContent() {
         this.mainContent.style.display = "flex";
         this.footerContent.style.display = "block";
+        this.searchBar.style.display = "flex";
     }
 
     handleClick() {
@@ -58,7 +61,8 @@ const mobileNavbar = new MobileNavbar(
     "#top-list",
     ".top-list-links",
     "main",
-    "footer"
+    "footer",
+    ".top-search-bar",
 );
 
 mobileNavbar.init();
