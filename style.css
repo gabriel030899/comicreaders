@@ -711,8 +711,8 @@ nav {
 }
 
 @media (max-width:450px){
-    .expectation-section{
-        margin-bottom: 10px;
+    .footer-wave-path{
+        display: none;
     }
 }
 #expectation-text{
