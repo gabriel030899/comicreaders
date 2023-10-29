@@ -22,6 +22,7 @@ header {
     background-color: #dd4e50;
     height: 70px;
     width: 100%;
+    border-bottom: solid 2px black;
     /* position:fixed; */
 }
 
