@@ -33,6 +33,10 @@ export const genres = [
         name: "ficcaocientifica",
     },
     {
+        title: "Programação / TI",
+        name: "ti",
+    },
+    {
         title: "Fantasia",
         name: "fantasia",
     },
@@ -49,8 +53,16 @@ export const genres = [
         name: "historia",
     },
     {
+        title: "Infantil",
+        name: "infantil",
+    },
+    {
         title: "Poesia",
         name: "poesia",
+    },
+    {
+        title: "Romance",
+        name: "romance",
     },
     {
         title: "Biografia / Memórias",

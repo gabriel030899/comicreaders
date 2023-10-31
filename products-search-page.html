@@ -39,6 +39,14 @@
       </div>
     </header>
     <main>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <div class="modalContent">
+              
+            </div>
+        </div>
+    </div>
         <div class="left-nav-filters">
           <div class="content-filters">
             <section class="special-categories-filters">
@@ -116,16 +124,28 @@
                 </div>
             </div>
 
-            <div class="characters-filter">
+            <!-- <div class="characters-filter">
                 <h2>Procure livros por personagem</h2>
                 <div class="characters-options">
 
                 </div>
-            </div>
+            </div> -->
 
-            <div class="products-show">
-                
+            <div class="products-show-gallery" id="show-gallery">
+              <h2>Todos os livros</h2>
+              <div class="products-show">
+
+              </div>
+              <div class="bottom-page-nav">
+                <div class="pagination">
+                  <a href="#top-list"><button id="prevPage">Anterior</button></a>
+                  <span id="currentPage"></span>
+                  <a href="#top-list"><button id="nextPage">Próxima</button></a>
+                </div>  
+              </div>
+              
             </div>
+            
 
         </div>
     </main>
@@ -216,8 +236,10 @@
     <script type="module" src="all-genres.js"></script> 
     <script type="module" src="all-special-categories.js"></script> 
     <script type="module" src="top-searchbar.js"></script> 
+    <script type="module" src="all-books-page-gallery.js"></script> 
     <script src="mobile-navbar.js"></script> 
     <script src="top-search-list.js"></script>
+    <script src="pagination-smooth-transition.js"></script>
     
 </body>
 

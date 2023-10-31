@@ -64,6 +64,12 @@ export const specialCategories = [
         image: "",
         link: "",
         tooltip: "De aventureiros, para aventureiros."
+    },
+    {
+        title: "Anime-se",
+        image: "",
+        link: "",
+        tooltip: "Piratas se esticando, titãs invadindo cidades e muito mais."
     }
     
 ]

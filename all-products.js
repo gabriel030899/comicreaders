@@ -5,7 +5,42 @@ export const products = [
         author: "Robert C Martin",
         link: "https://amzn.to/3MBjnOf",
         topSeller: true,
-        itemType: "book"
+        itemType: "book",
+        genre: "ti",
+        newcome: "",
+        format: "eBook",
+        language: "portugues",
+        priceRange: "R$80 a R$100",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: 
+        `Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com uma empresa de desenvolvimento. Perdem-se a cada ano horas incontáveis e recursos importantes devido a um código mal escrito. Mas não precisa ser assim.
+
+        O renomado especialista em software, Robert C. Martin, apresenta um paradigma revolucionário com Código limpo: Habilidades Práticas do Agile Software. Martin se reuniou com seus colegas do Mentor Object para destilar suas melhores e mais ágeis práticas de limpar códigos "dinamicamente" em um livro que introduzirá gradualmente dentro de você os valores da habilidade de um profissional de softwares e lhe tornar um programador melhor –mas só se você praticar.
+        
+        Que tipo de trabalho você fará? Você lerá códigos aqui, muitos códigos. E você deverá descobrir o que está correto e errado nos códigos. E, o mais importante, você terá de reavaliar seus valores profissionais e seu comprometimento com o seu ofício.
+        
+        Código limpo está divido em três partes. Na primeira há diversos capítulos que descrevem os princípios, padrões e práticas para criar um código limpo.
+        
+        A segunda parte consiste em diversos casos de estudo de complexidade cada vez maior. Cada um é um exercício para limpar um código – transformar o código base que possui alguns problemas em um melhor e eficiente. A terceira parte é a compensação: um único capítulo com uma lista de heurísticas e "odores" reunidos durante a criação dos estudos de caso. O resultado será um conhecimento base que descreve a forma como pensamos quando criamos, lemos e limpamos um código.
+        
+        Após ler este livro os leitores saberão:
+        
+        ✔ Como distinguir um código bom de um ruim
+        
+        ✔ Como escrever códigos bons e como transformar um ruim em um bom
+        
+        ✔ Como criar bons nomes, boas funções, bons objetos e boas classes
+        
+        ✔ Como formatar o código para ter uma legibilidade máxima
+        
+        ✔ Como implementar completamente o tratamento de erro sem obscurecer a lógica
+        
+        ✔ Como aplicar testes de unidade e praticar o desenvolvimento dirigido a testes
+        
+        Este livro é essencial para qualquer desenvolvedor, engenheiro de software, gerente de projeto, líder de equipes ou analistas de sistemas com interesse em construir códigos melhores.`
     },
     {
         title: "Pai Rico, Pai Pobre",
@@ -13,7 +48,27 @@ export const products = [
         author: "Robert T. Kiyosaki",
         link: "https://amzn.to/3tL6ESq",
         topSeller: true,
-        itemType: "book"
+        itemType: "book",
+        genre: "financeiro",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "R$40 a R$60",
+        streaming: "",
+        price: "R$ 55,37",
+        oldPrice: "R$ 87,90",
+        classification: "4,9",
+        description: `
+        Celebrando 20 anos com o livro n° 1 em finanças pessoais.
+
+        A escola prepara as crianças para o mundo real?  Essa é a primeira pergunta com a qual o leitor se depara neste livro.  O recado é ousado e direto: boa formação e notas altas não bastam para assegurar o sucesso de alguém. O mundo mudou; a maioria dos jovens tem cartão de crédito, antes mesmo de concluir os estudos, e nunca teve aula sobre dinheiro, investimentos, juros etc. Ou seja, eles vão para a escola, mas continuam financeiramente improficientes, despreparados para enfrentar um mundo que valoriza mais as despesas do que a poupança.
+        
+        Para o autor, o conselho mais perigoso que se pode dar a um jovem nos dias de hoje é: “Vá para a escola, tire notas altas e depois procure um trabalho seguro.”  O fato é que agora as regras são outras, e não existe mais emprego garantido para ninguém.  Pai Rico, Pai Pobre demonstra que a questão não é ser empregado ou empregador, mas ter o controle do próprio destino ou delegá-lo a alguém.  É essa a tese de Robert Kiyosaki neste livro substancial e visionário.  Para ele, a formação proporcionada pelo sistema educacional não prepara os jovens para o mundo que encontrarão depois de formados E como os pais podem ensinar aos filhos o que a escola relega? Essa é outra das muitas perguntas que o leitor encontra em Pai Rico, Pai Pobre. Nesse sentido, a proposta do autor é facilitar a tarefa dos pais. Quem entende de contabilidade deve esquecer seus conhecimentos acadêmicos, pois muitas das teorias expostas por Robert Kiyosaki contrariam os princípios contábeis comumente aceitos, e apresentam uma valiosa e moderna percepção do modo como se realizam os investimentos.
+        
+        A sociedade sofre mudanças radicais e, talvez, de proporções maiores do que as ocorridas em séculos passados. Não existe bola de cristal, mas algo é certo: a perspectiva global de transformações transcende nossa realidade imediata. Aconteça o que acontecer,
+        só existem duas alternativas: segurança ou independência financeira. E o objetivo de Pai Rico, Pai Pobre é instruir o leitor e despertar sua inteligência financeira e a de seus filhos.
+        
+        "A principal razão pela qual as pessoas têm problemas financeiros é que passaram anos na escola, mas não aprenderam nada sobre dinheiro. O resultado é que elas aprendem a trabalhar por dinheiro… mas nunca a fazê-lo trabalhar para elas."- Robert Kiyosaki.`
     },
     {
         title: "Nação Dopamina",
@@ -21,7 +76,17 @@ export const products = [
         author: "Dra. Anna Lembke",
         link: "https://amzn.to/46IbG0y",
         topSeller: true,
-        itemType: "book"
+        itemType: "book",
+        genre: "autoajuda",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "101 Primeiros Desenhos",
@@ -29,7 +94,17 @@ export const products = [
         author: "Ciranda Cultural",
         link: "https://amzn.to/3QcKb86",
         topSeller: true,
-        itemType: "book"
+        itemType: "book",
+        genre: "infantil",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "A Mulher em Mim",
@@ -37,7 +112,17 @@ export const products = [
         author: "Britney Spears",
         link: "https://amzn.to/45DwPYo",
         topSeller: true,
-        itemType: "book"
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "A Biblioteca da Meia-Noite",
@@ -45,7 +130,17 @@ export const products = [
         author: "Matt Haig",
         link: "https://amzn.to/3rVqTMN",
         topSeller: true,
-        itemType: "book"
+        itemType: "book",
+        genre: "terror",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Todas as suas (im)perfeições",
@@ -53,7 +148,17 @@ export const products = [
         author: "Colleen Hoover",
         link: "https://amzn.to/40oPXIR",
         topSeller: true,
-        itemType: "book"
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Kindle 11ª Geração",
@@ -61,7 +166,17 @@ export const products = [
         brand: "Amazon",
         link: "https://amzn.to/45OxBBX",
         topSeller: true,
-        itemType: "accessory"
+        itemType: "accessory",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Newmind Luminária",
@@ -69,7 +184,17 @@ export const products = [
         brand: "Newmind",
         link: "https://amzn.to/405Dh9v",
         topSeller: true,
-        itemType: "accessory"
+        itemType: "accessory",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Apoio de leitura",
@@ -77,7 +202,17 @@ export const products = [
         brand: "Elegance",
         link: "https://amzn.to/490vaPH",
         topSeller: true,
-        itemType: "accessory"
+        itemType: "accessory",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Luminária de mesa",
@@ -85,7 +220,17 @@ export const products = [
         brand: "Luatek",
         link: "https://amzn.to/3FveZw0",
         topSeller: true,
-        itemType: "accessory"
+        itemType: "accessory",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Luminário portátil de página",
@@ -93,7 +238,17 @@ export const products = [
         brand: "Moverstar",
         link: "https://amzn.to/40bkg5F",
         topSeller: true,
-        itemType: "accessory"
+        itemType: "accessory",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Luminária de Pescoço",
@@ -101,7 +256,17 @@ export const products = [
         brand: "Junkai",
         link: "https://amzn.to/3tMsXXX",
         topSeller: true,
-        itemType: "accessory"
+        itemType: "accessory",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Suporte de livros",
@@ -109,7 +274,17 @@ export const products = [
         brand: "Acrimet",
         link: "https://amzn.to/40b5QCq",
         topSeller: true,
-        itemType: "accessory"
+        itemType: "accessory",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Marcador de página Post-It",
@@ -117,7 +292,17 @@ export const products = [
         brand: "3M",
         link: "https://amzn.to/3s5iHJK",
         topSeller: false,
-        itemType: "accessory"
+        itemType: "accessory",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "A Cantiga dos Pássaros",
@@ -125,7 +310,17 @@ export const products = [
         author: "Suzanne Collins",
         link: "https://amzn.to/49cFtQL",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "A coragem de ser imperfeito",
@@ -133,7 +328,17 @@ export const products = [
         author: "Brené Brown",
         link: "https://amzn.to/3Q4zzs4",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Admirável mundo novo",
@@ -141,7 +346,17 @@ export const products = [
         author: "Aldous Leonard Huxley",
         link: "https://amzn.to/3QwIDaz",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "A empregada: Bem-vinda à família",
@@ -149,7 +364,17 @@ export const products = [
         author: "Freida McFadden",
         link: "https://amzn.to/3QcDWBx",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "A garota do lago",
@@ -157,7 +382,17 @@ export const products = [
         author: "Charlie Donlea",
         link: "https://amzn.to/40amUZc",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "A maldição do verdadeiro amor",
@@ -165,7 +400,17 @@ export const products = [
         author: "Stephanie Garber",
         link: "https://amzn.to/3FyAigj",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Antifrágil: Coisas que se beneficiam com o caos",
@@ -173,7 +418,17 @@ export const products = [
         author: "Nassim Nicholas Taleb",
         link: "https://amzn.to/47osbir",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "A paciente silenciosa",
@@ -181,7 +436,17 @@ export const products = [
         author: "Alex Michaelides",
         link: "https://amzn.to/3MiXClQ",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "As aventuras de Arsène Lupin",
@@ -189,7 +454,17 @@ export const products = [
         author: "Maurice Leblanc",
         link: "https://amzn.to/479V01X",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "As mil partes do meu coração",
@@ -197,7 +472,17 @@ export const products = [
         author: "Colleen Hoover",
         link: "https://amzn.to/46HKSxm",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Assassinos da Lua das Flores",
@@ -205,7 +490,17 @@ export const products = [
         author: "David Grann",
         link: "https://amzn.to/40aiGAW",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "A Sutil Arte de Ligar o F*da-Se",
@@ -213,7 +508,17 @@ export const products = [
         author: "Mark Manson",
         link: "https://amzn.to/3QwxyGx",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Atitude Mental Positiva",
@@ -221,7 +526,17 @@ export const products = [
         author: "Napolean Hill",
         link: "https://amzn.to/45NMzrK",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Berserk Vol. 1: Edição de Luxo",
@@ -229,7 +544,17 @@ export const products = [
         author: "Kentaro Miura",
         link: "https://amzn.to/3QkfjD4",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     },
     {
         title: "Beyond The Story Uma história dos 10 anos de BTS",
@@ -237,6 +562,16 @@ export const products = [
         author: "Myeongseeok Kang & BTS & Luara França",
         link: "https://amzn.to/3SbMpY3",
         topSeller: false,
-        itemType: "book"
+        itemType: "book",
+        genre: "",
+        newcome: "",
+        format: "",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "R$ 88,20",
+        oldPrice: "",
+        classification: "4,2",
+        description: ``
     }
 ]
