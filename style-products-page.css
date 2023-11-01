@@ -23,7 +23,7 @@ header {
     /* background-color: #222222; */
     height: 70px;
     width: 100%;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px #8a3133;
     /* position:fixed; */
 }
 
@@ -172,9 +172,9 @@ nav {
 #search-bar-input{
     width: 80%;
     height: 50%;
-    border-radius: 50px;
+    border-radius: 10px;
     background-color: white;
-    border: solid 2px black;
+    border: solid 2px #8a3133;
     padding: 0 10px 0 10px;
     color: #2f2f2f;
     font-size: 15px;
@@ -191,6 +191,14 @@ nav {
     top: 52px;
     z-index: 5;
     display: none;
+}
+#promotionButton{
+    background-color: #262626!important;
+    color: #dd4e50!important;
+}
+#promotionButton:hover{
+    background-color: #3f3f3f!important;
+    color: #dd4e50!important;
 }
 @media(max-width: 1180px){
     #searched-list{
@@ -530,10 +538,9 @@ nav {
 }
 .streamings-filter h2{
     width: 100%;
-    background-color: #009bc2;
-    border: solid 2px black;
+    background-color: #262626;
     height: 30px;
-    border-radius: 20px;
+    border-radius: 5px;
     padding-left: 10px;
     display: flex;
     justify-content: flex-start;
@@ -593,16 +600,14 @@ nav {
 }
 .products-show-gallery h2{
     width: 100%;
-    background-color: #272727;
-    border: solid 2px black;
+    border-bottom: solid 2px #262626;
     height: 30px;
-    border-radius: 20px;
     padding-left: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-size: 20px;
-    color: white;
+    color: #262626;
     font-weight: lighter;
 }
 .products-show{
