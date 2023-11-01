@@ -151,6 +151,9 @@ export  function    createBooksElement(product) {
         
     });
 
+    
+
+
     closeModal.addEventListener("click", function() {
         modal.style.display = "none";
 
