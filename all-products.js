@@ -11,10 +11,11 @@ export const products = [
         format: "ebook",
         language: "portugues",
         priceRange: "R$80 a R$100",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,2",
+        specialCategory: [""], 
         description: 
         `Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com uma empresa de desenvolvimento. Perdem-se a cada ano horas incontáveis e recursos importantes devido a um código mal escrito. Mas não precisa ser assim.
 
@@ -39,7 +40,7 @@ export const products = [
         ✔ Como implementar completamente o tratamento de erro sem obscurecer a lógica
         
         ✔ Como aplicar testes de unidade e praticar o desenvolvimento dirigido a testes
-        
+        specialcategory: [""],         description:
         Este livro é essencial para qualquer desenvolvedor, engenheiro de software, gerente de projeto, líder de equipes ou analistas de sistemas com interesse em construir códigos melhores.`
     },
     {
@@ -54,10 +55,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "R$40 a R$60",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `
         Celebrando 20 anos com o livro n° 1 em finanças pessoais.
 
@@ -82,10 +84,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Este livro é sobre prazer. É também sobre sofrimento. Mas mais importante, é um livro que trata de como encontrar o delicado equilíbrio entre os dois, e por que hoje em dia, mais do que nunca, encontrar o equilíbrio é essencial. Estamos vivendo em uma época de excessos, de acesso sem precedentes a estímulos de alta recompensa e alta dopamina: drogas, comida, notícias, jogos, compras, sexo, redes sociais. A variedade e a potência desses estímulos são impressionantes - assim como seu poder adictivo. Nossos telefones celulares oferecem dopamina digital 24 horas por dia, 7 dias por semana, para uma sociedade ao mesmo tempo conectada e alheia do que acontece ao redor. Estamos todos vulneráveis ao consumo excessivo e à compulsão.
 
         Em Nação dopamina, Dra. Anna Lembke, psiquiatra e professora da Escola de Medicina da renomada Universidade Stanford, explora as novas e empolgantes descobertas científicas que explicam por que a busca incansável do prazer gera mais sofrimento do que felicidade - e o que podemos fazer a respeito.
@@ -104,10 +107,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Este livro traz 101 desenhos incríveis para colorir. São ilustrações de animais, frutas, brinquedos, instrumentos musicais e outros temas. Divirta-se com os desenhos e aprenda com as frases que acompanham cada um deles.`
     },
     {
@@ -122,10 +126,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `"A mulher em mim" é uma história corajosa e surpreendentemente comovente sobre liberdade, fama, maternidade, sobrevivência, fé e esperança. Em junho de 2021, o mundo inteiro ouvia Britney Spears falar, publicamente, em uma corte perante uma juíza. O impacto ao compartilhar a sua voz ― a sua verdade ― foi inegável e mudou o curso tanto de sua vida como a de inúmeras outras pessoas. A mulher em mim revela pela primeira vez a incrível jornada e a força interior de uma das maiores artistas da história da música pop. Extraordinariamente escrita de forma sincera, direta e humorada, a inovadora autobiografia de Britney Spears esclarece o poder duradouro da música e do amor ― e a importância de uma mulher contar a sua própria história, em seus próprios termos, finalmente.`
     },
     {
@@ -140,10 +145,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Aos 35 anos, Nora Seed é uma mulher cheia de talentos e poucas conquistas. Arrependida das escolhas que fez no passado, ela vive se perguntando o que poderia ter acontecido caso tivesse vivido de maneira diferente. Após ser demitida e seu gato ser atropelado, Nora vê pouco sentido em sua existência e decide colocar um ponto final em tudo. Porém, quando se vê na Biblioteca da Meia-Noite, Nora ganha uma oportunidade única de viver todas as vidas que poderia ter vivido.
 
         Neste lugar entre a vida e a morte, e graças à ajuda de uma velha amiga, Nora pode, finalmente, se mudar para a Austrália, reatar relacionamentos antigos – ou começar outros –, ser uma estrela do rock, uma glaciologista, uma nadadora olímpica... enfim, as opções são infinitas. Mas será que alguma dessas outras vidas é realmente melhor do que a que ela já tem?
@@ -162,10 +168,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Uma inesquecível história da rainha do drama Colleen Hoover, Todas as suas (im)perfeições fala sobre um casamento conturbado e uma promessa esquecida que pode ser capaz de salvá-lo.
 
         Todas as suas imperfeições narra a história de Quinn e Graham. Eles se conhecem no pior dia de suas vidas; ela chega mais cedo de uma viagem para surpreender o noivo, ele testemunha a traição da namorada. E é assim que ambos acabam no corredor de um prédio, trocando confidências, biscoitos da sorte e palavras de conforto.
@@ -190,10 +197,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,2",
+        specialCategory: [""], 
         description: ``
     },
     {
@@ -208,10 +216,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,2",
+        specialCategory: [""], 
         description: ``
     },
     {
@@ -226,10 +235,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,2",
+        specialCategory: [""], 
         description: ``
     },
     {
@@ -244,10 +254,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,2",
+        specialCategory: [""], 
         description: ``
     },
     {
@@ -262,10 +273,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,2",
+        specialCategory: [""], 
         description: ``
     },
     {
@@ -280,10 +292,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,2",
+        specialCategory: [""], 
         description: ``
     },
     {
@@ -298,10 +311,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,2",
+        specialCategory: [""], 
         description: ``
     },
     {
@@ -316,10 +330,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,2",
+        specialCategory: [""], 
         description: ``
     },
     {
@@ -334,10 +349,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `UMA HISTÓRIA DA SÉRIE JOGOS VORAZES. AMBIÇÃO O ALIMENTARÁ. COMPETIÇÃO O CONDUZIRÁ. MAS O PODER TEM O SEU PREÇO. É a manhã do dia da colheita que iniciará a décima edição dos Jogos Vorazes. Na Capital, o jovem de dezoito anos Coriolanus Snow se prepara para sua oportunidade de glória como um mentor dos Jogos. A outrora importante casa Snow passa por tempos difíceis e o destino dela depende da pequena chance de Coriolanus ser capaz de encantar, enganar e manipular seus colegas estudantes para conseguir mentorar o tributo vencedor. A sorte não está a favor dele. A ele foi dada a tarefa humilhante de mentorar a garota tributo do Distrito 12, o pior dos piores. Os destinos dos dois estão agora interligados – toda escolha que Coriolanus fizer pode significar sucesso ou fracasso, triunfo ou ruína. Na arena, a batalha será mortal. Fora da arena, Coriolanus começa a se apegar a já condenada garota tributo... e deverá pesar a necessidade de seguir as regras e o desejo de sobreviver custe o que custar.`
     },
     {
@@ -352,10 +368,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `PRIMEIRO LUGAR NA LISTA DO THE NEW YORK TIMES.
 
         Como aceitar a própria vulnerabilidade, vencer a vergonha e ousar ser quem você é.
@@ -382,10 +399,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Um clássico moderno, o romance distópico de Aldous Huxley é indispensável para quem busca leituras sobre autoritarismo, manipulação genética, ficção especulativa e outros temas que, embora tenham surgido com força durante a primeira metade do século XX, se tornam cada dia mais atuais.
 
         Em uma sociedade organizada segundo princípios estritamente científicos, Bernard Marx, um psicólogo, sente-se inadequado quando se compara aos outros seres de sua casta. Ao descobrir uma “reserva histórica” que preserva costumes de uma sociedade anterior – muito semelhante à do leitor – Bernard vai perceber as diferenças entre esta civilização e a sua – e a partir de um sentimento de inconformismo ele desafiará o mundo. A história de Bernard se passa em um ambiente em que a literatura, a música e o cinema só têm a função de solidificar a alienação; um universo que louva o avanço da técnica, a produção em série, a uniformidade contra a diversidade.
@@ -406,10 +424,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,6",
+        specialCategory: [""], 
         description: `Uma história que vai surpreender até os leitores de suspense mais calejados.
 
         Quem leu A mulher na janela e A garota no trem não vai conseguir colocar este livro de lado até chegar à inacreditável conclusão.
@@ -439,10 +458,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Summit Lake, uma pequena cidade entre montanhas, é esse tipo de lugar, bucólico e com encantadoras casas dispostas à beira de um longo trecho de água intocada.Duas semanas atrás, a estudante de direito Becca Eckersley foi brutalmente assassinada em uma dessas casas. Filha de um poderoso advogado, Becca estava no auge de sua vida. Atraída instintivamente pela notícia, a repórter Kelsey Castle vai até a cidade para investigar o caso. ...E LOGO SE ESTABELECE UMA CONEXÃO ÍNTIMA QUANDO UM VIVO CAMINHA NAS MESMAS PEGADAS DOS MORTOS...E enquanto descobre sobre as amizades de Becca, sua vida amorosa e os segredos que ela guardava, a repórter fica cada vez mais convencida de que a verdade sobre o que aconteceu com Becca pode ser a chave para superar as marcas sombrias de seu próprio passado.`
     },
     {
@@ -457,10 +477,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "",
+        specialCategory: [""], 
         description: `O tão aguardado desfecho de Era uma vez um coração partido.
         Sucesso no TikTok.
         
@@ -486,10 +507,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Como prosperar em um mundo cheio de incertezas? Do autor do best seller a lógica do cisne negro.Em seu novo livro, Nassim Nicholas Taleb proclama a incerteza como algo desejável ― e até necessário ―, além de propor que construamos mais coisas resistentes ao imponderável, estabelecendo o conceito do antifrágil. Por que as cidades-estado são melhores que os estados-nação? Por que o débito é ruim para você? Por que o que chamamos de “eficiência” não é nem um pouco eficiente? Por que as respostas e políticas sociais do governo protegem os fortes e ferem os fracos? Por que você deve escrever sua carta de demissão antes mesmo de começar no emprego? Como o desastre do Titanic salvou vidas? Estas e outras perguntas são respondidas neste livro que engloba análises sobre inovações e melhorias feitas a partir de tentativa e erro, decisões que podem mudar uma vida inteira, política, planejamento urbano, guerra, finanças pessoais, sistemas econômicos e medicina.`
     },
     {
@@ -504,10 +526,11 @@ export const products = [
         format: "",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Após cometer o assassinado de seu marido, uma mulher se recusa a falar qualquer coisa, deixando suspeitas e mistérios não resolvidos sobre o caso. E o terapeuta Theo Faber está obcecado em descobrir o motivo da violencia e do silencio. Só ela sabe o que aconteceu. Só ele pode fazê-la falar. A paciente silenciosa é um daqueles livros que não saem da cabeça do leitor, quer ele queira, quer não.
 
  
@@ -538,10 +561,11 @@ export const products = [
         format: "Box e Kits",
         language: "portugues",
         priceRange: "",
-        streaming: "netflix",
+        streaming: ["netflix"],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Arsene Lupin, que conseguiu ser mais famoso que seu criador, nasceu por encomenda do editor Pierre Lafitte ao escritor Maurice Leblanc. Este kit reúne as aventuras do maior ladrão do mundo com os títulos: 'Arsène Lupin, o ladrão de casa', 'Arsene Lupin contra Herlock Sholmes' e 'Os bilhões de Arsene Lupin'`
     },
     {
@@ -556,10 +580,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Nem todo erro merece uma consequência. Às vezes a única coisa que ele merece é o perdão. Um livro sensível e viciante da rainha do romance, As mil partes do meu coração mostra que nunca é tarde demais para perdoar e reconstruir pontes com quem nos magoou.
 
  
@@ -582,10 +607,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `A impressionante história real da primeira grande investigação de homicídios do FBI. O livro que deu origem ao filme de Martin Scorsese aclamado em Cannes e estrelado por Leonardo DiCaprio, Robert De Niro, Brendan Fraser, Jesse Plemons e Lily Gladstone. 
 
         Nos Estados Unidos dos anos 1920, as pessoas com maior renda per capita do mundo eram membros do povo indígena Osage, de Oklahoma. Até que, um a um, os Osage começaram a ser mortos. As primeiras vítimas são a família de Mollie Burkhart. E isso era apenas o começo, pois logo mais e mais homicídios contra nativos americanos aconteceriam, sempre em condições misteriosas. Nessa parcela remanescente do Velho Oeste, habitada por malfeitores como Al Spencer, conhecido como “o terror fantasma”, e onde magnatas e homens do petróleo, como J. P. Getty, fizeram fortuna, muitos dos que ousaram investigar os assassinatos em massa também perderam a vida.
@@ -603,10 +629,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,6",
+        specialCategory: [""], 
         description: `Chega de tentar buscar um sucesso que só existe na sua cabeça. Chega de se torturar para pensar positivo enquanto sua vida vai ladeira abaixo. Chega de se sentir inferior por não ver o lado bom de estar no fundo do poço.
 
         Coaching, autoajuda, desenvolvimento pessoal, mentalização positiva - sem querer desprezar o valor de nada disso, a grande verdade é que às vezes nos sentimos quase sufocados diante da pressão infinita por parecermos otimistas o tempo todo. É um pecado social se deixar abater quando as coisas não vão bem. Ninguém pode fracassar simplesmente, sem aprender nada com isso. Não dá mais. É insuportável. E é aí que entra a revolucionária e sutil arte de ligar o foda-se.
@@ -627,10 +654,11 @@ export const products = [
         format: "eBook",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Sua mente é um talismã secreto. De um lado é dominado pelas letras AMP (Atitude Mental Positiva) e, por outro, pelas letras AMN (Atitude Mental Negativa). Uma atitude positiva irá, naturalmente, atrair sucesso e prosperidade. A atitude negativa vai roubá-lo de tudo que torna a vida digna de ser vivida.
 
         Seu sucesso, saúde, felicidade e riqueza dependem de qual lado você irá usar.
@@ -651,10 +679,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `O misterioso Guts, o "Espadachim Negro", carrega em sua mão mecânica uma enorme espada, e em seu pescoço uma estranha marca que atrai forças demoníacas. Em sua busca por vingança contra um antigo inimigo, nem tudo sai a seu favor, e ele recebe ajuda de uma fantástica criatura.`
     },
     {
@@ -669,10 +698,11 @@ export const products = [
         format: "Box e Kits",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Publicado em comemoração ao aniversário de 10 anos do BTS. Histórias que vão além do que você já sabe sobre o BTS, incluindo fotos inéditas, QR codes dos vídeos e todas as informações sobre os álbuns!
 
  
@@ -695,10 +725,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Essa Bíblia ACF é para aqueles que preferem uma linguagem mais tradicional ao ler a Palavra. Nesta tradução mais formal, cada texto é uma lembrança: aquelas caixinhas de versículos da casa dos nossos avôs, a bíblia que nossos pais usavam durante nossa infância e tantas outras memórias boas!
 
         A capa em courosoft (PU) e o acabamento de costura perimetral trazem beleza e sobriedade ao estilo dessa bíblia, além do toque aveludado conferindo leveza ao manuseio. As folhas de guarda nas contracapas trazem uma padronagem sofisticada e que proporciona um lindo arremate.
@@ -730,10 +761,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `A vida é cheia de desafios. Não são poucas as vezes em que acordamos pensando em uma fórmula que resolva todos os nossos problemas, tanto os que já conhecemos como aqueles que enfrentaremos um dia. Porém, a verdade é que o único momento capaz de ser vivido é o presente, e nada adianta gastarmos tempo com questões que fogem do nosso controle. Agora, imagine ter a chance de parar por alguns instantes e desfrutar de um agradável momento com alguém que tenha a resposta para todas as nossas preocupações. Essa é a experiência que você encontrará no decorrer destas páginas. Ao longo de devocionais diários, lhe convidamos para um encontro com Deus que, além de ensinar uma nova forma de apreciar uma xícara de café, mostrará como a vida também pode ser saboreada. Sim, o Pai deseja tomar café com você. E o sabor desse grão será incomparável a tudo o que já provou.`
     },
     {
@@ -748,10 +780,11 @@ export const products = [
         format: "Capa Dura",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Uma edição em capa dura com a seleção dos contos favoritos do mestre do macabro, Junji Ito; aqueles que ele mais gostou de produzir ao longo de sua carreira de 35 anos trabalhando com mangás de horror!
 
         Um disco misterioso que fascina de maneira sinistra todos que o ouvem; balões assassinos que têm o formato da cabeça de suas vítimas; uma modelo fotográfica que perturba a mente daqueles que a veem; uma casa tomada por gordura com dois moradores nojentos; um homem atormentado por sonhos que duram séculos... Essas são apenas algumas das tramas grotescamente inventivas reunidas nesta edição.
@@ -772,10 +805,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Denji é um jovem extremamente pobre que junto de Pochita, seu demônio de estimação, trabalha feito um condenado como Caçador de Demônios para pagar a imensa dívida que possui. Mas sua vida de miséria está prestes a mudar graças a uma traição brutal!! Aqui começa a história de um novo anti-herói que com um demônio em seu corpo, caça demônios!!`
     },
     {
@@ -790,10 +824,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Em seu primeiro livro, Thiago Nigro, criador da plataforma O Primo Rico, ensina aos leitores os três pilares para atingir a independência financeira: gastar bem, investir melhor e ganhar mais. Por meio de dados e de sua própria experiência como investidor e assessor, Nigro mostra que a riqueza é possível para todos – basta estar disposto a aprender e se dedicar.`
     },
     {
@@ -808,10 +843,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Considerado o livro do ano, que virou febre no TikTok e sozinho já acumulou mais de um milhão de exemplares vendidos no Brasil. É assim que acaba é o romance mais pessoal da carreira de Colleen Hoover, discutindo temas como violência doméstica e abuso psicológico de forma sensível e direta. 
 
  
@@ -834,10 +870,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Do autor de Steve Jobs e outras biografias de sucesso, livro relata a impactante história do mais fascinante e controverso inovador do nosso tempo
 
         Durante a infância, Elon Musk sofria muito bullying. Após ter levado uma surra especialmente violenta, precisou ficar no hospital por uma semana. As cicatrizes e os ferimentos físicos, porém, não foram nada comparados à reação de seu pai, um engenheiro delirante e carismático, mas também perverso. Apesar das tentativas de Musk de banir a figura paterna ― física e psicologicamente ― da própria vida, sua psique sofreria os impactos por muito tempo.
@@ -864,10 +901,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `A internacionalmente aclamada atriz Viola Davis narra em sua biografia, Em busca de mim, tudo o que viveu desde a infância difícil até o estrelato. Nesta biografia você vai conhecer uma garotinha chamada Viola, que fugia de seu passado até tomar a transformadora decisão de parar de fugir para sempre.
 
  
@@ -892,10 +930,11 @@ export const products = [
         format: "Box e Kits",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `A nova série de Stephanie Garber, aclamada autora da trilogia Caraval, nos levará para um universo de amor e maldições, revelando até onde as pessoas são capazes de ir por um final feliz.
 
         Criada na loja de antiguidades de seu querido pai, cercada por lendas de seres poderosos e imortais, Evangeline Raposa cresceu acreditando em histórias de amores verdadeiros e em finais felizes. Mas essas crenças se veem abaladas quando a jovem descobre que o amor de sua vida está prestes a se casar com outra pessoa.
@@ -918,10 +957,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `"Greg McKeown nos lembra que a clareza de foco e a capacidade de dizer 'não' são aspectos desvalorizados porém fundamentais para os negócios nos dias de hoje." – Jeff Weiner, presidente-executivo do LinkedIn
 
         O ESSENCIALISTA NÃO FAZ MAIS COISAS EM MENOS TEMPO – ELE FAZ APENAS AS COISAS CERTAS.
@@ -950,10 +990,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,6",
+        specialCategory: [""], 
         description: `A história real de um filho do Hamas que se tornou espião israelense, se converteu ao cristianismo e ajudou a combater uma das maiores organizações terroristas do mundo.
 
 
@@ -982,10 +1023,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Mestre do terror em quadrinhos, Junji Ito combina o surrealismo e o escatológico em suas histórias. O resultado é sempre bizarro, mas ainda assim — ou quem sabe até por isso mesmo — belo. Se você tem coragem (e estômago), não pode perder Fragmentos do Horror, primeiro livro de mangá publicado pela DarkSide Books. Fragmentos do Horror é uma coleção de histórias curtas, perfeitas para quem quer experimentar o que essa mente tão delirante é capaz de produzir. Itosan oferece ao leitor nove encontros com o desconhecido. Cada quadrinho pode ser fatal, cuidado! Entre as histórias da coletânea, temos uma mansão velha de madeira que gira sobre seus habitantes. Uma turma de dissecação com um assunto nada comum. Um funeral em que os mortos definitivamente não são postos para descansar. Variando do aterrorizante ao cômico, do erótico para o repugnante, essas histórias apresentam o retorno de Junji Ito há muito aguardado para o mundo do horror. Fragmentos do Horror faz parte da nova coleção DarkSide Graphic Novel Tokyo Terror e, como todos os títulos da Caveirinha, vem numa caprichosa edição em capa dura. A tradução foi feita diretamente do japonês e a publicação segue a orientação original, da direita para a esquerda — como tem que ser.`
     },
     {
@@ -1000,10 +1042,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Fullmetal Alchemist, obra máxima de Hiromu Arakawa, está de volta em uma Edição Especial de Colecionador! Edward e Alphonse Elric são jovens alquimistas que estão em busca da lendária Pedra Filosofal para recuperarem os seus corpos. Ouvindo rumores sobre ela, os irmãos Elric vão para uma cidade profundamente devota ao seu Deus e àquele que divulga sua fé, o Pai Cornello. Este religioso tem praticado atos milagrosos que mais se parecem com transmutações alquímicas, e investigando a origem de tais milagres eles conhecem Rose, uma garota que busca na religião a esperança de rever seu amado. A jornada dos irmãos Elric que desafiará os limites da fé e da ciência começa aqui! AUTOR: Hiromu Arakawa No. PÁGINAS: 192`
     },
     {
@@ -1018,10 +1061,11 @@ export const products = [
         format: "Box e Kits",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Esta coleção reúne as principais obras dos três maiores expoentes da filosofia estoica: o grego Epicteto, o romano Sêneca e o imperador romano Marco Aurélio.
 
         Estes filósofos encararam o estoicismo como uma prática diária, sacerdotal, que colocava à prova os seus preceitos de virtude, sabedoria e racionalidade.
@@ -1048,10 +1092,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Em Joyland, Stephen King mistura mistério, suspense e drama para construir uma história poderosa sobre amar e perder, crescer e envelhecer ― e sobre aqueles que não tiveram a chance de experimentar nada disso, pois a morte lhes chegou cedo demais.
 
         Carolina do Norte, 1973. O universitário Devin Jones começa um trabalho temporário no parque Joyland, tentando esquecer a namorada que partiu seu coração. Mas é outra garota que acaba mudando seu mundo para sempre: Linda Grey, que foi morta no parque há anos, vítima de um serial killer. Diz a lenda que seu espírito ainda assombra o trem fantasma.
@@ -1069,10 +1114,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `O estudante colegial Yuuta Okkotsu deseja ser executado porque sofre com as ações de Rika Orimoto, espírito rancoroso que o possuiu. Enquanto isso, Satoru Gojou, professor que ensina a exorcizar "maldições", transfere Yuuta para a Escola Técnica Superior de Jujutsu de Tokyo. Tem início a pré-sequência da série Jujutsu Kaisen!`
     },
     {
@@ -1087,10 +1133,11 @@ export const products = [
         format: "Capa Dura",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Através das páginas de Lady Killers: Assassinas em Série os leitores vão perceber que estas damas assassinas eram inteligentes, coniventes, imprudentes, egoístas e estavam dispostas a fazer o que fosse necessário para ingressar no que elas viam como uma vida melhor. Foram implacáveis e inflexíveis. Eram psicopatas e estavam prontas para dizimar suas próprias famílias. Mas elas não eram lobos. Não eram vampiros. Não eram homens. Mais uma vez, a ficha mostra: elas eram horrivelmente, essencialmente, inescapavelmente humanas.`
     },
     {
@@ -1105,10 +1152,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Neste livro, inédito no Brasil, você vai descobrir, após 75 anos de segredo, por meio dessa entrevista exclusiva que Napoleon Hill fez, quebrando o código secreto da mente do Diabo: Quem é o Diabo? Onde ele habita? Quais suas principais armas mentais? Quem são os alienados e de que forma eles ou elas se alienam? De que forma o Diabo influencia a nossa vida do dia a dia? Como a sua dominação influencia nossas atitudes? O que é o medo? Como nossos líderes religiosos e nossos professores são afetados pelo Diabo? Quais as armas que nós, seres humanos, possuímos para combater a dominação do Diabo? Qual a visão do Diabo sobre a energia sexual? Como buscar uma vida cheia de realizações, valorizando a felicidade e a liberdade? Essas perguntas e muitas outras são respondidas pelo próprio Diabo, que se autodenomina "Sua Majestade", de acordo com Napoleon Hill. O seu propósito, escrito com suas próprias palavras, é ajudar o ser humano a descobrir o seu real potencial, desvendando as armadilhas mentais que os homens e as mulheres deste mundo criam para si mesmos, sabotando a sua própria liberdade e o seu próprio direito de viver uma vida cheia de desafios, alegria e liberdade. Escrito em 1938, após uma das maiores crises econômicas, e precedendo a Segunda Guerra Mundial, este livro não somente é uma fonte de inspiração e coragem, mas deve ser considerado um manual para todas aquelas pessoas que desejam`
     },
     {
@@ -1123,10 +1171,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Malala Yousafzai quase perdeu a vida por querer ir para a escola. Ela nasceu no vale do Swat, no Paquistão, uma região de extraordinária beleza, cobiçada no passado por conquistadores como Gengis Khan e Alexandre, o Grande, e protegida pelos bravos guerreiros pashtuns – os povos das montanhas. Foi habitada por reis e rainhas, príncipes e princesas, como nos contos de fadas. Malala cresceu entre os corredores da escola de seu pai, Ziauddin Yousafzai, e era uma das primeiras alunas da classe. Quando tinha dez anos viu sua cidade ser controlada por um grupo extremista chamado Talibã. Armados, eles vigiavam o vale noite e dia, e impuseram muitas regras. Proibiram a música e a dança, baniram as mulheres das ruas e determinaram que somente os meninos poderiam estudar. Mas Malala foi ensinada desde pequena a defender aquilo em que acreditava e lutou pelo direito de continuar estudando. Ela fez das palavras sua arma. Em 9 de outubro de 2012, quando voltava de ônibus da escola, sofreu um atentado a tiro. Poucos acreditaram que ela sobreviveria. A jornalista Adriana Carranca visitou o vale do Swat dias depois do atentado, hospedou-se com uma família local e conta neste livro tudo o que viu e aprendeu por lá. Ela apresenta às crianças a história real dessa menina que, além de ser a mais jovem ganhadora do prêmio Nobel da paz, é um grande exemplo de como uma pessoa e um sonho podem mudar o mundo.`
     },
     {
@@ -1141,10 +1190,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,5",
+        specialCategory: [""], 
         description: `Um suspense moderno e sofisticado, Mentirosos é impossível de largar até que todos seus mistérios sejam desvendados. A prosa lírica e o estilo seco e denso farão você mergulhar de cabeça no mundo dos Sinclair, uma família rica e tradicional, e nas crescentes angústias da protagonista Cadence - para então vir à tona completamente impactado.
 
         Na família Sinclair, ninguém é carente, criminoso, viciado ou fracassado. Mas talvez isso seja mentira.
@@ -1162,10 +1212,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `EDIÇÃO ATUALIZADA!
 
         680 mil livros vendidos.
@@ -1210,10 +1261,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Carol S. Dweck, ph.D., professora de psicologia na Universidade Stanford e especialista internacional em sucesso e motivação, desenvolveu, ao longo de décadas de pesquisa, um conceito fundamental: a atitude mental com que encaramos a vida, que ela chama de “mindset”, é crucial para o sucesso. Dweck revela de forma brilhante como o sucesso pode ser alcançado pela maneira como lidamos com nossos objetivos. O mindset não é um mero traço de personalidade, é a explicação de por que somos otimistas ou pessimistas, bem-sucedidos ou não. Ele define nossa relação com o trabalho e com as pessoas e a maneira como educamos nossos filhos. É um fator decisivo para que todo o nosso potencial seja explorado.`
     },
     {
@@ -1228,10 +1280,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Descubra neste livro os grandes feitos de mulheres que inspiraram e ainda inspiram o mundo, como Malala Yousafzai, Frida Kahlo, Anita Garibaldi e muitas outras. Além de aprender sobre mulheres incríveis que entraram para a História, você vai se divertir como fantástico e surpreendente jogo de adivinhação o "QUEM SOU EU?".`
     },
     {
@@ -1246,10 +1299,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `"Tomoyo Shiino apoiou sua amiga Mariko durante anos de abuso, abandono e depressão. Por mais horríveis que sejam suas circunstâncias, a amizade delas tem sido a única constante reconfortante na vida de Mariko e na de Tomoyo também. Certo dia, Tomoyo é surpreendida pela notícia da morte de Mariko. Em estado de choque, ela decide descobrir o motivo pelo qual sua amiga cometeu suicídio.”`
     },
     {
@@ -1264,10 +1318,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `O alquimista - um clássico contemporâneo sobre o poder transformador dos sonhos.
 
         Combinando espiritualidade, sabedoria e misticismo, O alquimista é uma inspiradora e emocionante história de autodescoberta que vem transformando a vida de milhões de leitores ao redor do mundo há mais de trinta anos.
@@ -1286,10 +1341,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `O romance distópico O conto da aia, de Margaret Atwood, se passa num futuro muito próximo e tem como cenário uma república onde não existem mais jornais, revistas, livros nem filmes. As universidades foram extintas. Também já não há advogados, porque ninguém tem direito a defesa. Os cidadãos considerados criminosos são fuzilados e pendurados mortos no Muro, em praça pública, para servir de exemplo enquanto seus corpos apodrecem à vista de todos. Para merecer esse destino, não é preciso fazer muita coisa – basta, por exemplo, cantar qualquer canção que contenha palavras proibidas pelo regime, como “liberdade”. Nesse Estado teocrático e totalitário, as mulheres são as vítimas preferenciais, anuladas por uma opressão sem precedentes. O nome dessa república é Gilead, mas já foi Estados Unidos da América. Uma das obras mais importantes da premiada escritora canadense, conhecida por seu ativismo político, ambiental e em prol das causas femininas, O conto da aia foi escrito em 1985 e inspirou a série homônima (The Handmaid’s Tale, no original), produzida pelo canal de streaming Hulu em 2017. As mulheres de Gilead não têm direitos. Elas são divididas em categorias, cada qual com uma função muito específica no Estado. A Offred coube a categoria de aia, o que significa pertencer ao governo e existir unicamente para procriar, depois que uma catástrofe nuclear tornou estéril um grande número de pessoas. E sem dúvida, ainda que vigiada dia e noite e ceifada em seus direitos mais básicos, o destino de uma aia ainda é melhor que o das não-mulheres, como são chamadas aquelas que não podem ter filhos, as homossexuais, viúvas e feministas, condenadas a trabalhos forçados nas colônias, lugares onde o nível de radiação é mortífero. Com esta história assustadora, Margaret Atwood leva o leitor a refletir sobre liberdade, direitos civis, poder, a fragilidade do mundo tal qual o conhecemos, o futuro e, principalmente, o presente. Vencedor do Arthur C. Clarke Award.`
     },
     {
@@ -1304,10 +1360,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `O Deus cristão não pode ser domesticado. 
 
         Uma tentação constante que cerca a vida cristã é a inversão do chamado: a presunção de que Deus precisa abençoar nosso caminho e seguir nossos planos e sonhos. Essa postura é enganosa e faz parecer que Deus só é fiel quando nos abençoa. Mas e se Deus derrubar o nosso sorvete, ele deixa de ser fiel? Claro que não! Ele continua sendo um Pai sábio e um Deus misericordioso mesmo em meio às nossas frustrações. Às vezes, ele só quer chamar nossa atenção para o caminho certo. Você já deve ter testemunhado gente adulta se comportando como criança por não ter a vida que pediu a Deus. É porque pediu errado!  
@@ -1326,10 +1383,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `O Diário de Anne Frank teve a autenticidade confirmada por peritos. Estudos forenses da caligrafia de Anne e exame do papel do diário, da tinta e da cola comprovaram ser de material existente na época. A conclusão foi oficialmente apresentada pelo Instituto Estatal Holandês para Documentação da Guerra.`
     },
     {
@@ -1344,10 +1402,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Bilbo Bolseiro era um dos mais respeitáveis hobbits de todo o Condado até que, um dia, o mago Gandalf bate à sua porta. A partir de então, toda sua vida pacata e campestre soprando anéis de fumaça com seu belo cachimbo começa a mudar. Ele é convocado a participar de uma aventura por ninguém menos do que Thorin Escudo-de-Carvalho, um príncipe do poderoso povo dos Anãos.`
     },
     {
@@ -1362,10 +1421,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Baseando-se nos segredos de sucesso dos antigos babilônicos ― os habitantes da cidade mais rica e próspera de seu tempo ―, George S. Clason mostra soluções ao mesmo tempo sábias e muito atuais para evitar a falta de dinheiro, como não desperdiçar recursos durante tempos de opulência, buscar conhecimento e informação em vez de apenas lucro, assegurar uma renda para o futuro, manter a pontualidade no pagamento de dívidas e, sobretudo, cultivar as próprias aptidões, tornando-se cada vez mais habilidoso e consciente.`
     },
     {
@@ -1380,10 +1440,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Maior consultor de investimentos do século XX, Benjamin Graham ensinou e inspirou milhares de pessoas ao redor do mundo. Seu conceito de “valor de investimento” protege os investidores de cometer erros substanciais e os ensina a desenvolver estratégias de longo prazo. Isso fez com que O investidor inteligente se tornasse a bíblia do mercado de ações desde sua primeira publicação, em 1949. A partir daí, as evoluções do mercado provaram a sabedoria das estratégias de Graham. Esta edição conta ainda com atualizações e apontamentos do jornalista Jason Zweig, além de prefácios de Warren Buffett e Armínio Fraga.`
     },
     {
@@ -1398,10 +1459,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Hal Elrod apresenta o método revolucionário praticado por milhares de pessoas ao redor do mundo e que vai proporcionar, de forma simples e eficaz, que você construa a vida dos seus sonhos - antes das 8 horas da manhã! O milagre da manhã é best-seller internacional, com mais de 1 milhão de exemplares vendidos no Brasil. 
 
  
@@ -1424,10 +1486,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Luffy deseja tornar-se um pirata por conta da admiração que sente por Shanks. O garoto acaba consumindo a Gomugomu-no-mi e mais tarde se envolve em uma briga com bandidos, na qual Shanks aparece para salvá-lo, porém, o pirata de cabelos vermelhos perde seu braço esquerdo na ocasião. Anos depois, Luffy conhece Coby, um faz-tudo que sonha em se tornar um oficial da marinha, e ambos rumam para uma ilha em que há uma base da Marinha, onde o famoso espadachim e caçador de piratas, Roronoa Zoro, se encontra aprisionado. Como será o desenrolar desse encontro...?!`
     },
     {
@@ -1442,10 +1505,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Bem quando Sanji e Zoro derrotaram dois dos Grandes Astros dos Piratas Bestiais a luta entre Luffy e Kaido se intensifica ainda mais!! Enquanto isso, Kid e Law travam uma intensa batalha contra Big Mom!! Será que esses dois Imperadores que dominam os mares há tanto tempo podem mesmo ser derrotados?!`
     },
     {
@@ -1460,10 +1524,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Conheça a edição mais consagrada de um dos maiores clássicos da literatura, publicada no Brasil desde 1952, com a tradução do poeta dom Marcos Barbosa e as ilustrações originais em aquarela do autor.
 
         Nesta história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma aventura filosófica e poética através de planetas que encerram a solidão humana.
@@ -1482,10 +1547,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Da autora de best-sellers nº 1 do The New York Times, Holly Black, O prínicipe cruel é o primeiro livro da envolvente série O Povo do Ar sobre uma garota mortal que se vê presa em uma teia de intrigas de fadas reais.
 
  
@@ -1512,10 +1578,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Nesta obra, que é um clássico sobre pensamento político, o grande escritor Maquiavel mostra como funciona a ciência política.
 
         Discorre sobre os diferentes tipos de Estado e ensina como um príncipe pode conquistar e manter o domínio sobre um Estado.
@@ -1538,10 +1605,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `"O livro que você tem em mãos é uma inspiração para a riqueza, mas não só: ao compartilhar momentos de humor e astúcia, dor e alegria, Barsi vai se mostrando, pouco a pouco, como realmente é, em toda a sua humanidade.
 
         E é isso o que faz desta obra também uma inspiração para nos tornamos, mais do que investidores competentes, pessoas melhores." – Fabio Baroni, Felipe Ruiz e Louise Barsi, sócios fundadores do AGF`
@@ -1558,10 +1626,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Aprenda a enriquecer mudando seus conceitos sobre o dinheiro e adotando os hábitos das pessoas bem-sucedidas
 
 
@@ -1608,10 +1677,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Charles Duhigg, repórter investigativo do New York Times, mostra que a chave para o sucesso é entender como os hábitos funcionam - e como podemos transformá-los.
 
         Durante os últimos dois anos, uma jovem transformou quase todos os aspectos de sua vida. Parou de fumar, correu uma maratona e foi promovida. Em um laboratório, neurologistas descobriram que os padrões dentro do cérebro dela mudaram de maneira fundamental. Publicitários da Procter & Gamble observaram vídeos de pessoas fazendo a cama. Tentavam desesperadamente descobrir como vender um novo produto chamado Febreze, que estava prestes a se tornar um dos maiores fracassos na história da empresa. De repente, um deles detecta um padrão quase imperceptível - e, com uma sutil mudança na campanha publicitária, Febreze começa a vender um bilhão de dólares por anos. Um diretor executivo pouco conhecido assume uma das maiores empresas norte-americanas. Seu primeiro passo é atacar um único padrão entre os funcionários - a maneira como lidam com a segurança no ambiente de trabalho -, e logo a empresa começa a ter o melhor desempenho no índice Dow Jones.
@@ -1630,10 +1700,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,7",
+        specialCategory: [""], 
         description: `Em Rápido e devagar: duas formas de pensar, Daniel Kahneman nos leva a uma viagem pela mente humana e explica as duas formas de pensar: uma é rápida, intuitiva e emocional; a outra, mais lenta, deliberativa e lógica. Kahneman expõe as capacidades extraordinárias - e também os defeitos e vícios - do pensamento rápido e revela a influência das impressões intuitivas nas nossas decisões. Comportamentos tais como a aversão à perda, o excesso de confiança no momento de escolhas estratégicas, a dificuldade de prever o que vai nos fazer felizes no futuro e os desafios de identificar corretamente os riscos no trabalho e em casa só podem ser compreendidos se soubermos como as duas formas de pensar moldam nossos julgamentos. As questões colocadas por Kahneman se revelam muitas vezes inquietantes: é verdade que o sucesso de um investidor é completamente aleatório e que sua habilidade no mercado financeiro é apenas uma ilusão? Por que o medo de perder é mais forte do que o prazer de ganhar? Kahneman revela quando podemos ou não confiar em nossa intuição. Oferece insights práticos e esclarecedores sobre como tomamos decisões nos negócios e na vida pessoal, e como podemos usar diferentes técnicas para nos proteger contra falhas mentais que muitas vezes nos colocam em apuros.`
     },
     {
@@ -1648,10 +1719,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "5,0",
+        specialCategory: ["Brazuca"], 
         description: `BRINDES EXCLUSIVOS PARA O LANÇAMENTO*
 
         Edição de luxo da primeira autobiografia de Rita Lee
@@ -1676,10 +1748,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `A partir da própria jornada, Schwarzenegger reúne as sete ferramentas que usou para realizar feitos extraordinários e se reinventar.
 
         Como ele diz, ninguém virá salvá-lo – você só tem a si mesmo. A boa notícia é que isso é tudo de que você precisa.
@@ -1706,10 +1779,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Em seu emocionante livro de memórias, a viúva de Chorão narra a história de amor dos dois.
 
         Um dos maiores ícones do rock nacional, Alexandre Magno Abrão, o Chorão, conquistou o Brasil sobretudo pela sua entrega na hora de compor e cantar. Essa mesma intensidade marcou a história de amor ímpar vivida com Graziela Gonçalves, que conta neste livro como o relacionamento de quase vinte anos dos dois a transformou para sempre.
@@ -1728,10 +1802,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Esta obra completa reúne os quatro romances e os 56 contos sobre as aventuras do detetive mais famoso do mundo e de seu fiel companheiro, o dr. Watson. 
 
         Em 1887, o escritor escocês Ssir Arthur Conan Doyle criou Sherlock Holmes, o infalível detetive a quem os agentes da Scotland Yard recorriam para solucionar os mistérios mais intrigantes da Inglaterra vitoriana. Desde então, as aventuras do mestre da investigação atraem leitores ávidos por chegar à última página e ver o enigma desvendado.  
@@ -1759,10 +1834,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Um texto épico e lírico, realista e mágico que revela, para além de sua trama, um poderoso elemento de insubordinação social.
 
         Vencedor do prêmio Leya 2018.
@@ -1781,10 +1857,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Obstinado, persistente, perfeccionista e motivador, Bernardinho se tornou o maior técnico de vôlei da história do Brasil – e um dos grandes treinadores do esporte coletivo em todo o mundo. Transformando suor em ouro é a história de Bernardinho contada por ele mesmo, desde os tempos de jogador até a consagração como técnico com o ouro olímpico.
 
         Mais do que relatar uma epopeia esportiva emocionante, o livro apresenta facetas desconhecidas do treinador ao mostrar em detalhes como Bernardinho burilou o método que batizou de Roda da Excelência.
@@ -1803,10 +1880,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,9",
+        specialCategory: [""], 
         description: `Acontecimentos grotescos começam a surgir em Kurôzu, a pequena localidade onde Kirie Goshima nasceu e cresceu. O vento sopra em curvas, folhas e ramos se enrolam e a fumaça expelida do crematório sobe desenhando redemoinhos funestos. Logo os humanos também são afetados pelo fenômeno helicoidal. Cabelos se revolvem em círculos e corpos se retorcem... Kirie tenta escapar da cidade para fugir da maldição da espiral...
 
         Este clássico mangá de terror, que profetizou o clima claustrofóbico e a desigualdade da atual sociedade japonesa, é uma das principais obras do mestre do horror, Junji Ito.`
@@ -1823,10 +1901,11 @@ export const products = [
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: "",
+        streaming: [""],
         price: "",
         oldPrice: "",
         classification: "4,8",
+        specialCategory: [""], 
         description: `Um casal apaixonado. Uma intrusa. Três mentes doentias. Finalista do prêmio Goodreads como melhor romance de 2019, Verity é o primeiro thriller de Colleen Hoover e deixa os leitores envolvidos do começo ao fim.
 
         Hoover é um fenômeno editorial inegável. Acumulando não só milhões de visualizações no TikTok, mas também milhões de exemplares vendidos, ela é a autora mais vendida no Brasil, com suas obras emocionantes que já encantaram milhares de leitores no mundo todo.

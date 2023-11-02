@@ -33,7 +33,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #dd4e50;
+    background-image: linear-gradient(135deg, #dd4e50, #ff6063);
     /* background-color: #262626; */
     height: 70px;
     width: 100%;
@@ -67,6 +67,12 @@ nav {
     align-items: center;
     width: 200px;
     height: 100%;
+}
+.div-logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 /* Style the logo image */

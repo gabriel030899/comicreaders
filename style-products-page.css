@@ -19,7 +19,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #dd4e50;
+    background-image: linear-gradient(135deg, #dd4e50, #ff6063);
+    /* background-color: #dd4e50; */
     /* background-color: #222222; */
     height: 70px;
     width: 100%;
@@ -55,6 +56,7 @@ nav {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semi-transparente */
+    z-index: 10;
 }
 
 .modal-content {
@@ -147,6 +149,12 @@ nav {
     align-items: center;
     width: 200px;
     height: 100%;
+}
+.div-logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 /* Style the logo image */
@@ -421,7 +429,7 @@ nav {
     width: 300px;
     height: 1700px; /* Defina a altura de .left-nav-filters como 100% */
     display: flex;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 10px 10px 0;
     background-color: #000000ba;
 }
 .content-filters{
@@ -430,9 +438,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 10px 0 10px 5px;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
+    padding: 10px 5px 10px 5px;
 }
 .content-filters{
     color: white !important;
@@ -459,7 +465,7 @@ nav {
 }
 .minimize-filters{
     width: 50px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     /* background-color: #009bc2; */
@@ -566,6 +572,63 @@ nav {
     max-width: 200px;
     cursor: pointer;
 }
+.selected-streaming {
+    background: transparent!important;
+    color: #fff;
+}
+.bn39 {
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+  }
+  .netflix{
+    background-image: linear-gradient(135deg, #dd4e50, #000000);
+    border-radius: 6px;
+  }
+  .amazonprime{
+    background-image: linear-gradient(135deg, #029cd9, #c0c0c0);
+    border-radius: 6px;
+  }
+  .disneyplus{
+    background-image: linear-gradient(135deg, #4e96dd, #7f40c7);
+    border-radius: 6px;
+  }
+  .starplus{
+    background-image: linear-gradient(135deg, #dd4e50, #ffe100);
+    border-radius: 6px;
+  }
+  .appletv{
+    background-image: linear-gradient(135deg, #ebebeb, #000000);
+    border-radius: 6px;
+  }
+  
+  .bn39:hover {
+    color: #fff;
+  }
+  
+  .bn39 .bn39span {
+    align-items: center;
+    background: #000000;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+  
+  .bn39:hover .bn39span {
+    background: transparent;
+  }
 
 .characters-filter{
     width: 100%;
@@ -590,17 +653,55 @@ nav {
     color: white;
     font-weight: lighter;
 }
+.all-books-gallery-top{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    width: 96%;
+    border-bottom: solid 2px #262626;
+    position: relative;
 
+}
+#search-bar-books-gallery{
+    width: 30%;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+    background-color: white;
+    border-top: solid 2px #272727;
+    border-right: solid 2px #272727;
+    border-left: solid 2px #272727;
+    border-bottom: 0;
+    padding: 0 10px 0 10px;
+    color: #2f2f2f;
+    font-size: 15px;
+    outline: none;
+}
+#search-bar-books-gallery::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+
+
+
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #555;
+}
 .products-show-gallery{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 90%;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 .products-show-gallery h2{
-    width: 100%;
-    border-bottom: solid 2px #262626;
+    width: 15%;
     height: 30px;
     padding-left: 10px;
     display: flex;
@@ -609,6 +710,8 @@ nav {
     font-size: 20px;
     color: #262626;
     font-weight: lighter;
+
+
 }
 /* .products-show{
     width: 100%;
@@ -623,6 +726,7 @@ nav {
 .products-show {
     width: 100%;
     display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 20px;
     overflow: auto;

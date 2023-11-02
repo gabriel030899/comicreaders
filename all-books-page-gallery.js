@@ -19,6 +19,61 @@ const filters = {
     prices: [],
 };
 
+// Array para rastrear as opções de categorias especiais selecionadas
+const selectedSpecialCategories = [];
+
+// Ouvintes de eventos para as opções de streaming
+document.querySelectorAll('.category-option').forEach(option => {
+    option.addEventListener('click', function () {
+        // Toggle na seleção da opção de categoria especial
+        if (selectedSpecialCategories.includes(option.classList[0])) {
+            const index = selectedSpecialCategories.indexOf(option.classList[0]);
+            if (index !== -1) {
+                selectedSpecialCategories.splice(index, 1);
+            }
+            option.classList.remove('selected-category'); // Remova a classe de destaque do elemento option
+        } else {
+            selectedSpecialCategories.push(option.classList[0]);
+            option.classList.add('selected-category'); // Adicione a classe de destaque ao elemento option
+        }
+
+        renderProducts();
+    });
+});
+
+
+// Array para rastrear as opções de streaming selecionadas
+const selectedStreamings = [];
+
+// Ouvintes de eventos para as opções de streaming
+document.querySelectorAll('.streaming-option').forEach(option => {
+    option.addEventListener('click', function () {
+        // Toggle na seleção da opção de streaming
+        if (selectedStreamings.includes(option.classList[0])) {
+            const index = selectedStreamings.indexOf(option.classList[0]);
+            if (index !== -1) {
+                selectedStreamings.splice(index, 1);
+            }
+            option.querySelector('span').classList.remove('selected-streaming'); // Remova a classe de destaque
+        } else {
+            selectedStreamings.push(option.classList[0]);
+            option.querySelector('span').classList.add('selected-streaming'); // Adicione a classe de destaque
+        }
+
+        renderProducts();
+    });
+});
+
+
+// Função para detectar o input da barra de pesquisa
+const searchBar = document.getElementById("search-bar-books-gallery");
+
+searchBar.addEventListener("input", function () {
+    const searchQuery = searchBar.value.toLowerCase();
+    filters.searchQuery = searchQuery;
+    renderProducts();
+});
+
 // Função para filtrar os produtos com base nos filtros selecionados
 function filterProducts() {
     const filteredProducts = products.filter(product => {
@@ -27,10 +82,25 @@ function filterProducts() {
         const matchFormats = filters.formats.length === 0 || filters.formats.includes(product.format);
         const matchLanguages = filters.languages.length === 0 || filters.languages.indexOf(product.language) !== -1;
         const matchPrices = filters.prices.length === 0 || filters.prices.includes(product.priceRange);
-
         const matchItemType = product.itemType === "book";
+        const matchSearchQuery = !filters.searchQuery || 
+            (product.title && product.title.toLowerCase().includes(filters.searchQuery)) ||
+            (product.author && product.author.toLowerCase().includes(filters.searchQuery)) ||
+            (product.language && product.language.toLowerCase().includes(filters.searchQuery)) ||
+            (product.format && product.format.toLowerCase().includes(filters.searchQuery)) ||
+            (product.genre && product.genre.toLowerCase().includes(filters.searchQuery));
 
-        return matchGenres && matchNewcomes && matchFormats && matchLanguages && matchPrices && matchItemType;
+        // Check if product.streaming exists and is an array
+        const matchStreaming = !product.streaming || (Array.isArray(product.streaming) && (
+            selectedStreamings.length === 0 || product.streaming.some(s => selectedStreamings.includes(s))
+        ));
+
+        // Check if product.streaming exists and is an array
+        const matchCategory = !product.specialCategory || (Array.isArray(product.specialCategory) && (
+            selectedSpecialCategories.length === 0 || product.specialCategory.some(s => selectedSpecialCategories.includes(s))
+        ));
+
+        return matchGenres && matchNewcomes && matchFormats && matchLanguages && matchPrices && matchItemType && matchSearchQuery && matchStreaming && matchCategory;
     });
 
     return filteredProducts;

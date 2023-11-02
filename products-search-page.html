@@ -10,13 +10,15 @@
     <title>Comic Readers</title>
     <link rel="icon" type="image/png" href="assets/logos/comic_reader_logo.png" />
     <link rel="stylesheet" href="style-products-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <div class="div-logo">
+          <a href="index.html">
             <img src="assets/logos/comic_reader_logo_updated-removebg-preview.png" alt="logo">
             <h2>Comic Readers</h2>
-          
+          </a>
         </div>
         <div class="top-search-bar">
           <input id="search-bar-input" type="search">
@@ -28,8 +30,8 @@
             <ul id="top-list">
                 <li id="promotionButton" class="top-list-links"><a href="#">Black Friday</a></li>
                 <li class="top-list-links"><a href="#">Livros</a></li>
-                <li class="top-list-links"><a href="#">Acessórios</a></li>
-                <li class="top-list-links"><a href="#">Contato</a></li>
+<!--                 <li class="top-list-links"><a href="#">Acessórios</a></li>
+ -->                <li class="top-list-links"><a href="#">Contato</a></li>
             </ul>
         </nav>
         <div class="mobile-menu">
@@ -106,20 +108,25 @@
             <div class="streamings-filter">
                 <h2>Procure livros por streaming</h2>
                 <div class="streaming-options">
-                  <div class="netflix">
-                    <img src="assets/netflix-logo.png" alt="Netflix">
+                  <div class="netflix streaming-option" >
+                    <a class="bn39" href="#"><span class="bn39span">Netflix</span></a>
+
                   </div>
-                  <div class="amazonprime">
-                    <img src="assets/amazon-prime-logo.png" alt="Amazon Prime">
+                  <div class="amazonprime streaming-option">
+                    <a class="bn39" href="#"><span class="bn39span">Prime</span></a>
+
                   </div>
-                  <div class="disneyplus">
-                    <img src="assets/disneyplus.png" alt="Disney Plus">
+                  <div class="disneyplus streaming-option">
+                    <a class="bn39" href="#"><span class="bn39span">Disney +</span></a>
+
                   </div>
-                  <div class="starplus">
-                    <img src="assets/Star+_logo.svg.png" alt="Star Plus">
+                  <div class="starplus streaming-option">
+                    <a class="bn39" href="#"><span class="bn39span">Star +</span></a>
+
                   </div>
-                  <div class="appletv">
-                    <img src="assets/apple-tv.png" alt="Apple TV">
+                  <div class="appletv streaming-option">
+                    <a class="bn39" href="#"><span class="bn39span">Apple TV</span></a>
+
                   </div>
                 </div>
             </div>
@@ -132,7 +139,11 @@
             </div> -->
 
             <div class="products-show-gallery" id="show-gallery">
-              <h2>Todos os livros</h2>
+              <div class="all-books-gallery-top">
+                <h2>Todos os livros</h2>
+                <input id="search-bar-books-gallery" type="search" placeholder="Procure livros, autores, gêneros...">
+                <i class="fa fa-search search-icon"></i>
+              </div>
               <div class="products-show">
 
               </div>
