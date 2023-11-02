@@ -595,7 +595,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 90%;
     margin-top: 20px;
 }
 .products-show-gallery h2{
@@ -610,7 +610,7 @@ nav {
     color: #262626;
     font-weight: lighter;
 }
-.products-show{
+/* .products-show{
     width: 100%;
     height: 100%;
     display: flex;
@@ -618,11 +618,21 @@ nav {
     align-items: flex-start;
     flex-wrap:wrap;
     margin-top: 20px;
-    overflow: hidden;
+    overflow: auto;
+} */
+.products-show {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    overflow: auto;
+}
+.product{
+    margin-bottom: 10px;
 }
 .products-show div{
-    width: 300px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -636,16 +646,20 @@ nav {
 
 .products-show h3{
     margin-top: 5px;
+    font-size: 15px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 .products-show p{
     margin-top: 5px;
 }
 .products-show img{
     width: auto;
-    height: 200px;
+    height: 50%;
 }
 .productPrices{
-    display: flex;
+    display: none!important;
     justify-content: center !important;
     align-items: center !important;
     flex-direction: row !important;
@@ -670,13 +684,21 @@ nav {
     width: 90%;
     background: none !important;
     box-shadow: none !important;
-    height: 40px !important;
+    height: 100% !important;
 
 }
 .classStars img{
     width: 30px !important;
     height: 30px !important;
     margin-right: 10px;
+}
+.product a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
 }
 
 .bottom-page-nav{

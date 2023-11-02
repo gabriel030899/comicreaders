@@ -8,7 +8,7 @@ export const products = [
         itemType: "book",
         genre: "ti",
         newcome: "",
-        format: "eBook",
+        format: "ebook",
         language: "portugues",
         priceRange: "R$80 a R$100",
         streaming: "",
@@ -647,7 +647,7 @@ export const products = [
         topSeller: false,
         itemType: "book",
         genre: "manga",
-        newcome: "Pré-Vendas",
+        newcome: "pre-venda",
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
@@ -946,7 +946,7 @@ export const products = [
         topSeller: false,
         itemType: "book",
         genre: "biografia",
-        newcome: "Pré-Vendas",
+        newcome: "pre-venda",
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
@@ -971,10 +971,169 @@ export const products = [
         Esta é também uma história de transformação pessoal, uma jornada de redescoberta espiritual que começa com a participação de Mosab num grupo de estudos bíblicos e culmina na sua conversão ao cristianismo e na crença de que “amar seus inimigos” é o único caminho para a paz no Oriente Médio.`
     },
     {
-        title: "",
-        image: "books/.jpg",
-        author: "",
-        link: "",
+        title: "Fragmentos do Horror",
+        image: "books/fragmentosdohorror-junjiito.jpg",
+        author: "Junji Ito",
+        link: "https://amzn.to/3MpJWpt",
+        topSeller: false,
+        itemType: "book",
+        genre: "manga",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `Mestre do terror em quadrinhos, Junji Ito combina o surrealismo e o escatológico em suas histórias. O resultado é sempre bizarro, mas ainda assim — ou quem sabe até por isso mesmo — belo. Se você tem coragem (e estômago), não pode perder Fragmentos do Horror, primeiro livro de mangá publicado pela DarkSide Books. Fragmentos do Horror é uma coleção de histórias curtas, perfeitas para quem quer experimentar o que essa mente tão delirante é capaz de produzir. Itosan oferece ao leitor nove encontros com o desconhecido. Cada quadrinho pode ser fatal, cuidado! Entre as histórias da coletânea, temos uma mansão velha de madeira que gira sobre seus habitantes. Uma turma de dissecação com um assunto nada comum. Um funeral em que os mortos definitivamente não são postos para descansar. Variando do aterrorizante ao cômico, do erótico para o repugnante, essas histórias apresentam o retorno de Junji Ito há muito aguardado para o mundo do horror. Fragmentos do Horror faz parte da nova coleção DarkSide Graphic Novel Tokyo Terror e, como todos os títulos da Caveirinha, vem numa caprichosa edição em capa dura. A tradução foi feita diretamente do japonês e a publicação segue a orientação original, da direita para a esquerda — como tem que ser.`
+    },
+    {
+        title: "Fullmetal Alchemist - Especial - Vol. 1",
+        image: "books/fullmetalalchemistespecialvol1-hiromuarakawa.jpg",
+        author: "Hiromu Arakawa",
+        link: "https://amzn.to/3FGyQIJ",
+        topSeller: false,
+        itemType: "book",
+        genre: "manga",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `Fullmetal Alchemist, obra máxima de Hiromu Arakawa, está de volta em uma Edição Especial de Colecionador! Edward e Alphonse Elric são jovens alquimistas que estão em busca da lendária Pedra Filosofal para recuperarem os seus corpos. Ouvindo rumores sobre ela, os irmãos Elric vão para uma cidade profundamente devota ao seu Deus e àquele que divulga sua fé, o Pai Cornello. Este religioso tem praticado atos milagrosos que mais se parecem com transmutações alquímicas, e investigando a origem de tais milagres eles conhecem Rose, uma garota que busca na religião a esperança de rever seu amado. A jornada dos irmãos Elric que desafiará os limites da fé e da ciência começa aqui! AUTOR: Hiromu Arakawa No. PÁGINAS: 192`
+    },
+    {
+        title: "Box Grandes Mestres do Estoicismo",
+        image: "books/grandesmestresdoestoicismo-edipro.jpg",
+        author: "Epicteto & Sêneca & Marco Aurélio",
+        link: "https://amzn.to/45VAK2Q",
+        topSeller: false,
+        itemType: "book",
+        genre: "autoajuda",
+        newcome: "",
+        format: "Box e Kits",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `Esta coleção reúne as principais obras dos três maiores expoentes da filosofia estoica: o grego Epicteto, o romano Sêneca e o imperador romano Marco Aurélio.
+
+        Estes filósofos encararam o estoicismo como uma prática diária, sacerdotal, que colocava à prova os seus preceitos de virtude, sabedoria e racionalidade.
+        
+        Desta forma, elevaram o Estoicismo ao patamar de uma das mais importantes correntes filosóficas do Ocidente.
+        
+        Em Sobre a brevidade da vida, Sêneca reflete sobre como usar o tempo em favor de uma vida plena e feliz.
+        
+        No Manual de Epicteto, o filósofo grego reúne lições sobre o aprimoramento moral e a convivência pacífica com os semelhantes.
+        
+        Por fim, em suas Meditações, o imperador Marco Aurélio nos deixa um verdadeiro manual sobre o comportamento virtuoso.
+        
+        Esta edição de Meditações – a mais vendida na atualidade –, somada às outras duas obras, compõe um verdadeiro curso prático do Estoicismo. As três obras são acompanhadas de cartões postais e de marcadores de página exclusivos.`
+    },
+    {
+        title: "Joyland",
+        image: "books/joyland-stephenking.jpg",
+        author: "Stephen King",
+        link: "https://amzn.to/3Qp5JPd",
+        topSeller: false,
+        itemType: "book",
+        genre: "terror",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,7",
+        description: `Em Joyland, Stephen King mistura mistério, suspense e drama para construir uma história poderosa sobre amar e perder, crescer e envelhecer ― e sobre aqueles que não tiveram a chance de experimentar nada disso, pois a morte lhes chegou cedo demais.
+
+        Carolina do Norte, 1973. O universitário Devin Jones começa um trabalho temporário no parque Joyland, tentando esquecer a namorada que partiu seu coração. Mas é outra garota que acaba mudando seu mundo para sempre: Linda Grey, que foi morta no parque há anos, vítima de um serial killer. Diz a lenda que seu espírito ainda assombra o trem fantasma.
+        Fascinado, Devin começa a investigar o caso, tentando juntar as pontas soltas. Ele descobre que o assassino ainda está à solta, mas o espírito de Linda precisa ser libertado. Quando Devin pede a ajuda de Mike, um menino com um dom especial e uma doença séria, a realidade sombria da vida vêm à tona em uma trama ao mesmo tempo assustadora e emocionante.`
+    },
+    {
+        title: "Jujutsu Kaisen 0",
+        image: "books/jujutsukaisen0-gegeakutami.jpg",
+        author: "Gege Akutami",
+        link: "https://amzn.to/3QHRZ3x",
+        topSeller: false,
+        itemType: "book",
+        genre: "manga",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `O estudante colegial Yuuta Okkotsu deseja ser executado porque sofre com as ações de Rika Orimoto, espírito rancoroso que o possuiu. Enquanto isso, Satoru Gojou, professor que ensina a exorcizar "maldições", transfere Yuuta para a Escola Técnica Superior de Jujutsu de Tokyo. Tem início a pré-sequência da série Jujutsu Kaisen!`
+    },
+    {
+        title: "Lady Killers: Assassinas em Série",
+        image: "books/ladykillers-toritelfer.jpg",
+        author: "Tori Telfer",
+        link: "https://amzn.to/3sfIKy2",
+        topSeller: false,
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "Capa Dura",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `Através das páginas de Lady Killers: Assassinas em Série os leitores vão perceber que estas damas assassinas eram inteligentes, coniventes, imprudentes, egoístas e estavam dispostas a fazer o que fosse necessário para ingressar no que elas viam como uma vida melhor. Foram implacáveis e inflexíveis. Eram psicopatas e estavam prontas para dizimar suas próprias famílias. Mas elas não eram lobos. Não eram vampiros. Não eram homens. Mais uma vez, a ficha mostra: elas eram horrivelmente, essencialmente, inescapavelmente humanas.`
+    },
+    {
+        title: "Mais esperto que o Diabo",
+        image: "books/maisespertoqueodiabo-napoleanhill.jpg",
+        author: "Napolean Hill",
+        link: "https://amzn.to/3tXO8Gs",
+        topSeller: false,
+        itemType: "book",
+        genre: "autoajuda",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,7",
+        description: `Neste livro, inédito no Brasil, você vai descobrir, após 75 anos de segredo, por meio dessa entrevista exclusiva que Napoleon Hill fez, quebrando o código secreto da mente do Diabo: Quem é o Diabo? Onde ele habita? Quais suas principais armas mentais? Quem são os alienados e de que forma eles ou elas se alienam? De que forma o Diabo influencia a nossa vida do dia a dia? Como a sua dominação influencia nossas atitudes? O que é o medo? Como nossos líderes religiosos e nossos professores são afetados pelo Diabo? Quais as armas que nós, seres humanos, possuímos para combater a dominação do Diabo? Qual a visão do Diabo sobre a energia sexual? Como buscar uma vida cheia de realizações, valorizando a felicidade e a liberdade? Essas perguntas e muitas outras são respondidas pelo próprio Diabo, que se autodenomina "Sua Majestade", de acordo com Napoleon Hill. O seu propósito, escrito com suas próprias palavras, é ajudar o ser humano a descobrir o seu real potencial, desvendando as armadilhas mentais que os homens e as mulheres deste mundo criam para si mesmos, sabotando a sua própria liberdade e o seu próprio direito de viver uma vida cheia de desafios, alegria e liberdade. Escrito em 1938, após uma das maiores crises econômicas, e precedendo a Segunda Guerra Mundial, este livro não somente é uma fonte de inspiração e coragem, mas deve ser considerado um manual para todas aquelas pessoas que desejam`
+    },
+    {
+        title: "Malala, a menina que queria ir para a escola",
+        image: "books/malalaameninaquequeriairparaaescola-adrianacarranca.jpg",
+        author: "Adriana Carranca",
+        link: "https://amzn.to/3tSQXbH",
+        topSeller: false,
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `Malala Yousafzai quase perdeu a vida por querer ir para a escola. Ela nasceu no vale do Swat, no Paquistão, uma região de extraordinária beleza, cobiçada no passado por conquistadores como Gengis Khan e Alexandre, o Grande, e protegida pelos bravos guerreiros pashtuns – os povos das montanhas. Foi habitada por reis e rainhas, príncipes e princesas, como nos contos de fadas. Malala cresceu entre os corredores da escola de seu pai, Ziauddin Yousafzai, e era uma das primeiras alunas da classe. Quando tinha dez anos viu sua cidade ser controlada por um grupo extremista chamado Talibã. Armados, eles vigiavam o vale noite e dia, e impuseram muitas regras. Proibiram a música e a dança, baniram as mulheres das ruas e determinaram que somente os meninos poderiam estudar. Mas Malala foi ensinada desde pequena a defender aquilo em que acreditava e lutou pelo direito de continuar estudando. Ela fez das palavras sua arma. Em 9 de outubro de 2012, quando voltava de ônibus da escola, sofreu um atentado a tiro. Poucos acreditaram que ela sobreviveria. A jornalista Adriana Carranca visitou o vale do Swat dias depois do atentado, hospedou-se com uma família local e conta neste livro tudo o que viu e aprendeu por lá. Ela apresenta às crianças a história real dessa menina que, além de ser a mais jovem ganhadora do prêmio Nobel da paz, é um grande exemplo de como uma pessoa e um sonho podem mudar o mundo.`
+    },
+    {
+        title: "Mentirosos – Sucesso no TikTok",
+        image: "books/mentirosos-elockhart.jpg",
+        author: "E. Lockhart",
+        link: "https://amzn.to/3MpTd0y",
         topSeller: false,
         itemType: "book",
         genre: "",
@@ -985,7 +1144,701 @@ export const products = [
         streaming: "",
         price: "",
         oldPrice: "",
-        classification: "",
-        description: ``
+        classification: "4,5",
+        description: `Um suspense moderno e sofisticado, Mentirosos é impossível de largar até que todos seus mistérios sejam desvendados. A prosa lírica e o estilo seco e denso farão você mergulhar de cabeça no mundo dos Sinclair, uma família rica e tradicional, e nas crescentes angústias da protagonista Cadence - para então vir à tona completamente impactado.
+
+        Na família Sinclair, ninguém é carente, criminoso, viciado ou fracassado. Mas talvez isso seja mentira.
+        Os Sinclair são uma família rica e renomada, que se recusa a admitir que está em decadência e se agarra a todo custo às tradições. Assim, todo ano o patriarca, suas três filhas e seus respectivos filhos passam as férias de verão em sua ilha particular. Cadence - neta primogênita e principal herdeira -, seus primos Johnny e Mirren e o amigo Gat são inseparáveis desde pequenos, e juntos formam um grupo chamado Mentirosos. Durante o verão de seus quinze anos, as férias idílicas de Cadence são interrompidas quando a garota sofre um estranho acidente. Ela passa os próximos dois anos em um período conturbado, com amnésia, depressão, fortes dores de cabeça e muitos analgésicos. Toda a família a trata com extremo cuidado e se recusa a dar mais detalhes sobre o ocorrido... até que Cadence finalmente volta à ilha para juntar as lembranças do que realmente aconteceu.`
+    },
+    {
+        title: "Me Poupe! (Edição atualizada)",
+        image: "books/mepoupe-nathaliaarcuri.jpg",
+        author: "Nathalia Arcuri",
+        link: "https://amzn.to/46UIQKi",
+        topSeller: false,
+        itemType: "book",
+        genre: "financeiro",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,7",
+        description: `EDIÇÃO ATUALIZADA!
+
+        680 mil livros vendidos.
+        
+        Nathalia Arcuri é criadora do Me Poupe!, maior canal de finanças do mundo no YouTube.
+        
+         
+        
+        Como economizar no dia a dia? Como enfrentar crises econômicas com tranquilidade? Como poupar mesmo ganhando pouco? Quais são os melhores (e os piores) investimentos? Será que está na hora de investir em ações? Como poupar para o futuro sem abrir mão dos desejos e necessidades do presente?
+        
+        Sei que você tem muitas dúvidas sobre o que fazer com o seu dinheiro. Sei também que muita gente simplesmente não faz nada com ele – a não ser pagar contas e juntar moedinhas para chegar até o fim do mês.
+        
+        É por isso que estou aqui.
+        
+        Sempre fui uma poupadora compulsiva. Desde cedo compreendi que precisaria juntar dinheiro para realizar meus sonhos. Aos 7 anos comecei a poupar para comprar um carro quando fizesse 18. Com 23 comprei meu primeiro apartamento à vista. Aos 30 pedi demissão do meu emprego de repórter de TV e montei o canal Me Poupe!, no YouTube.
+        
+        Aos 32 me tornei milionária.
+        
+        O Me Poupe! foi pioneiro na criação do conceito de entretenimento financeiro ao falar de dinheiro com leveza e bom humor. Começou como blog e hoje é uma plataforma com canal no YouTube, podcast, livro, curso, programa de rádio e reality na TV aberta. Tudo isso impacta 14 milhões de pessoas por mês. Tenho orgulho de dizer que alcancei a independência financeira muito antes dos 40 anos e já posso dizer que trabalho porque quero, não porque preciso. Com meu curso on-line, preparo mais de 15 mil alunos espalhados pelo mundo para gerenciar bem seu dinheiro e fazê-lo crescer.
+        
+        Vou contar para você como cheguei até aqui, as roubadas em que me meti, as dúvidas que tive e tudo o que aprendi ao longo desses anos. Mas este livro não é sobre mim. É sobre você, o seu dinheiro e a maneira como vem lidando com ele até agora.
+        
+        Eu resolvi escrevê-lo para passar uma mensagem curta e grossa: você pode sair do buraco, não importa qual o tamanho dele.
+        
+        Para ajudar nesse processo, reuni exemplos práticos, situações reais, planilhas e exercícios, e organizei tudo isso em 10 passos simples para nunca mais faltar dinheiro no seu bolso. Vou te ajudar também a fazer renda extra e a identificar armadilhas perigosas para o seu bolso.
+        
+        A partir dessas dicas, você vai aprender a dar um basta nos hábitos que sabotam sua saúde financeira, a identificar as crenças que impedem seu enriquecimento e a encontrar modalidades de investimento que caibam na sua realidade. Além disso, ao entender as mudanças que vêm acontecendo na economia do país e do mundo, vai ser capaz de se preparar para qualquer turbulência. E o melhor: vai descobrir um mundo maravilhoso em que o dinheiro trabalha para você, e não você para ele.
+        
+        Mas talvez a minha dica mais importante seja: poupar não é só acumular dinheiro. Poupar tem a ver com realizar sonhos. É necessário ter foco, estabelecer prioridades e até abrir mão de uma ou outra coisa em nome de um objetivo maior.
+        
+        Eu poupo desde criança porque tenho metas e propósitos. E essas metas e propósitos têm a ver com pessoas e com experiências, porque, afinal, viver não é correr atrás de grana. A vida vale pelas experiências que o dinheiro nos proporciona, pelos encontros que temos pelo caminho e pela alegria de estarmos vivos todos os dias.`
+    },
+    {
+        title: "Mindset: A nova psicologia do sucesso",
+        image: "books/mindset-carolsdweck.jpg",
+        author: "Carol S. Dweck",
+        link: "https://amzn.to/47epks3",
+        topSeller: false,
+        itemType: "book",
+        genre: "autoajuda",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,7",
+        description: `Carol S. Dweck, ph.D., professora de psicologia na Universidade Stanford e especialista internacional em sucesso e motivação, desenvolveu, ao longo de décadas de pesquisa, um conceito fundamental: a atitude mental com que encaramos a vida, que ela chama de “mindset”, é crucial para o sucesso. Dweck revela de forma brilhante como o sucesso pode ser alcançado pela maneira como lidamos com nossos objetivos. O mindset não é um mero traço de personalidade, é a explicação de por que somos otimistas ou pessimistas, bem-sucedidos ou não. Ele define nossa relação com o trabalho e com as pessoas e a maneira como educamos nossos filhos. É um fator decisivo para que todo o nosso potencial seja explorado.`
+    },
+    {
+        title: "Mulheres incríveis",
+        image: "books/mulheresincriveisquemudaramomundo-cirandacultural.jpg",
+        author: "Ciranda Cultural",
+        link: "https://amzn.to/45ZbEjH",
+        topSeller: false,
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `Descubra neste livro os grandes feitos de mulheres que inspiraram e ainda inspiram o mundo, como Malala Yousafzai, Frida Kahlo, Anita Garibaldi e muitas outras. Além de aprender sobre mulheres incríveis que entraram para a História, você vai se divertir como fantástico e surpreendente jogo de adivinhação o "QUEM SOU EU?".`
+    },
+    {
+        title: "My Broken Mariko",
+        image: "books/mybrokenmariko-wakahirako.jpg",
+        author: "Waka Hirako",
+        link: "https://amzn.to/3MqBzdk",
+        topSeller: false,
+        itemType: "book",
+        genre: "manga",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `"Tomoyo Shiino apoiou sua amiga Mariko durante anos de abuso, abandono e depressão. Por mais horríveis que sejam suas circunstâncias, a amizade delas tem sido a única constante reconfortante na vida de Mariko e na de Tomoyo também. Certo dia, Tomoyo é surpreendida pela notícia da morte de Mariko. Em estado de choque, ela decide descobrir o motivo pelo qual sua amiga cometeu suicídio.”`
+    },
+    {
+        title: "O alquimista",
+        image: "books/oalquimista-paulocoelho.jpg",
+        author: "Paulo Coelho",
+        link: "https://amzn.to/40oe6ze",
+        topSeller: false,
+        itemType: "book",
+        genre: "aventura",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,7",
+        description: `O alquimista - um clássico contemporâneo sobre o poder transformador dos sonhos.
+
+        Combinando espiritualidade, sabedoria e misticismo, O alquimista é uma inspiradora e emocionante história de autodescoberta que vem transformando a vida de milhões de leitores ao redor do mundo há mais de trinta anos.
+        Santiago, um jovem pastor da Andaluzia, parte rumo ao Egito em busca de um tesouro escondido entre as Pirâmides. O que ele não sabe é que sua jornada o levará a riquezas muito diferentes – e mais satisfatórias – do que ele estava esperando. Ao longo do caminho, uma cigana, um homem que se diz rei e um alquimista lhe indicam a direção em que deve seguir e o ajudam a perceber que o maior tesouro se encontra dentro dele mesmo.
+        Com a prosa poética de Paulo Coelho, este romance encantador nos recorda da sabedoria de ouvir nossos corações, reconhecer as oportunidades da vida e, mais importante, sempre seguir nossos sonhos.`
+    },
+    {
+        title: "O conto da aia",
+        image: "books/ocontodaaia-margaretatwood.jpg",
+        author: "Margaret Atwood",
+        link: "https://amzn.to/3sq9QlU",
+        topSeller: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,7",
+        description: `O romance distópico O conto da aia, de Margaret Atwood, se passa num futuro muito próximo e tem como cenário uma república onde não existem mais jornais, revistas, livros nem filmes. As universidades foram extintas. Também já não há advogados, porque ninguém tem direito a defesa. Os cidadãos considerados criminosos são fuzilados e pendurados mortos no Muro, em praça pública, para servir de exemplo enquanto seus corpos apodrecem à vista de todos. Para merecer esse destino, não é preciso fazer muita coisa – basta, por exemplo, cantar qualquer canção que contenha palavras proibidas pelo regime, como “liberdade”. Nesse Estado teocrático e totalitário, as mulheres são as vítimas preferenciais, anuladas por uma opressão sem precedentes. O nome dessa república é Gilead, mas já foi Estados Unidos da América. Uma das obras mais importantes da premiada escritora canadense, conhecida por seu ativismo político, ambiental e em prol das causas femininas, O conto da aia foi escrito em 1985 e inspirou a série homônima (The Handmaid’s Tale, no original), produzida pelo canal de streaming Hulu em 2017. As mulheres de Gilead não têm direitos. Elas são divididas em categorias, cada qual com uma função muito específica no Estado. A Offred coube a categoria de aia, o que significa pertencer ao governo e existir unicamente para procriar, depois que uma catástrofe nuclear tornou estéril um grande número de pessoas. E sem dúvida, ainda que vigiada dia e noite e ceifada em seus direitos mais básicos, o destino de uma aia ainda é melhor que o das não-mulheres, como são chamadas aquelas que não podem ter filhos, as homossexuais, viúvas e feministas, condenadas a trabalhos forçados nas colônias, lugares onde o nível de radiação é mortífero. Com esta história assustadora, Margaret Atwood leva o leitor a refletir sobre liberdade, direitos civis, poder, a fragilidade do mundo tal qual o conhecemos, o futuro e, principalmente, o presente. Vencedor do Arthur C. Clarke Award.`
+    },
+    {
+        title: "O Deus que destrói sonhos",
+        image: "books/odeusquedestroisonhos-rodrigobibo.jpg",
+        author: "Rodrigo Bibo",
+        link: "https://amzn.to/3tXDsHY",
+        topSeller: false,
+        itemType: "book",
+        genre: "religiao",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `O Deus cristão não pode ser domesticado. 
+
+        Uma tentação constante que cerca a vida cristã é a inversão do chamado: a presunção de que Deus precisa abençoar nosso caminho e seguir nossos planos e sonhos. Essa postura é enganosa e faz parecer que Deus só é fiel quando nos abençoa. Mas e se Deus derrubar o nosso sorvete, ele deixa de ser fiel? Claro que não! Ele continua sendo um Pai sábio e um Deus misericordioso mesmo em meio às nossas frustrações. Às vezes, ele só quer chamar nossa atenção para o caminho certo. Você já deve ter testemunhado gente adulta se comportando como criança por não ter a vida que pediu a Deus. É porque pediu errado!  
+        
+        Neste livro, Rodrigo Bibo, do podcast Bibotalk, apresenta o caminho do discipulado, o meio para “sonhar” o que Deus já planejou. Aprenda a enxergar e seguir a vontade soberana de Deus expressa em Sua Palavra, tendo uma vida de serviço dedicada a Cristo. `
+    },
+    {
+        title: "O diário de Anne Frank",
+        image: "books/odiariodeannefrank-annefrank.jpg",
+        author: "Anne Frank",
+        link: "https://amzn.to/40sQjhp",
+        topSeller: false,
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `O Diário de Anne Frank teve a autenticidade confirmada por peritos. Estudos forenses da caligrafia de Anne e exame do papel do diário, da tinta e da cola comprovaram ser de material existente na época. A conclusão foi oficialmente apresentada pelo Instituto Estatal Holandês para Documentação da Guerra.`
+    },
+    {
+        title: "O Hobbit + pôster",
+        image: "books/ohobbit-jrrtolkien.jpg",
+        author: "J.R.R. Tolkien",
+        link: "https://amzn.to/3QmVVFj",
+        topSeller: false,
+        itemType: "book",
+        genre: "aventura",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `Bilbo Bolseiro era um dos mais respeitáveis hobbits de todo o Condado até que, um dia, o mago Gandalf bate à sua porta. A partir de então, toda sua vida pacata e campestre soprando anéis de fumaça com seu belo cachimbo começa a mudar. Ele é convocado a participar de uma aventura por ninguém menos do que Thorin Escudo-de-Carvalho, um príncipe do poderoso povo dos Anãos.`
+    },
+    {
+        title: "O homem mais rico da Babilônia",
+        image: "books/ohomemmaisricodababilonia-georgesclason.jpg",
+        author: "Luiz Cavalcanti de M. Guerra",
+        link: "https://amzn.to/3QIkVbi",
+        topSeller: false,
+        itemType: "book",
+        genre: "financeiro",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `Baseando-se nos segredos de sucesso dos antigos babilônicos ― os habitantes da cidade mais rica e próspera de seu tempo ―, George S. Clason mostra soluções ao mesmo tempo sábias e muito atuais para evitar a falta de dinheiro, como não desperdiçar recursos durante tempos de opulência, buscar conhecimento e informação em vez de apenas lucro, assegurar uma renda para o futuro, manter a pontualidade no pagamento de dívidas e, sobretudo, cultivar as próprias aptidões, tornando-se cada vez mais habilidoso e consciente.`
+    },
+    {
+        title: "O investidor inteligente",
+        image: "books/oinvestidorinteligente-benjamingraham.jpg",
+        author: "Lourdes Sette",
+        link: "https://amzn.to/3s7G59H",
+        topSeller: false,
+        itemType: "book",
+        genre: "financeiro",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `Maior consultor de investimentos do século XX, Benjamin Graham ensinou e inspirou milhares de pessoas ao redor do mundo. Seu conceito de “valor de investimento” protege os investidores de cometer erros substanciais e os ensina a desenvolver estratégias de longo prazo. Isso fez com que O investidor inteligente se tornasse a bíblia do mercado de ações desde sua primeira publicação, em 1949. A partir daí, as evoluções do mercado provaram a sabedoria das estratégias de Graham. Esta edição conta ainda com atualizações e apontamentos do jornalista Jason Zweig, além de prefácios de Warren Buffett e Armínio Fraga.`
+    },
+    {
+        title: "O milagre da manhã: O segredo para transformar sua vida",
+        image: "books/omilagredamanha-halelrod.jpg",
+        author: "Hel Elrod",
+        link: "https://amzn.to/47h0WpE",
+        topSeller: false,
+        itemType: "book",
+        genre: "autoajuda",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,7",
+        description: `Hal Elrod apresenta o método revolucionário praticado por milhares de pessoas ao redor do mundo e que vai proporcionar, de forma simples e eficaz, que você construa a vida dos seus sonhos - antes das 8 horas da manhã! O milagre da manhã é best-seller internacional, com mais de 1 milhão de exemplares vendidos no Brasil. 
+
+ 
+
+        Neste novo clássico da autoajuda, Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vão proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.
+        
+        E se você acordasse amanhã e percebesse que tem o poder de modificar qualquer área da sua vida? Acordando todo dia e praticando o desafio de transformação de vida de trinta dias de O milagre da manhã, você começará cada dia com níveis extraordinários de disciplina (a capacidade crucial para fazer com que você cumpra seus compromissos), clareza (o poder que você vai gerar se concentrando no que é mais importante) e desenvolvimento pessoal (talvez, o único fator determinante mais significativo para seu sucesso). Portanto, nos próximos trinta dias você se verá rapidamente se tornando a pessoa que precisa ser para criar os níveis extraordinários de sucesso pessoal, profissional e financeiro que realmente deseja.
+        
+        Você está pronto? O próximo capítulo do seu futuro - o futuro mais incrível que você já imaginou - está prestes a começar. Desenvolva seus objetivos a cada dia e comece a aproveitar todos os benefícios de O milagre da manhã! É hora de acordar e conquistar todo o seu potencial. Você merece uma vida extraordinária!`
+    },
+    {
+        title: "One Piece 3 em 1 Vol. 1",
+        image: "books/onepiecevol3-eiichirooda.jpg",
+        author: "Eiichiro Oda",
+        link: "https://amzn.to/3QGhtx1",
+        topSeller: false,
+        itemType: "book",
+        genre: "manga",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,7",
+        description: `Luffy deseja tornar-se um pirata por conta da admiração que sente por Shanks. O garoto acaba consumindo a Gomugomu-no-mi e mais tarde se envolve em uma briga com bandidos, na qual Shanks aparece para salvá-lo, porém, o pirata de cabelos vermelhos perde seu braço esquerdo na ocasião. Anos depois, Luffy conhece Coby, um faz-tudo que sonha em se tornar um oficial da marinha, e ambos rumam para uma ilha em que há uma base da Marinha, onde o famoso espadachim e caçador de piratas, Roronoa Zoro, se encontra aprisionado. Como será o desenrolar desse encontro...?!`
+    },
+    {
+        title: "One Piece Vol. 103",
+        image: "books/onepiecevol103-eiichirooda.jpg",
+        author: "Eiichiro Oda",
+        link: "https://amzn.to/3FJa1fa",
+        topSeller: false,
+        itemType: "book",
+        genre: "manga",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `Bem quando Sanji e Zoro derrotaram dois dos Grandes Astros dos Piratas Bestiais a luta entre Luffy e Kaido se intensifica ainda mais!! Enquanto isso, Kid e Law travam uma intensa batalha contra Big Mom!! Será que esses dois Imperadores que dominam os mares há tanto tempo podem mesmo ser derrotados?!`
+    },
+    {
+        title: "O Pequeno Príncipe (Original)",
+        image: "books/opequenoprincipe-atoinedesaintexupery.jpg",
+        author: "Antoine de Saint-Exupéry",
+        link: "https://amzn.to/3QHA256",
+        topSeller: false,
+        itemType: "book",
+        genre: "aventura",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `Conheça a edição mais consagrada de um dos maiores clássicos da literatura, publicada no Brasil desde 1952, com a tradução do poeta dom Marcos Barbosa e as ilustrações originais em aquarela do autor.
+
+        Nesta história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma aventura filosófica e poética através de planetas que encerram a solidão humana.
+        
+        Um livro para todos os públicos, O pequeno príncipe é uma obra atemporal, com metáforas pertinentes e aprendizados sobre afeto, sonhos, esperança e tudo aquilo que é invisível aos olhos. `
+    },
+    {
+        title: "O príncipe cruel",
+        image: "books/oprincipecruel-hollyblack.jpg",
+        author: "Holly Black",
+        link: "https://amzn.to/47hdVbc",
+        topSeller: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `Da autora de best-sellers nº 1 do The New York Times, Holly Black, O prínicipe cruel é o primeiro livro da envolvente série O Povo do Ar sobre uma garota mortal que se vê presa em uma teia de intrigas de fadas reais.
+
+ 
+
+        Jude tinha apenas sete anos quando seus pais foram brutalmente assasinados e ela e as irmãs levadas para viver no traiçoeiro Reino das Fadas. Dez anos depois, tudo o que Jude quer é se encaixar, mesmo sendo uma garota mortal. Mas todos os feéricos parecem desprezar os humanos... Especialmente o príncipe Cardan, o mais jovem e mais perverso dos filhos do Grande Rei de Elfhame.
+        
+        Para conquistar o tão desejado lugar na Corte, Jude precisa desafiar o príncipe - e enfrentar as consequências do ato.
+        
+        A garota passa, então, a se envolver cada vez mais nos jogos e intrigas do palácio, e acaba descobrindo a própria vocação para trapaças e derramamento de sangue. Mas quando uma traição ameaça afogar o Reindo das Fadas em violência, Jude precisará arriscar tudo em uma perigosa aliança para salvar suas irmãs - e a própria Elfhame.
+        
+        Cercada por mentiras e pessoas que desejam destruí-la , Jude terá que descobrir o verdadeiro significado da palavra poder antes que seja tarde demais.
+        
+        Com personagens únicos, reviravoltas inesperadas, e uma traição de tirar o fôlego, O príncipe cruel vai deixar o leitor querendo mergulhar de cabeça na continuação deste universo.`
+    },
+    {
+        title: "O Príncipe de Maquiavel",
+        image: "books/oprincipedemaquiavel-nicolaumaquiavel.jpg",
+        author: "Nicolau Maquiavel",
+        link: "https://amzn.to/3SklObz",
+        topSeller: false,
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `Nesta obra, que é um clássico sobre pensamento político, o grande escritor Maquiavel mostra como funciona a ciência política.
+
+        Discorre sobre os diferentes tipos de Estado e ensina como um príncipe pode conquistar e manter o domínio sobre um Estado.
+        
+        Trata daquilo que é o seu objetivo principal: as virtudes que o governante deve adquirir e os vícios que deve evitar para manter-se no poder.
+        
+        Maquiavel mostra em O Príncipe que a moralidade e a ciência política são separadas.
+        
+        Ele aponta a contradição entre governar um Estado e, ao mesmo tempo, levar uma vida moral.`
+    },
+    {
+        title: "O rei dos dividendos",
+        image: "books/oreidosdividendos-luizbarsifilho.jpg",
+        author: "Luiz Barsi Filho",
+        link: "https://amzn.to/46VZfhB",
+        topSeller: false,
+        itemType: "book",
+        genre: "financeiro",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `"O livro que você tem em mãos é uma inspiração para a riqueza, mas não só: ao compartilhar momentos de humor e astúcia, dor e alegria, Barsi vai se mostrando, pouco a pouco, como realmente é, em toda a sua humanidade.
+
+        E é isso o que faz desta obra também uma inspiração para nos tornamos, mais do que investidores competentes, pessoas melhores." – Fabio Baroni, Felipe Ruiz e Louise Barsi, sócios fundadores do AGF`
+    },
+    {
+        title: "Os segredos da mente milionária",
+        image: "books/ossegredosdamentemilionaria-tharveker.jpg",
+        author: "T. Harv Eker",
+        link: "https://amzn.to/40sms8Y",
+        topSeller: false,
+        itemType: "book",
+        genre: "financeiro",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `Aprenda a enriquecer mudando seus conceitos sobre o dinheiro e adotando os hábitos das pessoas bem-sucedidas
+
+
+
+        "T. Harv Eker desmistifica o motivo pelo qual algumas pessoas estão destinadas à riqueza e outras a uma vida de dureza. Se você quer conhecer as causas fundamentais do sucesso, leia este livro." – Robert G. Allen, autor de O milionário em um minuto
+        
+        
+        
+        Se as suas finanças andam na corda bamba, talvez esteja na hora de você refletir sobre o que T. Harv Eker chama de "o seu modelo de dinheiro" – um conjunto de crenças que cada um de nós alimenta desde a infância e que molda o nosso destino financeiro, quase sempre nos levando para uma situação difícil.
+        
+        
+        
+        Nesse livro, Eker mostra como substituir uma mentalidade destrutiva – que você talvez nem perceba que tem – pelos "arquivos de riqueza", 17 modos de pensar e agir que distinguem os ricos das demais pessoas. Alguns desses princípios fundamentais são:
+        
+        
+        
+        • Ou você controla o seu dinheiro ou ele controlará você.
+        
+        • O hábito de administrar as finanças é mais importante do que a quantidade de dinheiro que você tem.
+        
+        • A sua motivação para enriquecer é crucial: se ela possui uma raiz negativa, como o medo, a raiva ou a necessidade de provar algo a si mesmo, o dinheiro nunca lhe trará felicidade.
+        
+        • O segredo do sucesso não é tentar evitar os problemas nem se livrar deles, mas crescer pessoalmente para se tornar maior do que qualquer adversidade.
+        
+        • Os gastos excessivos têm pouco a ver com o que você está comprando e tudo a ver com a falta de satisfação na sua vida.
+        
+        
+        
+        O autor também ensina um método eficiente de administrar o dinheiro. Você aprenderá a estabelecer sua remuneração pelos resultados que apresenta e não pelas horas que trabalha. Além disso, saberá como aumentar o seu patrimônio líquido – a verdadeira medida da riqueza.
+        
+        
+        
+        A ideia é fazer o seu dinheiro trabalhar para você tanto quanto você trabalha para ele. Para isso, é necessário poupar e investir em vez de gastar. "Enriquecer não diz respeito somente a ficar rico em termos financeiros", diz Eker. "É mais do que isso: trata-se da pessoa que você se torna para alcançar esse objetivo."`
+    },
+    {
+        title: "O poder do hábito",
+        image: "books/poderdohabito-charlesduhigg.jpg",
+        author: "Charles Duhigg",
+        link: "https://amzn.to/3QtS75o",
+        topSeller: false,
+        itemType: "book",
+        genre: "autoajuda",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,7",
+        description: `Charles Duhigg, repórter investigativo do New York Times, mostra que a chave para o sucesso é entender como os hábitos funcionam - e como podemos transformá-los.
+
+        Durante os últimos dois anos, uma jovem transformou quase todos os aspectos de sua vida. Parou de fumar, correu uma maratona e foi promovida. Em um laboratório, neurologistas descobriram que os padrões dentro do cérebro dela mudaram de maneira fundamental. Publicitários da Procter & Gamble observaram vídeos de pessoas fazendo a cama. Tentavam desesperadamente descobrir como vender um novo produto chamado Febreze, que estava prestes a se tornar um dos maiores fracassos na história da empresa. De repente, um deles detecta um padrão quase imperceptível - e, com uma sutil mudança na campanha publicitária, Febreze começa a vender um bilhão de dólares por anos. Um diretor executivo pouco conhecido assume uma das maiores empresas norte-americanas. Seu primeiro passo é atacar um único padrão entre os funcionários - a maneira como lidam com a segurança no ambiente de trabalho -, e logo a empresa começa a ter o melhor desempenho no índice Dow Jones.
+        
+        O que todas essas pessoas tem em comum? Conseguiram ter sucesso focando em padrões que moldam cada aspecto de nossas vidas. Tiveram êxito transformando hábitos. Com perspicácia e habilidade, Charles Duhigg apresenta um novo entendimento da natureza humana e seu potencial para a transformação.`
+    },
+    {
+        title: "Rápido e devagar: Duas formas de pensar",
+        image: "books/rapidoedevagar-danielkahneman.jpg",
+        author: "Daniel Kahneman",
+        link: "https://amzn.to/3FIJwqe",
+        topSeller: false,
+        itemType: "book",
+        genre: "autoajuda",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,7",
+        description: `Em Rápido e devagar: duas formas de pensar, Daniel Kahneman nos leva a uma viagem pela mente humana e explica as duas formas de pensar: uma é rápida, intuitiva e emocional; a outra, mais lenta, deliberativa e lógica. Kahneman expõe as capacidades extraordinárias - e também os defeitos e vícios - do pensamento rápido e revela a influência das impressões intuitivas nas nossas decisões. Comportamentos tais como a aversão à perda, o excesso de confiança no momento de escolhas estratégicas, a dificuldade de prever o que vai nos fazer felizes no futuro e os desafios de identificar corretamente os riscos no trabalho e em casa só podem ser compreendidos se soubermos como as duas formas de pensar moldam nossos julgamentos. As questões colocadas por Kahneman se revelam muitas vezes inquietantes: é verdade que o sucesso de um investidor é completamente aleatório e que sua habilidade no mercado financeiro é apenas uma ilusão? Por que o medo de perder é mais forte do que o prazer de ganhar? Kahneman revela quando podemos ou não confiar em nossa intuição. Oferece insights práticos e esclarecedores sobre como tomamos decisões nos negócios e na vida pessoal, e como podemos usar diferentes técnicas para nos proteger contra falhas mentais que muitas vezes nos colocam em apuros.`
+    },
+    {
+        title: "Rita Lee: Uma autobiografia - Edição de Luxo",
+        image: "books/ritaleeumaautobiografia-ritalee.jpg",
+        author: "Rita Lee",
+        link: "https://amzn.to/3Sr1JQK",
+        topSeller: false,
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "5,0",
+        description: `BRINDES EXCLUSIVOS PARA O LANÇAMENTO*
+
+        Edição de luxo da primeira autobiografia de Rita Lee
+        
+        O best-seller Rita Lee: uma autobiografia, que conta a história da vida e carreira da nossa eterna diva do rock, ganhou uma edição especial. O novo livro conta com capa dura, pintura lateral em tie-dye, fitilho e 37 novas fotos, sendo a maioria inéditas. Em uma delas, Rita ajuda a derrubar o muro de Berlim, em 1989.
+        
+        O projeto teve início em 2020 e a nova capa foi pensada pela própria Rita em conjunto com seu grande amigo e editor Guilherme Samora, o Phantom, responsável também pelas fotos de ficha policial, as quais Rita sugeriu que ocupassem a capa e a quarta capa desta edição.
+        
+        Nas páginas, Rita conta de forma honesta e corajosa toda a sua trajetória: a infância e os primeiros passos na vida artística; sua prisão em 1976; o encontro de almas com Roberto de Carvalho; o nascimento dos filhos, das músicas e dos discos clássicos; os tropeços e as glórias. Toda a sua essência e seu humor característico estão presentes nesta obra.
+        
+        Uma edição icônica que celebra esta grande artista revolucionária e sua primeira autobiografia, que se tornou um dos maiores sucessos editoriais do país e transformou a maneira de os artistas contarem a própria história.`
+    },
+    {
+        title: "Seja útil: 7 ferramentas pra vida",
+        image: "books/sejautil-arnoldschwarzenegger.jpg",
+        author: "Arnold Schwarzenegger",
+        link: "https://amzn.to/40mvh43",
+        topSeller: false,
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `A partir da própria jornada, Schwarzenegger reúne as sete ferramentas que usou para realizar feitos extraordinários e se reinventar.
+
+        Como ele diz, ninguém virá salvá-lo – você só tem a si mesmo. A boa notícia é que isso é tudo de que você precisa.
+        
+        
+        
+        “Se existe uma verdade inevitável no mundo é que nada substitui o esforço.
+        
+        Não existe atalho, truque nem pílula mágica que possa suprimir a necessidade de se empenhar muito para fazer bem seu trabalho, vencer um grande desafio ou realizar seus sonhos.
+        
+        As pessoas tentam poupar esforços e pular etapas desse processo assim que perceberam que o trabalho árduo é árduo mesmo.
+        
+        Com o tempo, elas ficam ou são deixadas para trás, porque trabalhar sem parar é a única coisa que funciona 100% das vezes para 100% das conquistas que valem a pena.” – Arnold Schwarzenegger`
+    },
+    {
+        title: "Se não eu, quem vai fazer você feliz?",
+        image: "books/senaosoueuquemvaifazervocefeliz-grazielagoncalvez.jpg",
+        author: "Graziela Gonçalves",
+        link: "https://amzn.to/47cqKTY",
+        topSeller: false,
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `Em seu emocionante livro de memórias, a viúva de Chorão narra a história de amor dos dois.
+
+        Um dos maiores ícones do rock nacional, Alexandre Magno Abrão, o Chorão, conquistou o Brasil sobretudo pela sua entrega na hora de compor e cantar. Essa mesma intensidade marcou a história de amor ímpar vivida com Graziela Gonçalves, que conta neste livro como o relacionamento de quase vinte anos dos dois a transformou para sempre.
+        Ela conheceu o cantor antes de sua banda estourar e se tornar uma das mais populares do país. Com suas ideias e seu apoio, Grazi teve participação importante na construção do sucesso do Charlie Brown Jr. Foi a grande musa de Chorão, que escreveu inúmeras letras inspirado nela. Como companheira de Alexandre, passou com ele os melhores e os piores momentos, e o ajudou a enfrentar a dependência química, que o levou, tragicamente, à morte em 2013.
+        Se não eu, quem vai fazer você feliz? não vai tocar apenas os fãs de Chorão. Mesmo sem conhecer sua música, é impossível não se emocionar com a força desse amor que sobreviveu à fama, às crises e até à morte ― e que é homenageado neste livro.`
+    },
+    {
+        title: "Box Sherlock Holmes - Obra completa",
+        image: "books/sherlockholmesobracompleta-harpercollins.jpg",
+        author: "Arthur Conan Doyle",
+        link: "https://amzn.to/3Mp3cTX",
+        topSeller: false,
+        itemType: "book",
+        genre: "aventura",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `Esta obra completa reúne os quatro romances e os 56 contos sobre as aventuras do detetive mais famoso do mundo e de seu fiel companheiro, o dr. Watson. 
+
+        Em 1887, o escritor escocês Ssir Arthur Conan Doyle criou Sherlock Holmes, o infalível detetive a quem os agentes da Scotland Yard recorriam para solucionar os mistérios mais intrigantes da Inglaterra vitoriana. Desde então, as aventuras do mestre da investigação atraem leitores ávidos por chegar à última página e ver o enigma desvendado.  
+        
+        Para desvendar mistérios, o faro e a astúcia de Sherlock Holmes levam às fontes menos óbvias, às informações mais precisas. Um modelo que influencia até hoje a literatura policial e revela fôlego para impressionar gerações de leitores através dos tempos. 
+        
+         
+        
+        Cada livro deste box de luxo contém... 
+        
+        Volume 1:  Um estudo em vermelho (romance) – 1887, O sinal dos quatro (romance) – 1890, As aventuras de Sherlock Holmes (contos) – 1892. 
+        Volume 2: Memórias de Sherlock Holmes (contos) – 1894, O cão dos Baskerville (romance) – 1902. 
+        Volume 3: A volta de Sherlock Holmes (contos) – 1905, O vale do medo (romance) – 1915. 
+        Volume 4: Os últimos casos de Sherlock Holmes (contos) – 1917, Histórias de Sherlock Holmes (contos) – 1927. `
+    },
+    {
+        title: "Torto arado",
+        image: "books/tortoarado-itamarvieirajunior.jpg",
+        author: "Itamar Vieira Junior",
+        link: "https://amzn.to/3QEn7AP",
+        topSeller: false,
+        itemType: "book",
+        genre: "aventura",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `Um texto épico e lírico, realista e mágico que revela, para além de sua trama, um poderoso elemento de insubordinação social.
+
+        Vencedor do prêmio Leya 2018.
+        
+        Nas profundezas do sertão baiano, as irmãs Bibiana e Belonísia encontram uma velha e misteriosa faca na mala guardada sob a cama da avó. Ocorre então um acidente. E para sempre suas vidas estarão ligadas ― a ponto de uma precisar ser a voz da outra. Numa trama conduzida com maestria e com uma prosa melodiosa, o romance conta uma história de vida e morte, de combate e redenção.`
+    },
+    {
+        title: "Transformando suor em ouro",
+        image: "books/transformandosuoremouro-bernardinho.jpg",
+        author: "Bernardinho",
+        link: "https://amzn.to/479RPqI",
+        topSeller: false,
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `Obstinado, persistente, perfeccionista e motivador, Bernardinho se tornou o maior técnico de vôlei da história do Brasil – e um dos grandes treinadores do esporte coletivo em todo o mundo. Transformando suor em ouro é a história de Bernardinho contada por ele mesmo, desde os tempos de jogador até a consagração como técnico com o ouro olímpico.
+
+        Mais do que relatar uma epopeia esportiva emocionante, o livro apresenta facetas desconhecidas do treinador ao mostrar em detalhes como Bernardinho burilou o método que batizou de Roda da Excelência.
+        
+        O treinador da seleção brasileira masculina de vôlei revela-se um grande estudioso, um leitor atento dos mestres, tanto do esporte quanto da administração, como John Wooden, Winston Churchill e James Hunter. Retira deles o que cada um tem de melhor e, nas quadras, testa esses ensinamentos, incorporando alguns, descartando outros, adaptando muitos. Bernardinho revela por inteiro o "segredo" que fez dele um dos palestrantes mais requisitados por grandes empresas em busca de um diferencial competitivo no mundo dos negócios.`
+    },
+    {
+        title: "Uzumaki 3a Edição (atual) - Reimpressão",
+        image: "books/uzumaki-junjiito.jpg",
+        author: "Junji Ito",
+        link: "https://amzn.to/47feAtr",
+        topSeller: false,
+        itemType: "book",
+        genre: "manga",
+        newcome: "Pré-Vendas",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,9",
+        description: `Acontecimentos grotescos começam a surgir em Kurôzu, a pequena localidade onde Kirie Goshima nasceu e cresceu. O vento sopra em curvas, folhas e ramos se enrolam e a fumaça expelida do crematório sobe desenhando redemoinhos funestos. Logo os humanos também são afetados pelo fenômeno helicoidal. Cabelos se revolvem em círculos e corpos se retorcem... Kirie tenta escapar da cidade para fugir da maldição da espiral...
+
+        Este clássico mangá de terror, que profetizou o clima claustrofóbico e a desigualdade da atual sociedade japonesa, é uma das principais obras do mestre do horror, Junji Ito.`
+    },
+    {
+        title: "Verity",
+        image: "books/verity-colleenhoover.jpg",
+        author: "Colleen Hoover",
+        link: "https://amzn.to/3MOhIoD",
+        topSeller: false,
+        itemType: "book",
+        genre: "suspense",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: "",
+        price: "",
+        oldPrice: "",
+        classification: "4,8",
+        description: `Um casal apaixonado. Uma intrusa. Três mentes doentias. Finalista do prêmio Goodreads como melhor romance de 2019, Verity é o primeiro thriller de Colleen Hoover e deixa os leitores envolvidos do começo ao fim.
+
+        Hoover é um fenômeno editorial inegável. Acumulando não só milhões de visualizações no TikTok, mas também milhões de exemplares vendidos, ela é a autora mais vendida no Brasil, com suas obras emocionantes que já encantaram milhares de leitores no mundo todo.
+        
+         
+        
+        Verity Crawford é a autora best-seller por trás de uma série de sucesso. Ela está no auge de sua carreira, aclamada pela crítica e pelo público, no entanto, um súbito e terrível acidente acaba interrompendo suas atividades, deixando-a sem condições de concluir a história... E é nessa complexa circunstância que surge Lowen Ashleigh, uma escritora à beira da falência convidada a escrever, sob um pseudônimo, os três livros restantes da já consolidada série.
+        
+        Para que consiga entender melhor o processo criativo de Verity com relação aos livros publicados e, ainda, tentar descobrir seus possíveis planos para os próximos, Lowen decide passar alguns dias na casa dos Crawford, imersa no caótico escritório de Verity - e, lá, encontra uma espécie de autobiografia onde a escritora narra os fatos acontecidos desde o dia em que conhece Jeremy, seu marido, até os instantes imediatamente anteriores a seu acidente - incluindo sua perspectiva sobre as tragédias ocorridas às filhas do casal.
+        
+        Quanto mais o tempo passa, mais Lowen se percebe envolvida em uma confusa rede de mentiras e segredos, e, lentamente, adquire sua própria posição no jogo psicológico que rodeia aquela casa. Emocional e fisicamente atraída por Jeremy, ela precisa decidir: expor uma versão que nem ele conhece sobre a própria esposa ou manter o sigilo dos escritos de Verity?
+        
+        Em Verity, Colleen Hoover se afasta do estilo que a consagrou, os romances, para se aventurar em um suspense psicológico que deixou todo o mercado editorial sem palavras de tão avassalador. Através de uma narrativa perturbadora e chocante, Verity explora o lado mais sombrio das relações humanas deixando uma surpresinha chocante no final.`
     },
 ]
