@@ -38,8 +38,43 @@ document.querySelectorAll('.category-option').forEach(option => {
         }
 
         renderProducts();
+        updateSelectedCategoriesHTML();
+        console.log(selectedSpecialCategories)
     });
 });
+
+// Função para criar elementos HTML com as categorias selecionadas
+function createSelectedCategoriesHTML(selectedCategory) {
+    const categoryDiv = document.createElement("div");
+    categoryDiv.className = "selected-category-box";
+    
+    const categorySpan = document.createElement("span");
+    categorySpan.textContent = selectedCategory;
+
+    const categoryClose = document.createElement("a");
+    categoryClose.textContent = "x";
+    categoryClose.className = selectedCategory; // Use o nome da categoria selecionada como a classe
+
+    categoryDiv.appendChild(categorySpan);
+    categoryDiv.appendChild(categoryClose);
+
+    return categoryDiv;
+}
+
+// Função para atualizar os elementos HTML com as categorias selecionadas
+function updateSelectedCategoriesHTML() {
+    const selectedCategoriesContainer = document.querySelector('.selected-categories'); // Selecione o elemento com a classe 'selected-categories'
+
+    // Limpe o conteúdo atual do container
+    selectedCategoriesContainer.innerHTML = '';
+
+    // Crie elementos HTML para cada categoria selecionada
+    selectedSpecialCategories.forEach(category => {
+        const categoryElement = createSelectedCategoriesHTML(category);
+        selectedCategoriesContainer.appendChild(categoryElement);
+    });
+}
+
 
 
 // Array para rastrear as opções de streaming selecionadas

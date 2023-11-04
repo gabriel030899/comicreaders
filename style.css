@@ -438,6 +438,11 @@ nav {
     text-decoration: underline;
     font-size: 25px;
 }
+/*Style the slogan UP text*/
+#telegram-text-underline {
+    font-size: 25px;
+    color: #009bc2;
+}
 
 @media (max-width: 800px) {
     #comic-reader-welcome-text{
@@ -508,6 +513,17 @@ nav {
 }
 
 
+#trending-books{
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overscroll-behavior-x:contain;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
 #top-sellers-books{
     display: grid;
     grid-auto-flow: column;
@@ -632,6 +648,10 @@ nav {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
+.button-inscrever a{
+    text-decoration: none;
+    color: white;
+}
 .button-inscrever:hover {
     color: #dd4e50;
     background-color: #ffc0c0;
@@ -708,6 +728,13 @@ nav {
     height: 100%;
 }
 
+.kindle-banner-section{
+    background-color: #272727cb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 /* Style the teacher image */
 #universe-image {
     width: 350px;
@@ -716,12 +743,27 @@ nav {
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
 }
+#kindle-images {
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+}
+@media (max-width: 800px){
+    #kindle-images {
+        width: 100%;
+    }
+}
 
-#first-image-universe {
+#kindle-image img{
     width: 100%; /* Set the width to 100% to fill the container horizontally */
     height: 100%; /* Set the height to auto to maintain the original aspect ratio */
     object-fit: cover;
     
+}
+#first-image-universe {
+    width: 100%; /* Set the width to 100% to fill the container horizontally */
+    height: 100%; /* Set the height to auto to maintain the original aspect ratio */
+    object-fit: cover;
 }
 
 /*Style the who we are text description*/
