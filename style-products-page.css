@@ -433,6 +433,12 @@ nav {
     background-color: #000000ba;
 }
 
+@media (max-width:1200px){
+    .all-books-gallery-top h2{
+        width: 100%!important;
+        justify-content: center!important;
+    }
+}
 @media (max-width:1050px){
     .main-content{
         height: auto!important;
@@ -447,20 +453,50 @@ nav {
         margin: 2px;
         height: auto!important;
     }
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semi-transparente */
+        z-index: 10;
+    }
     
+    .modal-content {
+        width: 80%!important;
+        height: 80%!important;
+    }
+    
+    .modalContent img{
+        width: 40%!important;
+        height: auto!important;
+        margin-bottom: 10px!important;
+    }
+    .productSelected{
+        display: flex;
+        flex-direction: column;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    #productDescription{
+        width: 90%;
+    }
+    .productBuy{
+        height: auto!important;
+    }
+    .productInfo h3{
+        height: 30px!important;
+    }
     .left-nav-filters{
         display: none!important;
     }
     .filters-sandwich{
         display: flex!important;
     }
-    .all-books-gallery-top h2{
-        width: 100%!important;
-        justify-content: center!important;
-    }
     #search-bar-books-gallery{
         width: 100%!important;
-        
     }
     ::-webkit-scrollbar{
     width: 0px;
@@ -474,6 +510,42 @@ nav {
     }
     .products-show div{
         width: 200px!important;
+    }
+    .bottom-page-nav{
+        height: 120px;
+    }
+    .pagination{
+        width: auto!important;
+    }
+    #currentPage{
+        width: 80px!important;
+        text-align: center;
+    }
+}
+@media (max-width:400px){
+    .main-content{
+        height: auto!important;
+    }
+    .all-books-gallery-top h2{
+        display: none!important;
+    }
+    .products-show{
+        justify-content: space-around!important;
+        height: auto!important;
+    }
+    .products-show div{
+        width: 150px!important;
+    }
+    .product img{
+        width: 100px!important;
+    }
+    .product h3{
+        font-size: 15px!important;
+        text-align: center;
+    }
+    .product p{
+        font-size: 14px!important;
+        text-align: center;
     }
     .bottom-page-nav{
         height: 120px;
