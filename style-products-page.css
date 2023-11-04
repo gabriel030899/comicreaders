@@ -518,17 +518,42 @@ nav {
 .genres{
     height: 550px;
 }
+.genres-li label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .newcomes-filters ul{
     height: 80px;
+}
+.newcomes-filters li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .format-filters ul{
     height: 150px;
 }
+.format-filters li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .language-filters ul{
     height: 80px;
 }
+.language-filters li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .price-filters ul{
     height: 200px;
+}
+.price-filters li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-content{

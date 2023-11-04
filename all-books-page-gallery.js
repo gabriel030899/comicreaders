@@ -38,7 +38,6 @@ document.querySelectorAll('.category-option').forEach(option => {
         }
 
         renderProducts();
-        updateSelectedCategoriesHTML();
         console.log(selectedSpecialCategories)
     });
 });
