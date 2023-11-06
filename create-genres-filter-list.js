@@ -10,6 +10,7 @@ export function createGenresElement(genre) {
     productInput.type = "checkbox";
     productInput.name = genre.name;
     productInput.className = "genres-inputs";
+    productInput.id = "genres-"+ genre.name;
 
     // Anexe a caixa de seleção e o texto ao rótulo
     label.appendChild(productInput);

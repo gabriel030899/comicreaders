@@ -76,6 +76,27 @@ nav {
     width: auto;
     height: 300px;
 }
+.promotion-filters{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.promotion-filters p{
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+    background-color: #009bc2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.promotion-filters p:hover{
+    background-color: #005e75;
+}
 .promotion{
     display: flex;
     justify-content: center!important;

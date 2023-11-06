@@ -10,6 +10,24 @@ const actualPage = document.getElementById('currentPage');
 const totalPages = Math.ceil(products.length / itemsPerPage);
 actualPage.textContent = currentPage + " - " + totalPages;
 
+
+// Obter o valor da variável "promotion" da URL
+const urlParams = new URLSearchParams(window.location.search);
+let promotionValue = urlParams.get('promotion');
+
+// Selecione o elemento da opção "Black Friday" pelo ID
+const promotionButton = document.getElementById('promotionButton');
+
+// Adicione um evento de clique à opção "Black Friday"
+promotionButton.addEventListener('click', function() {
+    // Defina a variável com o valor "Black Friday"
+    let promotionValue = 'Black Friday';
+
+    // Redirecione o usuário para a outra página com a variável na URL
+    window.location.href = 'products-search-page.html?promotion=' + encodeURIComponent(promotionValue);
+});
+
+
 // Objeto para rastrear os filtros selecionados
 const filters = {
     genres: [],
@@ -105,7 +123,10 @@ function filterProducts() {
             selectedSpecialCategories.length === 0 || product.specialCategory.some(s => selectedSpecialCategories.includes(s))
         ));
 
-        return matchGenres && matchNewcomes && matchFormats && matchLanguages && matchPrices && matchItemType && matchSearchQuery && matchStreaming && matchCategory;
+        // Verificar o filtro com base na variável "promotion"
+        const matchPromotion = promotionValue === null || product.promotion === promotionValue;
+
+        return matchGenres && matchNewcomes && matchFormats && matchLanguages && matchPrices && matchItemType && matchSearchQuery && matchStreaming && matchCategory && matchPromotion;
     });
 
     return filteredProducts;
@@ -162,6 +183,7 @@ function nextPage() {
     goToPage(currentPage + 1);
     actualPage.textContent = currentPage + " - " + totalPages;
 }
+
 
 // Obter botões de página anterior e próxima
 const prevPageBtn = document.getElementById('prevPage');
@@ -266,6 +288,36 @@ closeFilter.addEventListener("click", function() {
 window.addEventListener("load", updateFilterNavDisplay);
 window.addEventListener("resize", updateFilterNavDisplay);
 
+
+
+// Verifique se a página foi carregada com a variável "promotion"
+if (promotionValue !== null) {
+    // Defina a variável no texto do botão "Black Friday"
+    promotionButton.querySelector('a').textContent = promotionValue;
+}
+// Verifique se a variável "promotion" existe e possui um valor
+if (promotionValue !== null) {
+    const promotionFilters = document.querySelector('.promotion-filters');
+    
+    // Crie o elemento <p>
+    const promotionText = document.createElement('p');
+    promotionText.textContent = promotionValue + " x";
+
+    // Adicione o elemento <p> à div .promotion-filters
+    promotionFilters.appendChild(promotionText);
+
+    // Adicione um ouvinte de eventos para remover o valor da variável ao clicar no <p>
+    promotionText.addEventListener('click', function() {
+        // Remova o valor da variável
+        promotionValue = null;
+
+        // Remova o elemento <p> da div .promotion-filters
+        promotionFilters.removeChild(promotionText);
+
+        // Atualize a página para refletir a remoção do filtro
+        window.location.href = 'products-search-page.html';
+    });
+}
 
 
 // Inicialize a galeria com a primeira página
