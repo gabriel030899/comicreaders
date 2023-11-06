@@ -76,6 +76,27 @@ nav {
     width: auto;
     height: 300px;
 }
+.promotion{
+    display: flex;
+    justify-content: center!important;
+    align-items: center!important;
+    width: 40%!important;
+    height: 20px!important;
+    padding: 0!important;
+    margin: 0!important;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    border-radius: 20px 0 0 20px;
+}
+.product{
+    position: relative;
+}
+.promotion p{
+    font-size: 12px;
+    margin: 0!important;
+    color: white;
+}
 .productSelected{
     width: 100%;
     height: 100%;

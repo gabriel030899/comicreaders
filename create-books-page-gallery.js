@@ -1,3 +1,4 @@
+// CRIAR MODAL DO PRODUTO SELECIONADO
 export function    createSelectedProduct(product) {
     
     const productDiv = document.createElement("div");
@@ -79,10 +80,33 @@ export function    createSelectedProduct(product) {
     productInfo.appendChild(productDiv);
 };
 
+
+//CRIAR ITENS NA GALERIA
 export  function    createBooksElement(product) { 
     
     const productDiv = document.createElement("div");
     productDiv.className = "product";
+
+    
+
+    const productPromotion = document.createElement("div");
+    productPromotion.className = "promotion";
+
+    if(product.promotion != ""){
+        productPromotion.style.display = "flex";
+    }else{
+        productPromotion.style.display = "none";
+    }
+    
+    if(product.promotion === "Black Friday"){
+    productPromotion.style.backgroundColor = "#262626";
+    productPromotion.style.color = "yellow";
+    }else{
+    productPromotion.style.backgroundColor = "#009bc2";
+    }
+
+    const promotionValue = document.createElement("p");
+    promotionValue.textContent = product.promotion;
 
     const productImage = document.createElement("img");
     productImage.src = product.image;
@@ -118,6 +142,8 @@ export  function    createBooksElement(product) {
     productLink.textContent = "Mais detalhes";
     
 
+    productDiv.appendChild(productPromotion);
+    productPromotion.appendChild(promotionValue);
     productDiv.appendChild(productImage);
     productDiv.appendChild(productTitle);
     productDiv.appendChild(productauthor);
