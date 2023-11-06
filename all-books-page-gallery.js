@@ -229,6 +229,21 @@ document.querySelectorAll('.language-filters input').forEach(checkbox => {
     });
 });
 
+    // Seu código JavaScript aqui
+    const filterNav = document.querySelector(".left-nav-filters");
+    const closeFilter = document.querySelector("#closeFilters");
+    const openFilter = document.querySelector("#filterIcon");
+
+    openFilter.addEventListener("click", function() {
+        filterNav.style.display = "flex";
+        filterNav.style.animation = `filterNavFade 0.5s ease forwards 0.3s`
+    });
+
+    closeFilter.addEventListener("click", function() {
+        filterNav.style.display = "none";
+    });
+
+
 
 // Inicialize a galeria com a primeira página
 renderProducts();

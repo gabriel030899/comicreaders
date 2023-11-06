@@ -137,9 +137,13 @@ nav {
     font-size: 20px;
     cursor: pointer;
 }
+#closeFilters{
+    font-size: 40px;
+    top: 0px;
+}
 
 .close:hover {
-    color: #ff0000; /* Cor do ícone de fechar quando o mouse estiver sobre ele */
+    color: #5f67f5; /* Cor do ícone de fechar quando o mouse estiver sobre ele */
 }
 
 /* Style the logo container */
@@ -413,6 +417,16 @@ nav {
         transform: translateX(0);
     }
 }
+@keyframes filterNavFade{
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 .mobile-menu.active .line1{
     transform: rotate(-45deg) translate(-8px, 8px)
@@ -453,6 +467,7 @@ nav {
         margin: 2px;
         height: auto!important;
     }
+    
     .modal {
         display: none;
         position: fixed;
@@ -490,7 +505,63 @@ nav {
         height: 30px!important;
     }
     .left-nav-filters{
-        display: none!important;
+        display: none;
+       width: 100%;
+       height: auto!important;
+       position: absolute;
+       top: 70px;
+       z-index: 20;
+       background-color: rgb(52, 52, 52);
+       border-radius: 0;
+       transform: translateX(-100%); /* Comece fora da tela */
+       transition: transform 0.3s ease;   
+    }
+    .left-nav-filters.active {
+        transform: translateX(0); /* Move o elemento de volta para a posição original */
+    }
+    .content-filters{
+        position: relative;
+    }
+    .content-filters input {
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .special-categories {
+        height: auto!important;
+    }
+    .special-categories li {
+        margin: 10px 0 20px 0;
+    }
+    .special-categories li a{
+        font-size: 18px;
+    }
+    .genres{
+        height: auto!important;
+    }
+    .genres-li label{
+        height: 40px;
+        font-size: 18px;
+    }
+    .newcomes-filters{
+        height: auto!important;
+    }
+    .newcomes-filters li{
+        height: 40px;
+        font-size: 18px;
+    }
+    .format-filters{
+        height: auto!important;
+    }
+    .format-filters li{
+        height: 40px;
+        font-size: 18px;
+    }
+    .language-filters{
+        height: auto!important;
+    }
+    .language-filters li{
+        height: 40px;
+        font-size: 18px;
     }
     .filters-sandwich{
         display: flex!important;
