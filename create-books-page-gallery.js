@@ -170,22 +170,7 @@ export  function    createBooksElement(product) {
 
     });
 
-    document.addEventListener("DOMContentLoaded", function() {
-        // Seu código JavaScript aqui
-        const filterNav = document.querySelector(".left-nav-filters");
-        const closeFilter = document.querySelector("#closeFilters");
-        const openFilter = document.querySelector("#filterIcon");
-    
-        openFilter.addEventListener("click", function() {
-            filterNav.style.display = "flex";
-        });
-    
-        closeFilter.addEventListener("click", function() {
-            filterNav.style.display = "none";
-        });
-    });
 
-    
     return productDiv;
 };
 

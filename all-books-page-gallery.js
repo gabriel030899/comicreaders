@@ -36,9 +36,9 @@ document.querySelectorAll('.category-option').forEach(option => {
             selectedSpecialCategories.push(option.classList[0]);
             option.classList.add('selected-category'); // Adicione a classe de destaque ao elemento option
         }
-
+        currentPage = 1; // Redefinir a página atual para 1 ao renderizar produtos
+        actualPage.textContent = currentPage + " - " + totalPages;
         renderProducts();
-        console.log(selectedSpecialCategories)
     });
 });
 
@@ -61,7 +61,8 @@ document.querySelectorAll('.streaming-option').forEach(option => {
             selectedStreamings.push(option.classList[0]);
             option.querySelector('span').classList.add('selected-streaming'); // Adicione a classe de destaque
         }
-
+        currentPage = 1; // Redefinir a página atual para 1 ao renderizar produtos
+        actualPage.textContent = currentPage + " - " + totalPages;
         renderProducts();
     });
 });
@@ -73,6 +74,8 @@ const searchBar = document.getElementById("search-bar-books-gallery");
 searchBar.addEventListener("input", function () {
     const searchQuery = searchBar.value.toLowerCase();
     filters.searchQuery = searchQuery;
+    currentPage = 1; // Redefinir a página atual para 1 ao renderizar produtos
+    actualPage.textContent = currentPage + " - " + totalPages;
     renderProducts();
 });
 
@@ -155,6 +158,7 @@ function previousPage() {
 
 // Função para ir para a próxima página
 function nextPage() {
+    console.log(currentPage); // Adicione esta linha para depuração
     goToPage(currentPage + 1);
     actualPage.textContent = currentPage + " - " + totalPages;
 }
@@ -180,6 +184,8 @@ document.querySelectorAll('.genres input').forEach(checkbox => {
                 filters.genres.splice(index, 1);
             }
         }
+        currentPage = 1; // Redefinir a página atual para 1 ao renderizar produtos
+        actualPage.textContent = currentPage + " - " + totalPages;
         renderProducts();
     });
 });
@@ -195,6 +201,8 @@ document.querySelectorAll('.newcomes-filters input').forEach(checkbox => {
                 filters.newcomes.splice(index, 1);
             }
         }
+        currentPage = 1; // Redefinir a página atual para 1 ao renderizar produtos
+        actualPage.textContent = currentPage + " - " + totalPages;
         renderProducts();
     });
 });
@@ -210,6 +218,8 @@ document.querySelectorAll('.format-filters input').forEach(checkbox => {
                 filters.formats.splice(index, 1);
             }
         }
+        currentPage = 1; // Redefinir a página atual para 1 ao renderizar produtos
+        actualPage.textContent = currentPage + " - " + totalPages;
         renderProducts();
     });
 });
@@ -225,6 +235,8 @@ document.querySelectorAll('.language-filters input').forEach(checkbox => {
                 filters.languages.splice(index, 1);
             }
         }
+        currentPage = 1; // Redefinir a página atual para 1 ao renderizar produtos
+        actualPage.textContent = currentPage + " - " + totalPages;
         renderProducts();
     });
 });
