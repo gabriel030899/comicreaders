@@ -598,9 +598,6 @@ nav {
     }
 }
 @media (max-width:400px){
-    .main-content{
-        height: auto!important;
-    }
     .all-books-gallery-top h2{
         display: none!important;
     }
@@ -1076,18 +1073,6 @@ nav {
 }
 .pagination a {
     scroll-behavior: smooth; /* Ativa a rolagem suave */
-}
-
-
-
-
-
-
-
-@media (max-width: 800px){
-    .pg-footer{
-        margin-top: 20px;
-    }
 }
 
 .pg-footer {
