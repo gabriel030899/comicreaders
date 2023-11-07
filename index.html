@@ -31,6 +31,7 @@
             <ul id="top-list">
                 <li class="top-list-links" id="promotionButton"><a href="#">Black Friday</a></li>
                 <li class="top-list-links"><a href="products-search-page.html">Livros</a></li>
+                <li class="top-list-links"><a href="book-suggestion-page.html">Descubra</a></li>
                 <li class="top-list-links"><a href="https://t.me/+VNyhSJy3WzpmOTcx" target="_blank">Suporte</a></li>
             </ul>
         </nav>
@@ -261,19 +262,7 @@
     
       gtag('config', 'AW-11384513355');
     </script>
-    <script>
-      // Selecione o elemento da opção "Black Friday" pelo ID
-const promotionButton = document.getElementById('promotionButton');
-
-// Adicione um evento de clique à opção "Black Friday"
-promotionButton.addEventListener('click', function() {
-    // Defina a variável com o valor "Black Friday"
-    const promotionValue = 'Black Friday';
-
-    // Redirecione o usuário para a outra página com a variável na URL
-    window.location.href = 'products-search-page.html?promotion=' + encodeURIComponent(promotionValue);
-});
-    </script>
+    <script src="promotion-button-redirect.js"></script>
     
 </body>
 

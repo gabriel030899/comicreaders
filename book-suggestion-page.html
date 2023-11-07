@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
     <title>Comic Readers</title>
     <link rel="icon" type="image/png" href="assets/logos/comic_reader_logo.png" />
-    <link rel="stylesheet" href="style-products-page.css">
+    <link rel="stylesheet" href="style-suggestion-page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -29,7 +29,7 @@
         <nav>
             <ul id="top-list">
                 <li id="promotionButton" class="top-list-links"><a href="#">Black Friday</a></li>
-                <li class="top-list-links"><a href="#">Livros</a></li>
+                <li class="top-list-links"><a href="products-search-page.html">Livros</a></li>
                 <li class="top-list-links"><a href="book-suggestion-page.html">Descubra</a></li>
                 <li class="top-list-links"><a href="https://t.me/+VNyhSJy3WzpmOTcx" target="_blank">Suporte</a></li>
             </ul>
@@ -41,132 +41,51 @@
       </div>
     </header>
     <main>
-      <div id="modal" class="modal">
-        <div class="modal-content">
-            <span id="closeModal" class="close">&times;</span>
-            <div class="modalContent">
-              
-            </div>
-        </div>
-      </div>
-        
-        <div class="left-nav-filters">
-          <div class="content-filters">
-            <span id="closeFilters" class="close">&times;</span>
-            <div class="promotion-filters">
-
-            </div>
-            <section class="special-categories-filters">
-              <h3>Categorias Especiais</h3>
-              <ul class="special-categories">
-
-              </ul>
-            </section>
-            <section class="genre-filters">
-                <h3>Gêneros</h3>
-                <ul class="genres">
-
-                </ul>
-            </section>
-            <section class="newcomes-filters">
-                <h3>Novidades</h3>
-                <ul>
-                    <li><input type="checkbox" name="lancamento" id="newcomes-lancamento">Lançamentos</input></li>
-                    <li><input type="checkbox" name="pre-venda" id="newcomes-pre-venda">Pré-Vendas</input></li>
-                </ul>
-            </section>
-            <section class="format-filters">
-                <h3>Formato</h3>
-                <ul>
-                    <li><input type="checkbox" name="capadura" id="format-capadura">Capa Dura</input></li>
-                    <li><input type="checkbox" name="capacomum" id="format-capacomum">Capa Comum</input></li>
-                    <li><input type="checkbox" name="ebook" id="format-ebook">eBook</input></li>
-                    <li><input type="checkbox" name="boxekit" id="format-boxekit">Box e Kits</input></li>
-                </ul>
-            </section>
-            <section class="language-filters">
-                <h3>Idioma</h3>
-                <ul>
-                    <li><input type="checkbox" name="portugues" id="language-portugues">Português</input></li>
-                    <li><input type="checkbox" name="ingles" id="language-ingles">Inglês</input></li>
-                </ul>
-            </section>
-            <!-- <section class="price-filters">
-                <h3>Preços</h3>
-                <ul>
-                    <li><input type="checkbox" name="" id="">Até R$20</input></li>
-                    <li><input type="checkbox" name="" id="">R$20 a R$40</input></li>
-                    <li><input type="checkbox" name="" id="">R$40 a R$60</input></li>
-                    <li><input type="checkbox" name="" id="">R$60 a R$80</input></li>
-                    <li><input type="checkbox" name="" id="">R$80 a R$100</input></li>
-                    <li><input type="checkbox" name="" id="">Mais de R$100</input></li>
-                </ul>
-            </section> -->
-          </div>  
-          <div class="minimize-filters">
-            <img src="assets/icons/icons8-back-64.png" alt="">
-          </div>
-          
-        </div>
         <div class="main-content">
-            
-            <div class="streamings-filter">
-
-                <h2>Procure livros por streaming</h2>
-                <div class="streaming-options">
-                  <div class="netflix streaming-option" >
-                    <a class="bn39" href="#"><span class="bn39span">Netflix</span></a>
-
-                  </div>
-                  <div class="amazonprime streaming-option">
-                    <a class="bn39" href="#"><span class="bn39span">Prime</span></a>
-
-                  </div>
-                  <div class="disneyplus streaming-option">
-                    <a class="bn39" href="#"><span class="bn39span">Disney +</span></a>
-
-                  </div>
-                  <div class="starplus streaming-option">
-                    <a class="bn39" href="#"><span class="bn39span">Star +</span></a>
-
-                  </div>
-                  <div class="appletv streaming-option">
-                    <a class="bn39" href="#"><span class="bn39span">Apple TV</span></a>
-
-                  </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span id="closeModal" class="close">&times;</span>
+                    <div class="modalContent">
+                      
+                    </div>
+                </div>
+              </div>
+            <div class="suggestion-search">
+                <div class="suggestion-title">
+                    <h1>Difícil decidir sua próxima aventura, não é mesmo?</h1>
+                    <h2>Não tem problema, estamos aqui para solucionar seu problema e de forma muito simples.</h2>    
+                </div>
+                <div class="book-choosing">
+                    <div class="book-one">
+                        <h3>Primeiro, selecione um livro que você amou ler:</h3>
+                        <!-- Campo de pesquisa -->
+                        <input type="text" class="input-search" id="searchInputOne" placeholder="Pesquisar por título do livro">
+    
+                        <!-- Lista de opções de livros -->
+                        <div id="optionsListOne" class="optionsList"></div>
+                    </div>
+                    <div class="book-two">
+                        <h3>Agora, selecione um segundo livro que você amou ler:</h3>
+                        <!-- Campo de pesquisa -->
+                        <input type="text" class="input-search" id="searchInputTwo" placeholder="Pesquisar por título do livro">
+    
+                        <!-- Lista de opções de livros -->
+                        <div id="optionsListTwo" class="optionsList"></div>
+                    </div>
                 </div>
             </div>
-
-            <!-- <div class="characters-filter">
-                <h2>Procure livros por personagem</h2>
-                <div class="characters-options">
+            <div class="books-suggested-gallery">
+                <div class="suggested-title">
+                    <h2>Novos Universos</h2>
+                    
+                </div>
+                <div class="suggested-books">
 
                 </div>
-            </div> -->
-
-            <div class="products-show-gallery" id="show-gallery">
-              <div class="all-books-gallery-top">
-                <div class="filters-sandwich">
-                  <img src="assets/icons/icons8-filter-50.png" id="filterIcon" alt="Filtros">
-                </div>
-                <h2>Todos os livros</h2>
-                <input id="search-bar-books-gallery" type="search" placeholder="Procure no universo...">
-                <i class="fa fa-search search-icon"></i>
-              </div>
-              <div class="products-show">
-
-              </div>
-              <div class="bottom-page-nav">
-                <div class="pagination">
-                  <a href="#top-list"><button id="prevPage">Anterior</button></a>
-                  <span id="currentPage"></span>
-                  <a href="#top-list"><button id="nextPage">Próxima</button></a>
-                </div>  
-              </div>
-              
             </div>
-            
-
+            <div class="selected-book-info">
+                
+            </div>
         </div>
     </main>
     <div class="pg-footer">
@@ -253,10 +172,8 @@
       </div>
 
 
-    <script type="module" src="all-genres.js"></script> 
-    <script type="module" src="all-special-categories.js"></script> 
     <script type="module" src="top-searchbar.js"></script> 
-    <script type="module" src="all-books-page-gallery.js"></script> 
+    <script type="module" src="book-search-dropdown.js"></script> 
     <script src="mobile-navbar.js"></script> 
     <script src="top-search-list.js"></script>
     <script src="pagination-smooth-transition.js"></script>
