@@ -141,7 +141,7 @@ function combineSelectedProducts() {
         productsWithPriorities.sort((a, b) => a.priority - b.priority);
 
         // Obtenha os 10 primeiros produtos
-        const maxProductsToShow = Math.min(5, productsWithPriorities.length);
+        const maxProductsToShow = Math.min(6, productsWithPriorities.length);
 
         const topMatchingProducts = productsWithPriorities.slice(0, maxProductsToShow);
 
