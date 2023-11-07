@@ -556,8 +556,8 @@ nav {
        z-index: 20;
        background-color: rgb(52, 52, 52);
        border-radius: 0;
-       transform: translateX(-100%); /* Comece fora da tela */
-       transition: transform 0.3s ease;   
+       /* transform: translateX(-100%); */ /* Comece fora da tela */
+       /* transition: transform 0.3s ease;  */  
     }
     .left-nav-filters.active {
         transform: translateX(0); /* Move o elemento de volta para a posição original */
