@@ -277,7 +277,7 @@ function updateFilterNavDisplay() {
 
 openFilter.addEventListener("click", function() {
     filterNav.style.display = "flex";
-    filterNav.style.animation = `filterNavFade 0.5s ease forwards 0.3s`;
+    /* filterNav.style.animation = `filterNavFade 0.5s ease forwards 0.3s`; */
 });
 
 closeFilter.addEventListener("click", function() {
