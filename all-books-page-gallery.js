@@ -286,8 +286,8 @@ closeFilter.addEventListener("click", function() {
 
 // Verifique o tamanho da janela ao carregar a página e ao redimensionar
 window.addEventListener("load", updateFilterNavDisplay);
-window.addEventListener("resize", updateFilterNavDisplay);
-
+/* window.addEventListener("resize", updateFilterNavDisplay);
+ */
 
 
 // Verifique se a página foi carregada com a variável "promotion"
