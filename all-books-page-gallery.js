@@ -100,7 +100,12 @@ searchBar.addEventListener("input", function () {
 // Função para filtrar os produtos com base nos filtros selecionados
 function filterProducts() {
     const filteredProducts = products.filter(product => {
-        const matchGenres = filters.genres.length === 0 || filters.genres.includes(product.genre);
+        // Verificar se product.genre é uma array ou converter em uma array
+        const genres = Array.isArray(product.genre) ? product.genre : [product.genre];
+
+        const matchGenres = filters.genres.length === 0 || (
+            genres.some(selectedGenre => filters.genres.includes(selectedGenre))
+        );
         const matchNewcomes = filters.newcomes.length === 0 || filters.newcomes.includes(product.newcome);
         const matchFormats = filters.formats.length === 0 || filters.formats.includes(product.format);
         const matchLanguages = filters.languages.length === 0 || filters.languages.indexOf(product.language) !== -1;
@@ -111,14 +116,14 @@ function filterProducts() {
             (product.author && product.author.toLowerCase().includes(filters.searchQuery)) ||
             (product.language && product.language.toLowerCase().includes(filters.searchQuery)) ||
             (product.format && product.format.toLowerCase().includes(filters.searchQuery)) ||
-            (product.genre && product.genre.toLowerCase().includes(filters.searchQuery));
+            (genres && genres.some(genre => genre.toLowerCase().includes(filters.searchQuery))); // Usando a variável "genres" em vez de "product.genre"
 
         // Check if product.streaming exists and is an array
         const matchStreaming = !product.streaming || (Array.isArray(product.streaming) && (
             selectedStreamings.length === 0 || product.streaming.some(s => selectedStreamings.includes(s))
         ));
 
-        // Check if product.streaming exists and is an array
+        // Check if product.specialCategory exists and is an array
         const matchCategory = !product.specialCategory || (Array.isArray(product.specialCategory) && (
             selectedSpecialCategories.length === 0 || product.specialCategory.some(s => selectedSpecialCategories.includes(s))
         ));

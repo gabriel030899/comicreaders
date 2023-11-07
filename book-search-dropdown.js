@@ -97,29 +97,27 @@ window.addEventListener('click', (event) => {
 function combineSelectedProducts() {
     const bookSuggestionGallery = document.querySelector(".suggested-books");
     bookSuggestionGallery.innerHTML = ''; // Isso remove todos os elementos filhos da galeria
-    
+
     if (selectedProductOne && selectedProductTwo) {
         const authorOne = selectedProductOne.author;
-        const genreOne = selectedProductOne.genre;
+        const genresOne = Array.isArray(selectedProductOne.genre) ? selectedProductOne.genre : [selectedProductOne.genre];
         const authorTwo = selectedProductTwo.author;
-        const genreTwo = selectedProductTwo.genre;
-
+        const genresTwo = Array.isArray(selectedProductTwo.genre) ? selectedProductTwo.genre : [selectedProductTwo.genre];
 
         // Função para calcular a prioridade com base nas regras de prioridade
         function calculatePriority(product) {
             const { author, genre } = product;
 
-            if ((genre === genreOne || genre === genreTwo) && (author === authorOne || author === authorTwo)) {
+            const hasMatchingAuthor = author === authorOne || author === authorTwo;
+            const hasMatchingGenre = Array.isArray(genre) && (genre.some(g => genresOne.includes(g) || genresTwo.includes(g)));
+
+            if (hasMatchingAuthor && hasMatchingGenre) {
                 return 1; // Melhor prioridade se combinar gênero e autor de ambos
-            } else if ((genre === genreOne || genre === genreTwo) && (author === authorOne || author === authorTwo)) {
-                return 2; // Segunda melhor prioridade se combinar gênero de um e autor de ambos
-            } else if ((genre === genreOne || genre === genreTwo) || (author === authorOne || author === authorTwo)) {
-                return 3; // Terceira melhor prioridade se combinar autor de um ou gênero de um
-            } else if (genre === genreOne || genre === genreTwo) {
-                return 4; // Quarta melhor prioridade se combinar apenas gênero
+            } else if (hasMatchingAuthor || hasMatchingGenre) {
+                return 2; // Segunda melhor prioridade se combinar gênero de um ou autor de um
             }
 
-            return 5; // Pior prioridade por padrão
+            return 3; // Pior prioridade por padrão
         }
 
         // Filtrar os produtos com base nas prioridades especificadas
@@ -128,8 +126,8 @@ function combineSelectedProducts() {
             product.title !== selectedProductOne.title &&
             product.title !== selectedProductTwo.title &&
             (
-                (genreOne === product.genre || genreTwo === product.genre) ||
-                (authorOne === product.author || authorTwo === product.author)
+                (authorOne === product.author || authorTwo === product.author) ||
+                (Array.isArray(product.genre) && product.genre.some(g => genresOne.includes(g) || genresTwo.includes(g)))
             )
         );
 
@@ -157,7 +155,6 @@ function combineSelectedProducts() {
             const productElement = createBooksElement(product);
             bookSuggestionGallery.appendChild(productElement);
         });
-
     } else {
         console.log('Selecione dois livros para combinar.');
     }
