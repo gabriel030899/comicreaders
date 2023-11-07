@@ -91,7 +91,7 @@ itemType: "book",
         priceRange: "",
         streaming: [""],
         price: "",
-        promotion:"Black Friday",
+        promotion:"",
         oldPrice: "",
         classification: "4,7",
         specialCategory: [""], 
@@ -2110,5 +2110,547 @@ itemType: "book",
         Em uma narrativa impactante ― relatada de uma maneira sincera, hilariante e calorosa que apenas ele seria capaz de fazer ―, Matthew Perry conta sobre a família fragmentada que o criou (e que também o deixou por conta própria), o desejo por reconhecimento que o conduziu à fama e a constante sensação de vazio, que não seria preenchido nem mesmo ao ver seus maiores sonhos se tornarem realidade. Matthew apresenta também detalhes sobre a paz encontrada na sobriedade e como se sente a respeito da onipresença da série Friends, compartilhando histórias sobre colegas de elenco e outras celebridades que conheceu pelo caminho. Franco, autoconsciente e munido do seu humor característico, Perry retrata com vivacidade a batalha travada ao longa da vida contra o vício e o que o levava a essa escolha, apesar de ter conquistado tantas coisas ― tudo com que aparentemente alguém poderia sonhar.
         
         Amigos, Amores e Aquela Coisa Terrívelé um livro de memórias inesquecível, ao mesmo tempo íntimo e elucidador ― além de um conforto para aqueles que estão lutando para manter a sobriedade. Dolorosamente sincero, comovente e, ainda assim, incrivelmente engraçado, este é o livro pelo qual os fãs estavam esperando.`
-    }
+    },
+    {
+        title: "Orgulho e Preconceito",
+        image: "books/orgulhoepreconceito-janeausten.jpg",
+        author: "Jane Austen",
+        link: "https://amzn.to/3FOoOp6",
+        topSeller: true,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "eBook",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: [""], 
+        description: `Amores, amores. Casamento, à parte. Nos bailes de Netherfield, a iguaria principal só poderia ser uma: os bem-casados.
+ 
+
+
+        Ao contrário de sua mãe, que anima-se diante de qualquer bonitão com uma boa herança à vista, Elizabeth Bennet não se deixa levar pelas aparências. Antes de considerar qualquer um como um bom partido, para além de fortuna e propriedades, Lizzie investiga aspectos que considera muito mais importantes: reputação e caráter. Por isso, ao ser apresentada ao rico e arrogante Fitzwilliam Darcy, sua única reação é o desprezo. Conhecê-lo melhor, porém, pode abalar as perspectivas de Elizabeth.
+         
+        
+        
+        Vítima de suas próprias imperfeições e preconceitos, Elizabeth é uma das personagens mais fascinantes da literatura. Inteligente e observadora, ela encarna uma versão alternativa do feminino de sua época: uma mulher que não se conforma às regras do jogo social, mas que as questiona a todo instante. .
+         
+        
+        
+        A nova edição da Antofágica, traduzida por Carol Chiovatto, traz ilustrações exclusivas de Jess Vieira e apresentação da escritora Bruna Vieira. Nos posfácios, Sandra Guardini, professora titular de Literatura Inglesa e Comparada (USP), oferece um panorama da vida e de obra de Jane Austen, e Jaqueline Sant'ana, doutoranda em Sociologia (UFRJ), analisa a autora sob a perspectiva da chamada "literatura de mulherzinha". Isadora Sinay, formada em Cinema e doutora em Literatura (USP), faz uma análise das representações audiovisuais da obra da autora.`
+    },
+    {
+        title: "Trono de Vidro (Vol.1)",
+        image: "books/tronodevidro-sarahjmaas.jpg",
+        author: "Sarah J. Maas",
+        link: "https://amzn.to/3smoSJE",
+        topSeller: true,
+        trendingBook: true,
+        itemType: "book",
+        genre: "fantasia",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: [""], 
+        description: `A magia há muito abandonou Adarlan.  Um perverso rei governa, punindo impiedosamente as minorias rebeldes. Mas tudo pode mudar quando uma assassina é chamada para o castelo. Em Trono de vidro, livro que da início a série bestseller com mais de um milhão de cópias vendidas e legiões de fãs no mundo todo, Celaena tem uma perigosa missão que pode lhe garantir sua tão sonhada liberdade ou ser a sua sentença de morte.
+
+ 
+
+        Aos 18 anos uma prisioneira está cumprindo sua sentença. Ela é uma assassina, e a melhor de Adarlan. Aprisionada e fraca, ela está quase perdendo as esperanças, a sentença de morte é iminente, mas a jovem recebe uma proposta inesperada: representar o príncipe em uma competição com lutando contra os mais habilidosos assassinos e larápios do reino. Mas ela não diz sim apenas para matar, seu foco é obter sua liberdade de volta.
+        
+        Se derrotar os 23 assassinos, ladrões e soldados, será a campeã do rei e estará livre depois de servi-lo por alguns anos.
+        
+        Endovier é uma sentença de morte, e cada duelo em Adarlan será para viver ou morrer. Mas se o preço é ser livre, e ela está disposta a tudo.
+        
+        Seu nome é Celaena Sardothien. O príncipe herdeiro vai provocá-la, o capitão da guarda fará tudo para protegê-la. E uma princesa de terras distantes se tornará algo que Celaena jamais pensou ter novamente: uma amiga.
+        
+        Mas algo maligno habita o castelo - e está ali para matar. Quando os demais competidores começam a morrer, um a um e de maneira terrível, Celaena se vê mais uma vez envolvida em uma batalha pela sobrevivência e inicia uma jornada desesperada para desvendar a origem daquele mal antes que ele destrua o mundo dela. E sua única chance de ser livre.
+        
+        No ritmo dos livros de fantasia de Tolkien, o mundo de Celaena é aquele em que a magia é proibida e o poder é arrebatado pela ganância. A narrativa em terceira pessoa permite uma visão frequente de vários personagens (heróis e vilões), mas sem perder o foco da confiante e conflitante protagonista.
+        
+        Eleito um dos melhores livros do ano pela Amazon e best seller do New York Times, o universo de Trono de vidro começou a ganhar forma quando Sarah J. Maas pensou: e se Cinderela fosse uma assassina? E se fosse ao baile não para dançar com o príncipe, mas para matá-lo? Assim nasceu Celaena Sardothien, a heroína que conquistou milhares de leitores por todo o mundo.`
+    },
+    {
+        title: "Box O povo do ar",
+        image: "books/opovodoar-hollyblack.jpg",
+        author: "Holly Black",
+        link: "https://amzn.to/3MzcY66",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "fantasia",
+        newcome: "",
+        format: "Box e Kits",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,9",
+        specialCategory: [""], 
+        description: `Os três volumes da série O povo do ar e o spin-off reunidos pela primeira vez em um box com conteúdos especiais. O conto inédito “As irmãs perdidas”, o mapa de Elfhame atualizado no verso das capas, uma capa nova para O canto mais escuro da floresta, e brindes como uma cinta em formato de coroa de papel, marcadores, pôster exclusivo com uma fan art da Arda Arts e uma flâmula.
+
+ 
+
+        Na série O povo do ar, a autora best-seller Holly Black transporta os leitores para Reino das Fadas. Não aquelas dos contos clássicos, fadas que podem ser cruéis e mortais, especialmente se motivadas pelo poder. Uma aventura que mistura magia, intrigas palacianas e romance.`
+    },
+    {
+        title: "Os sete maridos de Evelyn Hugo",
+        image: "books/ossetemaridosdeevelynhugo-taylorjenkinsreid.jpg",
+        author: "Taylor Jenkins Reid",
+        link: "https://amzn.to/3StBadG",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: [""], 
+        description: `Com todo o esplendor que só a Hollywood do século passado pode oferecer, esta é uma narrativa inesquecível sobre os sacrifícios que fazemos por amor, o perigo dos segredos e o preço da fama.
+
+        Lendária estrela de Hollywood, Evelyn Hugo sempre esteve sob os holofotes ― seja estrelando uma produção vencedora do Oscar, protagonizando algum escândalo ou aparecendo com um novo marido… pela sétima vez. Agora, prestes a completar oitenta anos e reclusa em seu apartamento no Upper East Side, a famigerada atriz decide contar a própria história ― ou sua “verdadeira história” ―, mas com uma condição: que Monique Grant, jornalista iniciante e até então desconhecida, seja a entrevistadora. Ao embarcar nessa misteriosa empreitada, a jovem repórter começa a se dar conta de que nada é por acaso ― e que suas trajetórias podem estar profunda e irreversivelmente conectadas.
+        
+        “Evelyn Hugo faz Elizabeth Taylor parecer sem graça. Você vai rir com ela, chorar, sofrer, e então voltar para a primeira página e fazer tudo de novo.” ― Heather Cocks e Jessica Morgan, autoras de The Royal We`
+    },
+    {
+        title: "Os Dois Morrem no Final",
+        image: "books/osdoismorremnofinal-adam.jpg",
+        author: "Adam Silvera",
+        link: "",
+        topSeller: false,
+        trendingBook: true,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: [""], 
+        description: ``
+    },
+    {
+        title: "A Família Perfeita",
+        image: "books/afamiliaperfeita-lisajewell.jpg",
+        author: "Lisa Jewell",
+        link: "https://amzn.to/49qHRmT",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "suspense",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,4",
+        specialCategory: [""], 
+        description: `Um dos maiores sucessos da literatura de suspense nos últimos anos, A família perfeita chega ao Brasil com trama recheada de reviravoltas perturbadoras
+
+        Logo após seu vigésimo quinto aniversário, Libby Jones chega em casa e encontra a carta que esperou por toda a sua vida. Ao abri-la, a jovem tem apenas uma coisa em mente: enfim vai saber quem ela é.
+        
+        Em pouco tempo, Libby descobre não apenas quem são seus pais biológicos, mas também que é a única herdeira de uma mansão abandonada que vale milhões. Tudo na sua vida está prestes a mudar, mas o que ela não sabe é que outras pessoas também estavam aguardando esse dia ― e que seu destino está prestes a colidir com o delas.
+        
+        Vinte e cinco anos antes, a polícia foi ao casarão após receber o chamado de que havia um bebê chorando. Quando chegaram, os policiais encontraram uma menininha de dez meses, saudável, balbuciando alegremente em seu berço. Na cozinha, porém, jaziam três cadáveres em decomposição, todos vestidos de preto, ao lado de um bilhete rabiscado às pressas.
+        
+        A família perfeita acompanha a história de uma casa com um passado sinistro, em que o leitor vai em busca da verdade por trás de circunstâncias bizarras que se agravam a cada página.`
+    },
+    {
+        title: "O beijo do rio",
+        image: "books/obeijodorio-stefanovolp.jpg",
+        author: "Stefano Volp",
+        link: "https://amzn.to/3MvIIsJ",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "suspense",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,5",
+        specialCategory: [""], 
+        description: `As cortinas se abrem para um caso inesperado... Com protagonismo negro e bissexual, o eletrizante thriller psicológico de Stefano Volp traz a história de um jornalista que vai investigar a morte  de seu melhor amigo de infância, enquanto lida com visões desconcertantes, segredos perigosos e traumas do passado.
+
+        “O sucesso de Volp não é uma coincidência. Ele escancara fragilidades e faz os leitores se identificarem.” – Revista Rolling Stone
+        
+         Mergulhar nos pecados do passado pode ser uma viagem só de ida.  
+        
+        O solitário Daniel é um jornalista negro que escreve para a seção investigativa de uma revista independente. Ao saber da trágica morte de Romeu, seu melhor amigo de infância, ele decide voltar à sua cidade natal, Ubiratã, para investigar o caso, o qual a polícia prontamente concluiu ter sido suicídio.
+        
+        Após dez anos longe, Daniel se vê de volta à pequena cidade onde cresceu. Seu regresso à casa é problemático. Bissexual, ele sempre se sentiu deslocado naquele bairro separado do resto da cidade por um rio. A nova companhia de teatro, figuras políticas da cidade, os membros de uma seita religiosa e famílias que não querem ser incomodadas são viradas de cabeça para baixo com a presença do jornalista e sua investigação criminal.Há, também, algo do passado de Daniel de que ele não consegue – ou não quer – lembrar. Em vez de memórias, tem visões de um menino, que aparece para ele com mensagens indecifráveis. Agora, quanto mais se aproxima da verdade, mais visões tem e mais ele deve descobrir sobre si mesmo.`
+    },
+    {
+        title: "Os ausentes",
+        image: "books/osausentes-haylenbeck.jpg",
+        author: "Haylen Beck",
+        link: "https://amzn.to/471n08c",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "suspense",
+        newcome: "",
+        format: "eBook",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,1",
+        specialCategory: [""], 
+        description: `Os ausentes é um thriller emocionante e incrivelmente tenso sobre a luta desesperada de uma mãe para recuperar seus filhos.
+
+ 
+
+        Depois de anos de abuso, Audra Kinney reúne coragem para pegar seus dois filhos e deixar o marido. Quando uma amiga a convida para ir a San Diego, ela carrega o carro e segue para oeste. No meio do deserto do Arizona, o xerife de uma cidadezinha encontra uma desculpa para fazê-la parar e prendê-la.
+        
+        A partir daí tudo muda. Logo Audra está em todas as manchetes de jornal, e a história da polícia — de que ela não estava viajando com criança nenhuma, que deve ser louca ou até homicida — é aceita.
+        
+        Conforme os dias passam e o circo da imprensa está armado, Audra terá que tomar medidas extremas para encontrar seus filhos e provar que é vítima de uma armação. Cheio de segredos sombrios e reviravoltas de arrepiar, Os ausentes vai manter o leitor grudado nas páginas até a última linha.`
+    },
+    {
+        title: "O impulso",
+        image: "books/oimpulso-ashleyaudrain.jpg",
+        author: "Ashley Audrain",
+        link: "https://amzn.to/3MC4hrx",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,5",
+        specialCategory: [""], 
+        description: `O que você faria se seus filhos não fossem quem você esperava? O impulso é o romance mais viciante do ano, uma leitura que irá questionar tudo o que assumimos sobre maternidade, sobre aquilo que devemos aos nossos filhos e sobre o que acontece quando deixamos de acreditar em mulheres cujas histórias são incômodas.
+
+        Blythe Connor está decidida a ser a mãe perfeita, calorosa e acolhedora que nunca teve. Porém, no começo exaustivo da maternidade, ela descobre que sua filha Violet não se comporta como a maioria das crianças. Ou ela estaria imaginando? Seu marido Fox está certo de que é tudo fruto do cansaço e que essa é apenas uma fase difícil.
+        Conforme seus medos são ignorados, Blythe começa a duvidar da própria sanidade. Mas quando nasce Sam, o segundo filho do casal, a experiência de Blythe é completamente diferente, e até Violet parece se dar bem com o irmãozinho. Bem no momento em que a vida parecia estar finalmente se ajustando, um grave acidente faz tudo sair dos trilhos, e Blythe é obrigada a confrontar a verdade.
+        Neste eletrizante romance de estreia, Ashley Audrain escreve com maestria sobre o que os laços de família escondem e os dilemas invisíveis da maternidade, nos convidando a refletir: até onde precisamos ir para questionar aquilo em que acreditamos?`
+    },
+    {
+        title: "Amor corrompido (Twisted Love)",
+        image: "books/amorcorrompido-anahuang.jpg",
+        author: "Ana Huang",
+        link: "https://amzn.to/3SATKkp",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,5",
+        specialCategory: [""], 
+        description: `Conheça um dos maiores fenômenos literários do TikTok que cativou milhões de pessoas ao redor do mundo
+
+        Alex Volkov é um demônio abençoado com um rosto angelical e amaldiçoado por um passado do qual não consegue escapar.
+        A única coisa que o motiva é o desejo de vingança em razão de ter presenciado a tragédia que o assombra desde então. Não existe espaço na sua vida para o amor.
+        Mas quando ele é obrigado a tomar conta da irmã de seu melhor amigo, Alex sente algo de diferente em seu peito:
+        Uma rachadura.
+        Algo amolecendo.
+        Uma chama que pode virar seu mundo de cabeça pra baixo.
+        
+        Ava Chen é uma garota de espírito livre encurralada por pesadelos de uma infância da qual não se lembra.
+        Apesar de seu passado obscuro, ela nunca deixou de enxergar a beleza em tudo... inclusive no coração de um homem frio que não deveria desejar.
+        O melhor amigo de seu irmão.
+        Seu vizinho.
+        Seu redentor e sua perdição.
+        
+        O amor entre os dois nunca deveria ter acontecido, mas, quando acontece, revela segredos que podem destruir ambos... e tudo o que amam.`
+    },
+    {
+        title: "Punk 57",
+        image: "books/punk57-penelopedouglas.jpg",
+        author: "Penelope Douglas",
+        link: "https://amzn.to/3QoUdU1",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,6",
+        specialCategory: [""], 
+        description: `Autora best-seller do New York Times, Penelope Douglas, apresenta seu mais recente romance “New Adult”... “Nós éramos perfeitos juntos. Até nos conhecermos.” ┈♥┈♥┈♥┈♥┈♥┈♥┈♥┈♥┈Misha: Não posso deixar de sorrir com a letra da música em sua carta. Ela sente a minha falta. Na quinta série, minha professora organizou duplas com colegas de uma escola diferente. Pensando que eu era uma menina – por causa do meu nome – a outra professora me juntou com a sua aluna, Ryen. Minha professora – acreditando que Ryen era um garoto – concordou. Não demorou muito para descobrirmos o erro. E, em pouco tempo, estávamos discutindo sobre tudo. A melhor pizza para viagem. Android vs. iPhone. Se Eminem é ou não o melhor rapper de todos os tempos... E foi assim que começou. Nos sete anos seguintes, éramos só nós. Suas cartas são sempre escritas em papel preto com caneta prateada. Às vezes, recebo uma por semana ou três em um dia, mas eu preciso delas. Ela é a única que me mantém nos eixos, me acalma e aceita quem eu sou por inteiro. Nós só tínhamos três regras: nada de redes sociais, sem números de telefone e nenhuma fotografia. Nós tínhamos um lance bacana. Por que arruinar isso? Até eu deparar com uma foto de uma garota, online. Com o nome de Ryen, que ama a pizza do “Gallo” e idolatra seu iPhone. Quais eram as chances? Que se f*da. Preciso encontrá-la. Só não imaginava que odiaria o que descobri.┈♥┈♥┈♥┈♥┈♥┈♥┈♥┈♥┈ Ryen: Ele não escreve há três meses. Algo não está certo. Ele morreu? Foi preso? Conhecendo Misha, nem um dos dois seria um exagero. Sem ele por perto, estou ficando maluca. Preciso saber que alguém está me ouvindo. A culpa é minha. Devia ter pedido seu número de telefone, foto ou algo assim. Ele podia ter sumido para sempre. Ou poderia estar bem debaixo do meu nariz, e eu nem sequer desconfiava.`
+    },
+    {
+        title: "Mais quente que fogo: (Sucesso do Tik Tok)",
+        image: "books/maisquentequefogo-jenniferlarmentrout.jpg",
+        author: "Jennifer Armentrout",
+        link: "https://amzn.to/472Nc23",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: [""], 
+        description: `Aos dezessete anos, Layla só quer ser uma garota normal, mesmo sabendo que tem um dom, que é cobiçado e ao mesmo tempo uma maldição para ela. Tendo sido adotada e abrigada na casa dos Guardiões desde pequena, ela nutre uma paixão secreta por Zayne ― um guardião que, para sua decepção, a trata como irmã. Enquanto tenta se adaptar à vida na escola e aos dilemas de sua adolescência nada convencional, ela conhece Roth, um demônio que afirma conhecer seu dom e saber dos seus segredos. Em pouco tempo, ela se vê em meio a uma disputa entre guardiões e demônios que pode colocar em risco a existência da humanidade, e descobrirá que pode ser a causa desta batalha. Em qual lado deverá confiar? Conseguirá Layla resistir aos encantos de Roth, lidar com seu passado e, ao mesmo tempo, lutar para sobreviver em meio à caçada realizada por seus inimigos? Classificação indicativa: 16 anos`
+    },
+    {
+        title: "Birthday Girl",
+        image: "books/birthdaygirl-penelopedouglas.jpg",
+        author: "Penelope Douglas",
+        link: "https://amzn.to/47gDUzX",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: [""], 
+        description: `JORDAN
+        Ele me acolheu quando eu não tinha outro lugar para ficar.
+        Ele não me usa, me magoa ou se esquece de mim. Ele não me trata como nada, não me despreza, ou me faz sentir insegura.
+        Ele se lembra de mim, ri comigo e olha para mim. Ele me escuta, me protege e me enxerga. Sinto seus olhos em mim sobre a mesa do café da manhã, e meu coração dispara quando o ouço entrar na garagem depois do trabalho.
+        Preciso parar isso. Não pode acontecer.
+        Minha irmã me disse uma vez que, não existem homens bons, e se você encontrar um, ele provavelmente será comprometido.
+        Só que o comprometido aqui não é Pike Lawson.
+        Sou eu.
+        
+        PIKE
+        Eu a acolhi porque pensei que estava ajudando.
+        Ela prepararia algumas refeições e daria uma limpada na casa. Era um acordo simples.
+        Com o passar dos dias, porém, está se tornando tudo, menos simples. Tenho que parar de pensar nela e de prender a respiração toda vez que nos esbarramos pela casa. Não posso tocá-la, e eu não deveria querer.
+        Quanto mais me vejo cruzando o seu caminho, mais ela se torna parte de mim.
+        Mas não estamos livres para ceder a essa atração. Ela tem dezenove anos e eu trinta e oito.
+        E sou pai do namorado dela.
+        Infelizmente, os dois acabaram de se mudar para a minha casa.
+        
+        * BIRTHDAY GIRL é um romance contemporâneo, adequado para maiores de 18 anos.`
+    },
+    {
+        title: "A Obsessão do Italiano",
+        image: "books/aobsessaodoitaliano-ladynight.jpg",
+        author: "Lady Night 13",
+        link: "https://amzn.to/3MuPZZC",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "eBook",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,5",
+        specialCategory: [""], 
+        description: `SINOPSE
+        Alexei Dvorak é um inabalável consigliere da máfia. Atraído a uma armadilha ardilosa por equívoco, ele se vê enfeitiçado pela bela ragazza que lhe enviaram como presente. Mas ele sabe que tudo se trata de um artifício e se recusa a aceitá-la, mesmo que uma parte do seu corpo o deixe em êxtase com a bela bambolina.
+        
+        Antonella Ankys conheceu o desprezo e a rejeição desde muito jovem somente pelo fato de ser mulher, órfã de mãe e filha de um grande aliado da máfia. Ela foi criada em um convento com um único propósito: ser usada em algum momento como barganha em uma aliança vantajosa. Com seus planos frustrados, ela terá a missão peculiar de gerar um herdeiro do implacável e temível chefe dos Dvorak. Apesar da fúria feroz que esse nome carrega, ela não terá outra escapatória além de se submeter às suas vontades na cama e ao seu charme voraz.
+        
+        Ela terá que o tomar, e ele não deixará isso impune.
+        
+        Será que algo que começou como uma teia de engano pode gerar sentimentos mais profundos, como o amor?
+        
+        Alerta: O livro é um romance na temática máfia apesar de terem poucas cenas pesadas as que tem são descritivas então podem gerar gatilhos em alguns leitores é importante se atentar a nota da autora no inicio do livro, recomendado para maiores de 18 anos.`
+    },
+    {
+        title: "Um de nós está mentindo (Vol. 1 Um de nós)",
+        image: "books/umdenosestamentindo-karenmmcmanus.jpg",
+        author: "Karen M. McManus",
+        link: "https://amzn.to/3MzdVeG",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "suspense",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,6",
+        specialCategory: [""], 
+        description: `Cinco alunos entram em detenção na escola e apenas quatro saem com vida. Todos são suspeitos e cada um tem algo a esconder. Até onde você iria para proteger o seu segredo? Esta é a história de Um de nós está mentindo, livro que deu inicio a duologia de sucesso Um de nós, e teve enredo adaptado para uma série de TV eletrizante na Netflix. 
+
+ 
+
+        Numa tarde de segunda-feira, cinco estudantes do colégio Bayview entram na sala de detenção: Bronwyn, a gênia, comprometida a estudar em Yale, nunca quebra as regras. Addy, a bela, a perfeita definição da princesa do baile de primavera. Nate, o criminoso, já em liberdade condicional por tráfico de drogas. Cooper, o atleta, astro do time de beisebol. E Simon, o pária, criador do mais famoso aplicativo de fofocas da escola.
+        
+        Só que Simon não consegue ir embora. Antes do fim da detenção, ele está morto. E, de acordo com os investigadores, a sua morte não foi acidental.
+        
+        Na segunda-feira, ele morreu. Mas na terça, planejava postar fofocas bem quentes sobre os companheiros de detenção. O que faz os quatro serem suspeitos do seu assassinato.
+        
+        Imagine todos os elementos que você pode encontrar em um livro clássico destinado a um jovem leitor: o romance, as panelinhas e as muitas lutas que o adolescente típico enfrenta. Agora imagine esse romance com uma ligeira reviravolta: assassinato!  Um de nós está mentindo se concentra em aspectos-chave de como a fase da adolescência pode ser problemática. Navegando entre uma vida escolar descontraída e uma paisagem sombria em torno da morte de Simon. A história fala ainda sobre a importância da confiança e da justiça, à medida que falsas acusações aparecem e causam sérias repercussões.
+        
+        A autora também explora questões como a depressão e saúde mental, tornando este livro extremamente realista. No final de cada capítulo, deixa seus leitores em choque, com um desejo irresistível de continuar lendo.
+        
+        Com um final surpreendente, Um de nós está mentindo explora quatro pontos de vista diferentes, dando ao leitor pistas para desvendar o mistério.  Seriam os quatro adolescentes cúmplices de um crime ou vítimas perfeitas de um assassino que continua à solta?  Desvende todos os mistérios e descubra quem é o assassino do colégio Bayview.`
+    },
+    {
+        title: "Imperfeitos",
+        image: "books/imperfeitos-christinalauren.jpg",
+        author: "Christina Lauren",
+        link: "https://amzn.to/463xUsN",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,6",
+        specialCategory: [""], 
+        description: `Olive se sente como a gêmea azarada da casa: dos acidentes estranhamente inexplicáveis ao fracasso na vida profissional e amorosa ― nada dá certo para ela. Porém, parece que o jogo vira quando sua alergia a frutos do mar a protege de um desastre, já que todos os convidados da festa de casamento da irmã sofrem com intoxicação alimentar. Na verdade... nem todos. Ethan, o irmão do noivo, também ficou de fora desse pesadelo. Então, a irmã de Olive, sempre muito prática, propõe a eles que aproveitem a viagem de lua-de-mel, que não é reembolsável, para uma ilha do Havaí. Mas há um “pequeno” problema: Olive e Ethan são inimigos mortais. Há um passado entre eles que tornou a convivência impossível. Mas quem vai dizer não para essa viagem? Ainda mais de graça? Nem pensar! A ideia de ambos era ficar bem longe um do outro, mas a situação muda quando uma mentirinha boba vai crescendo e não podem voltar atrás. E dividindo a mesma suíte, entre farpas e sarcasmos, já se pode desconfiar.... onde tem raiva tem fogo? Com diálogos inteligentes e divertidos, dois personagens cativantes, e cenários de tirar o fôlego, Imperfeitos é o livro ideal para rir sem parar e ainda ver uma história de amor nascer no lugar mais improvável.`
+    },
+    {
+        title: "Olhos D'Agua",
+        image: "books/olhosdagua-conceicaoevaristo.jpg",
+        author: "Conceição Evaristo",
+        link: "https://amzn.to/3QkANiQ",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "nao ficcao",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: [""], 
+        description: `Em Olhos d’água Conceição Evaristo ajusta o foco de seu interesse na população afro-brasileira abordando, sem meias palavras, a pobreza e a violência urbana que a acometem. Sem sentimentalismos, mas sempre incorporando a tessitura poética à ficção, seus contos apresentam uma significativa galeria de mulheres: Ana Davenga, a mendiga Duzu-Querença, Natalina, Luamanda, Cida, a menina Zaíta. Ou serão todas a mesma mulher, captada e recriada no caleidoscópio da literatura em variados instantâneos da vida? Elas diferem em idade e em conjunturas de experiências, mas compartilham da mesma vida de ferro, equilibrando-se na “frágil vara” que, lemos no conto “O Cooper de Cida”, é a “corda bamba do tempo”. Em Olhos d’água estão presentes mães, muitas mães. E também filhas, avós, amantes, homens e mulheres – todos evocados em seus vínculos e dilemas sociais, sexuais, existenciais, numa pluralidade e vulnerabilidade que constituem a humana condição. Sem quaisquer idealizações, são aqui recriadas com firmeza e talento as duras condições enfrentadas pela comunidade afro-brasileira.`
+    },
+    {
+        title: "Fique comigo",
+        image: "books/fiquecomigo-marinavargas.jpg",
+        author: "Marina Vargas",
+        link: "https://amzn.to/3u6CaKQ",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: [""], 
+        description: `Finalista do Baileys Women’s Prize for Fiction, este romance de estreia inesquecível ambientado na Nigéria dá voz a marido e esposa enquanto eles contam a história de seu casamento ― e as forças que ameaçam destruí-lo. Yejide e Akin se apaixonaram na faculdade e logo se casaram. Apesar de muitos terem esperado que Akin tivesse várias esposas, ele e Yejide sempre concordaram que o marido não seria poligâmico. Porém, após quatro anos de casamento ― e de se consultar com médicos especialistas em fertilidade e curandeiros, tomar chás estranhos e buscar outras curas improváveis ―, Yejide não consegue engravidar. Ela está certa de que ainda há tempo, mas então a família do marido aparece na sua casa com uma jovem moça que eles apresentam como a segunda esposa de Akin. Furiosa, chocada e lívida de ciúmes, Yejide sabe que o único modo de salvar seu casamento é engravidar. O que, enfim, ela consegue ― mas a um custo muito maior do que poderia ter imaginado. Um romance eletrizante e de enorme poder emocional, Fique comigo não apenas debate as questões familiares da sociedade nigeriana, como também demostra com realismo as mazelas e as dificuldades políticas enfrentadas pela população desse país nos anos 1980. No entanto, acima de tudo, o livro faz a pergunta: o quanto estamos dispostos a sacrificar em nome da nossa família?`
+    },
+    {
+        title: "A vegetariana",
+        image: "books/avegetariana-hankang.jpg",
+        author: "Han Kang",
+        link: "https://amzn.to/3QXhFJD",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "romance",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,4",
+        specialCategory: [""], 
+        description: `A vegetariana, romance perturbador e único, tem sido apontado como um dos livros mais importantes da ficção contemporânea – e uma introdução à fecunda literatura produzida na Coreia do Sul.
+
+        “…Eu tive um sonho”, diz Yeonghye, e desse sonho de sangue e escuros bosques nasce uma recusa vista como radical: deixar de comer, cozinhar e servir carne. É o primeiro estágio de um desapego em três atos, um caminho muito particular de transcendência destrutiva que parece infectar todos aqueles que estão próximos da protagonista. A vegetariana conta a história dessa mulher comum que, pela simples decisão de não comer mais carne, transforma uma vida aparentemente sem maiores atrativos em um pesadelo perturbador e transgressivo. Narrado a três vozes, o romance apresenta o distanciamento progressivo da condição humana de uma mulher que decidiu deixar de ser aquilo que marido e família a pressionaram a ser a vida inteira. Este romance de Han Kang tem sido apontado como um dos livros mais importantes da ficção contemporânea. Uma história sobre rebelião, tabu, violência e erotismo escrita com a clareza atordoante das melhores e mais aterradoras fábulas. Esta tradução, diretamente do coreano, restitui o estranhamento da obra original.`
+    },
+    {
+        title: "",
+        image: "books/.jpg",
+        author: "",
+        link: "",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: "biografia",
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: [""], 
+        description: ``
+    },
 ]
