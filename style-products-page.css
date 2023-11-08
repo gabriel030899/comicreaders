@@ -490,6 +490,16 @@ nav {
     background-color: #000000ba;
 }
 
+@media (max-width:1500px){
+    .pagination{
+        width: 35%!important;
+    }
+    #currentPage{
+        width: 80px!important;
+        text-align: center;
+    }
+}
+
 @media (max-width:1200px){
     .all-books-gallery-top h2{
         width: 100%!important;
