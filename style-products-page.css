@@ -896,6 +896,10 @@ nav {
     background-image: linear-gradient(135deg, #ebebeb, #000000);
     border-radius: 6px;
   }
+  .hbomax{
+    background-image: linear-gradient(135deg, #7f40c7, #000);
+    border-radius: 6px;
+  }
   
   .bn39:hover {
     color: #fff;

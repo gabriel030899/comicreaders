@@ -1464,7 +1464,7 @@ itemType: "book",
         format: "Capa Comum",
         language: "portugues",
         priceRange: "",
-        streaming: ["netflix"],
+        streaming: [""],
         price: "",
         promotion:"",
         oldPrice: "",
@@ -2630,7 +2630,7 @@ itemType: "book",
         format: "Box e Kits",
         language: "portugues",
         priceRange: "",
-        streaming: [""],
+        streaming: ["amazonprime"],
         price: "",
         promotion:"Black Friday",
         oldPrice: "",
@@ -3023,6 +3023,561 @@ itemType: "book",
         Um ano depois, ambos estão na universidade, em Dublin. Marianne encontrou seu lugar em um novo mundo enquanto Connell fica à margem, tímido e inseguro. Ao longo dos anos da graduação, os dois permanecem próximos, como linhas que se encontram e separam conforme as oportunidades da vida. Porém, enquanto Marianne se embrenha em um espiral de autodestruição e Connell começa a duvidar do sentido de suas escolhas, eles precisam entender até que ponto estão dispostos a ir para salvar um ao outro. Uma história de amor entre duas pessoas que tentam ficar separadas, mas descobrem que isso pode ser mais difícil do que tinham imaginado.
         
         “O fenômeno literário da década.” ― The Guardian`
+    },
+    {
+        title: "O verão que mudou minha vida: (Trilogia Verão vol. 1)",
+        image: "books/overaoquemudouminhavida-jennyhan.jpg",
+        author: "Jenny Han",
+        link: "https://amzn.to/471ciyl",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["romance", "romance para jovens", "amazon", "adaptacao"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["amazonprime"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,6",
+        specialCategory: [""], 
+        description: `Primeiro livro da trilogia que inspirou a série de sucesso do Amazon Prime Video
+
+        Com uma história encantadora e personagens inesquecíveis, a Trilogia Verão acompanha os amores, as desilusões e os dilemas da protagonista Belly dos 15 aos 24 anos. Em meio a descobertas e mudanças, ela se apaixona, se envolve em um triângulo amoroso, entra na universidade e descobre que amadurecer também significa tomar decisões difíceis. A trama escrita por Jenny Han, autora de Para todos os garotos que já amei, inspirou a série de sucesso O verão que mudou minha vida, do Amazon Prime Video.
+        
+        Sempre que chegam as férias de verão, Isabel Conklin deixa para trás sua vida monótona na cidade e vai com a família para Cousins Beach. A casa de praia é seu segundo lar, e é lá que Belly reencontra as pessoas que mais ama: a melhor amiga de sua mãe, Susannah, e os filhos dela, Conrad e Jeremiah.
+        
+        Ano após ano, ela tenta se aproximar de Conrad, mas nunca dá certo. Parece que o garoto nunca vai corresponder aos sentimentos de Belly. Dessa vez, no entanto, ela percebe algo diferente: Jeremiah passou a enxergá-la com outros olhos, e os dois estão cada vez mais próximos. Belly mudou. E esse verão tem tudo para ser o melhor de sua vida.
+        
+        Primeiros romances jovens de Jenny Han, os livros da Trilogia Verão foram lançados anteriormente no Brasil no início dos anos 2000 e relançados pela Intrínseca em 2019, com tradução inédita e novas capas.`
+    },
+    {
+        title: "Heartstopper: Dois garotos, um encontro (vol. 1)",
+        image: "books/heartstopper-aliceoseman.jpg",
+        author: "Alice Oseman",
+        link: "https://amzn.to/3syPzL0",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["hq", "quadrinhos", "historia em quadrinho", "adaptacao", "netflix", "romance", "romance para jovens", "lgbt", "gay"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,9",
+        specialCategory: [""], 
+        description: `O primeiro volume da adorada série em quadrinhos finalmente chega ao Brasil. A HQ que inspirou a série original da Netflix!
+
+        Charlie Spring e Nick Nelson não têm quase nada em comum. Charlie é um aluno dedicado e bastante inseguro por conta do bullying que sofre no colégio desde que se assumiu gay. Já Nick é superpopular, especialmente querido por ser um ótimo jogador de rúgbi. Quando os dois passam a sentar um ao lado do outro toda manhã, uma amizade intensa se desenvolve, e eles ficam cada vez mais próximos.
+        Charlie logo começa a se sentir diferente a respeito do novo amigo, apesar de saber que se apaixonar por um garoto hétero só vai gerar frustrações. Mas o próprio Nick está em dúvida sobre o que sente ― e talvez os garotos estejam prestes a descobrir que, quando menos se espera, o amor pode funcionar das formas mais incríveis e surpreendentes.
+        
+        Essa edição contém:
+        
+        Capa dura
+        Ilustrações em duas cores
+        Fichas sobre cada personagem
+        Uma prévia do próximo volume`
+    },
+    {
+        title: "Conversas entre amigos (Nova edição)",
+        image: "books/conversasentreamigos-sallyrooney.jpg",
+        author: "Sally Rooney",
+        link: "https://amzn.to/3QPe28l",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["romance", "emocionante", "engracado"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["starplus"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: [""], 
+        description: `Primeiro romance da autora de Pessoas normais, este livro é um relato emocionante e delicado sobre as relações de poder que permeiam relações de afeto. Adaptado para série de mesmo nome.
+
+        Frances, uma estudante de 21 anos que vive em Dublin, é escritora e apresenta em público suas peças de poesia com Bobbi, sua ex-namorada e melhor amiga. Ela é tímida, austera e distante; Bobbi é mais comunicativa e de fácil trato. Quando Melissa, uma notável fotógrafa e ensaísta, se aproxima de ambas para oferecer um perfil em uma renomada revista, elas aceitam com entusiasmo. Enquanto o encanto de Bobbi por Melissa aumenta, Frances se aproxima pouco a pouco de Nick, o marido-ator não muito bem-sucedido, e a relação de poder que se estabelece entre os quatro se torna cada vez mais complexa.
+        Escrito com precisão e inteligência, Conversas entre amigos é um relato impressionante das paixões e perigos da juventude. Neste romance de estreia, Sally Rooney consegue conciliar vulnerabilidade e força em um mundo que não tem nada de trivial.
+        
+        “Brilhante, engraçado e impressionante.” ― The Guardian`
+    },
+    {
+        title: "Um lugar bem longe daqui",
+        image: "books/umlugarbemlongedaqui-deliaowens.jpg",
+        author: "Delia Owens",
+        link: "https://amzn.to/466njwY",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["suspense", "misterio", "cidade misteriosa"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["hbomax", "amazonprime"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: [""], 
+        description: `Best-seller global com mais de 12 milhões de exemplares vendidos no mundo todo, Um lugar bem longe daqui ganha adaptação para o cinema que entra em cartaz em 1º de setembro.
+
+        Por anos, boatos sobre Kya Clark, a “Menina do Brejo”, assombraram Barkley Cove, uma calma cidade costeira da Carolina do Norte. Ela, no entanto, não é o que todos dizem. Sensata e inteligente, Kya sobreviveu por anos sozinha no pântano que chama de lar, tendo as gaivotas como amigas e a areia como professora. Abandonada pela mãe, que não conseguiu suportar o marido abusivo e alcoólatra, e depois pelos irmãos, a menina viveu algum tempo na companhia negligente e por vezes brutal do pai, que acabou também por deixá-la.
+        
+        Anos depois, quando dois jovens da cidade ficam intrigados com sua beleza selvagem, Kya se permite experimentar uma nova vida ― até que o impensável acontece e um deles é encontrado morto.
+        
+        Ao mesmo tempo uma ode à natureza, um emocionante romance de formação e uma surpreendente história de mistério, Um lugar bem longe daqui relembra que somos moldados pela criança que fomos um dia e que estamos todos sujeitos à beleza e à violência dos segredos que a natureza guarda.
+        
+        A obra foi incluída no clube de livros de Reese Witherspoon, que posteriormente se tornou produtora da adaptação cinematográfica. Com Daisy Edgar Jones (Normal People) no papel da protagonista Kya, o filme tem estreia prevista para 1º de setembro.`
+    },
+    {
+        title: "Pachinko",
+        image: "books/pachinko-minjinlee.jpg",
+        author: "Min Jin Lee",
+        link: "https://amzn.to/468OSG9",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["romance", "coreia", "japao", "imigrantes"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["appletv"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: [""], 
+        description: `Livro narra a saga de três gerações de imigrantes coreanos no Japão do século XX e foi recomendado por Barack Obama
+
+        No início dos anos 1900, a adolescente Sunja, filha adorada de um pescador aleijado, apaixona-se perdidamente por um rico forasteiro na costa perto de sua casa, na Coreia. Esse homem promete o mundo a ela, mas, quando descobre que está grávida ― e que seu amado é casado ―, Sunja se recusa a ser comprada. Em vez disso, aceita o pedido de casamento de um homem gentil e doente, um pastor que está de passagem pelo vilarejo, rumo ao Japão. A decisão de abandonar o lar e rejeitar o poderoso pai de seu filho dá início a uma saga dramática que se desdobrará ao longo de gerações por quase cem anos.
+        
+        Neste romance movido pelas batalhas enfrentadas por imigrantes, os salões de pachinko ― o jogo de caça-níqueis onipresente em todo o Japão ― são o ponto de convergência das preocupações centrais da história: identidade, pátria e pertencimento. Para a população coreana no Japão, discriminada e excluída ― como Sunja e seus descendentes ―, os salões são o principal meio de conseguir trabalho e tentar acumular algum dinheiro.
+        
+        Uma grande história de amor, Pachinko é também um tributo aos sacrifícios, à ambição e à lealdade de milhares de estrangeiros desterrados. Das movimentadas ruas dos mercados aos corredores das mais prestigiadas universidades do Japão, passando pelos salões de aposta do submundo do crime, os personagens complexos e passionais deste livro sobrevivem e tentam prosperar, indiferentes ao grande arco da história.`
+    },
+    {
+        title: "Fogo & Sangue – Volume 1",
+        image: "books/fogoesangue-georgerrmartin.jpg",
+        author: "George R. R. Martin",
+        link: "https://amzn.to/3MzgfCe",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["aventura", "acao", "fantasia", "dragoes", "castelos", "rei"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["hbomax"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: ["Reinos Perdidos"], 
+        description: `A arrebatadora história dos Targaryen ganha vida neste novo livro de George R.R. Martin, autor de As Crônicas de Gelo e Fogo, série que inspirou a adaptação de sucesso da HBO, Game of Thrones.
+
+        Séculos antes dos eventos de A guerra dos tronos, a Casa Targaryen – única família de senhores dos dragões a sobreviver à Destruição de Valíria – tomou residência em Pedra do Dragão. A história de Fogo e sangue começa com o lendário Aegon, o Conquistador, criador do Trono de Ferro, e segue narrando as gerações de Targaryen que lutaram para manter o assento, até a guerra civil que quase destruiu sua dinastia.
+        O que realmente aconteceu durante a Dança dos Dragões? Por que era tão perigoso visitar Valíria depois da Destruição? Qual é a origem dos três ovos de dragão que chegaram a Daenerys? Essas são algumas das questões respondidas neste livro essencial, relatadas por um sábio meistre da Cidadela.
+        Ricamente ilustrado com mais de oitenta imagens em preto e branco assinadas pelo artista Dough Wheatley, Fogo e sangue dará aos leitores uma nova e completa visão da fascinante história de Westeros – um livro imperdível para os fãs do autor.`
+    },
+    {
+        title: "A Escola do Bem e do Mal – Vol. 1 (Sucesso da Netflix)",
+        image: "books/aescoladobemedomalvol1-somanchainani.jpg",
+        author: "Soman Chainani",
+        link: "https://amzn.to/3u86gxD",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["aventura", "magia", "fantasia", "bruxas", "escola"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,6",
+        specialCategory: ["Mundo Magico"], 
+        description: `No povoado de Gavaldon, a cada quatro anos, dois adolescentes somem misteriosamente há mais de dois séculos. Os pais trancam e protegem seus filhos, apavorados com o possível sequestro, que acontece segundo uma antiga lenda: os jovens desaparecidos são levados para a Escola do Bem e do Mal, onde estudam para se tornar os heróis e os vilões das histórias. Sophie torce para ser uma das escolhidas e admitida na Escola do Bem. Com seu vestido cor-de-rosa e sapatos de cristal, ela sonha em se tornar uma princesa. Sua melhor amiga, Agatha, porém, não se conforma como uma cidade inteira pode acreditar em tanta baboseira. Ela é o oposto da amiga, que, mesmo assim, é a única que a entende. O destino, no entanto, prega uma peça nas duas, que iniciam uma aventura que dará pistas sobre quem elas realmente são. Este best-seller é o primeiro livro de uma trilogia que mostra uma jornada épica em um mundo novo e deslumbrante, no qual a única saída para fugir das lendas sobre contos de fadas e histórias encantadas é viver intensamente uma delas.`
+    },
+    {
+        title: "O duque e eu (Os Bridgertons – Livro 1)",
+        image: "books/bridgerton-juliaquinn.jpg",
+        author: "Julia Quinn",
+        link: "https://amzn.to/47oIXh7",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["romance", "rei", "rainha", "princesa", "castelo", "nobreza"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: [""], 
+        description: `O livro que inspirou a série Bridgerton na Netflix.
+
+        Os livros de Julia Quinn já passaram da marca de 10 milhões de exemplares vendidos, sendo mais de 1 milhão no Brasil.
+        
+        "Julia Quinn é nossa Jane Austen contemporânea." – Jill Barnett, autora de Tudo por um beijo
+        
+        "Inteligente e divertido." – Time Magazine
+        
+           
+        
+        Simon Basset, o irresistível duque de Hastings, acaba de retornar a Londres depois de seis anos viajando pelo mundo. Rico, bonito e solteiro, ele é um prato cheio para as mães da alta sociedade, que só pensam em arrumar um bom partido para suas filhas.
+        
+        Simon, porém, tem o firme propósito de nunca se casar. Assim, para se livrar das garras dessas mulheres, precisa de um plano infalível.
+        
+        É quando entra em cena Daphne Bridgerton, a irmã mais nova de seu melhor amigo. Apesar de espirituosa e dona de uma personalidade marcante, todos os homens que se interessam por ela são velhos demais, pouco inteligentes ou destituídos de qualquer tipo de charme. E os que têm potencial para ser bons maridos só a veem como uma boa amiga.
+        
+        A ideia de Simon é fingir que a corteja. Dessa forma, de uma tacada só, ele conseguirá afastar as jovens obcecadas por um marido e atrairá vários pretendentes para Daphne. Afinal, se um duque está interessado nela, a jovem deve ter mais atrativos do que aparenta.
+        
+        Mas, à medida que a farsa dos dois se desenrola, o sorriso malicioso e os olhos cheios de desejo de Simon tornam cada vez mais difícil para Daphne lembrar que tudo não passa de fingimento. Agora, ela precisa fazer o impossível para não se apaixonar por esse conquistador inveterado que tem aversão a tudo o que ela mais quer na vida.
+        
+        Primeiro dos nove livros da série Os Bridgertons, O duque e eu é uma bela história sobre o poder do amor, contada com o senso de humor afiado e a sensibilidade que são marcas registradas de Julia Quinn.`
+    },
+    {
+        title: "Procura-se um marido",
+        image: "books/procuraseummarido-carinarissi.jpg",
+        author: "Carina Rissi",
+        link: "https://amzn.to/475syhT",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["viagem", "divertido", "engracado", "romance", "brasil", "nacional"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["hbomax"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: ["Brazuca"], 
+        description: `Divertido e cativante, Carina Rissi vai derreter seu coração neste Procura-se um marido: o livro que inspirou o primeiro filme brasileiro da HBO Max, com Camila Queiroz e Klebber Toledo nos papéis principais.
+
+ 
+
+        Em Procura-se um marido conhecemos a jovem Alicia, uma jovem que sabe curtir a vida. Ela já viajou o mundo, adora uma balada e é louca pelo avô, um bem sucedido e rico empresário, que é sua única família.
+        
+        Mas seus planos de continuar a viver uma vida sem preocupações acabam de maneira repentina. Seu querido avô morre e Alicia tem que lidar não só com a tristeza da perda, mas também com as termos do testamento deixado por ele.
+        
+        Sua vida começa a virar de cabeça para baixo quando ela fica sabendo que seu amado avô a excluiu da herança, alegando que a neta não tem maturidade suficiente para assumir seu império - a não ser, é claro, que esteja devidamente casada.
+        
+        Ela se recusa a casar, está muito bem solteira e assim pretende permanecer. No testamento também consta que Alicia tem um cargo vitalício disponível na empresa do avó, então ela decide trabalhar, e não se submeter ás condições do casamento. Só que com o cargo de Assistente não consegue nem pagar a gasolina do seu Porshe. Além diso, seus colegas de trabalho estão cada dia mais hostis.
+        
+        Cansada das pequenas dificuldades que encontra a cada dia, Alicia  decide burlar o testamento com um plano maluco e audacioso, colocando um anúncio no jornal em busca de um marido de aluguel.
+        
+        Diversos candidatos respondem, mas apenas um deles será capaz de fazer o coração de Alicia bater mais rápido, transformando sua vida de maneira que ela jamais imaginou.
+        
+        Cheio de humor, paixão e aventuras intensas, Procura-se um marido tem persoagens incríveis e muito bem construídos, que evoluem emocionalmente ao longo da história, tenha certeza de que você será fisgado até a última página.
+        
+        A autora Carina Rissi já coleciona romances de sucesso, com a série Perdida conquistou o coração de diversos leitores de todas as idades. Procura-se um marido agradou tanto o público, que ganhou uma adaptação para o serviço de streaming HBO Max, com Camila Queiroz e Klebber Toledo nos papeis principais, e um spin off chamado A mentira perfeita. `
+    },
+    {
+        title: "De volta aos quinze",
+        image: "books/devoltaaos15-brunavieira.jpg",
+        author: "Bruna Vieira",
+        link: "https://amzn.to/3SBQBk7",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["comedia", "engracado", "divertido", "adolescente", "romance apra jovens", "brasil", "nacional"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,5",
+        specialCategory: ["Brazuca"], 
+        description: `O livro que inspirou a série da Netflix.
+
+        O que você faria se pudesse voltar no tempo?
+        Será que, ao fazer escolhas diferentes, você conseguiria mudar sua vida para melhor?
+        
+        Anita tem 30 anos e sua vida é muito diferente do que sonhou para si mesma. Um dia, ao reencontrar seu primeiro blog, escrito quando ela tinha 15 anos, algo inusitado acontece, e tudo ao seu redor se transforma de repente. Com cabeça de adulto e corpo de adolescente, Anita se vê novamente vivendo as aventuras de uma das épocas mais intensas da vida de qualquer pessoa: o ensino médio. Ao procurar modificar acontecimentos, ela começa a perceber que as consequências de suas atitudes nem sempre são como ela imagina, o que pode ser bem complicado. Em meio a amores impossíveis, amizades desfeitas e atritos familiares, Anita tentará escrever seu próprio final feliz em uma misteriosa página na internet.`
+    },
+    {
+        title: "O telefone preto e outras histórias",
+        image: "books/otelefonepreto-joehill.jpg",
+        author: "Joe Hill",
+        link: "https://amzn.to/3SvFqcI",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["suspense", "terror", "espirito", "serial killer", "assassino", "fantasma"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["amazonprime"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,5",
+        specialCategory: ["Quando o medo chama"], 
+        description: `Publicado anteriormente no Brasil sob o título Fantasmas do Século XX, este livro inventivo e tenebroso tem histórias que vão de temas clássicos da literatura de horror até contos sobre mundos fantásticos, O telefone preto e outras histórias estabelece Joe Hill como um autor premiado, aclamado pela crítica e um dos "maiores escritores de ficção fantástica do século XXI", como afirma o Washington Post.
+
+        Um fantasma que assombra o Teatro Rosebud e já viu todos os filmes que já entraram em cartaz; uma criança solitária que não consegue fazer amigos porque é o único menino inflável da cidade; um gafanhoto de dois metros e meio de altura, que faz todos em Calliphora tremerem ao ouvi-lo cantar; dois irmãos que constroem um forte de papelão com portas que levam a outros mundos; um menino trancado em um porão manchado com o sangue de meia dúzia de crianças assassinadas e um telefone antigo há muito desconectado… mas que toca a noite inteira, com ligações dos mortos.
+        
+        Inventivo, tenebroso e com histórias que vão de temas clássicos da literatura de horror até contos sobre mundos fantásticos, O telefone preto e outras histórias estabelece Joe Hill como um autor premiado, aclamado pela crítica e um dos “maiores escritores de ficção fantástica do século XXI”, como afirma o Washington Post.`
+    },
+    {
+        title: "Absolute Sandman - Volume 1: Edição Definitiva",
+        image: "books/sandman-neilgaiman.jpg",
+        author: "Neil Gaiman",
+        link: "https://amzn.to/3QPBxxW",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["magia", "acao", "fantasia", "misterio"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,9",
+        specialCategory: [""], 
+        description: `RELANÇAMENTO: “Vou revelar-te o que é o medo num punhado de pó.” Foi essa frase de T.S. Eliot que serviu para embalar o lançamento dessa série e também dar asas a imaginação de Neil Gaiman, um britânico destinado a criar uma das séries mais revolucionárias e inovadoras dos quadrinhos contemporâneos. Poucas HQs na história do mundo ocidental transcenderam o gênero e romperam barreiras como Sandman conseguiu. Mesclando mitologias modernas e fantasia sombria, além de acrescentar elementos modernos, históricos e míticos, Sandman foi considerada uma das séries mais artisticamente ambiciosas dos quadrinhos. Quando foi concluída, em 1996, já tinha mudado a nona arte para sempre e se tornado um fenômeno de cultura pop, bem como um marco das HQs, tornando difusa a fronteira imaginária entre os quadrinhos de massa e o que consideramos como arte. A série conta a história de Morfeus, um dos Perpétuos — criaturas análogas aos deuses, mas ainda maiores — responsável pelo Mundo dos Sonhos. Basicamente ele controla e tem acesso a todos os sonhos da humanidade e de todas as criaturas capazes de sonhar, sendo o senhor do Mundo dos Sonhos, a terra aonde vamos em nossas horas de sono. Quando uma ordem mística tentou capturar a irmã de Sonho, a Morte, em seu lugar eles capturaram Morfeus. Assustados com o que conseguiram, os membros da ordem o mantiveram cativo. E assim teve início um período de diversas décadas em que esse Perpétuo ficou trancafiado à mercê de seus captores, deixando o Mundo dos Sonhos abandonado e os sonhadores desamparados. A série nos revela como ele se libertou e como foi capaz de se adaptar no mundo após tantos anos de ausência, e também nos mostra um vislumbre de sua história e da mitologia dos Perpétuos. É essa a obra que a Panini agora republica em uma edição em formato diferenciado (18,5 por 27,5 cm), totalmente recolorida (com cores aprovadas pelo próprio autor) e recheada de extras, como a proposta original da série, esboços dos personagens, páginas de arte a lápis e o roteiro completo da edição 19 de Sandman, Sonho de uma Noite de Verão. Tudo isso em 612 páginas repletas de sonhos em forma de páginas de quadrinhos.Escrito por Neil Gaiman; com arte de Sam Kieth, Mike Dringenberg, Malcolm Jones III, Chris Bachalo, Michael Zulli, Steve Parkhouse, Kelley Jones, Charles Vess e Colleen Doran; capas de Dave McKean.`
+    },
+    {
+        title: "Iluminadas: Capa série",
+        image: "books/iluminadas-laurenbeukes.jpg",
+        author: "Lauren Beukes",
+        link: "https://amzn.to/3FNkMxg",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["thiller", "suspense", "policial"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["appletv"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: ["Mistérios Urbanos"], 
+        description: `Com elementos de thriller policial, ficção científica e romance histórico, livro de Lauren Beukes ganha adaptação para o Apple TV+ estrelada por Elisabeth Moss e Wagner Moura
+
+        Chicago, 1931. Harper Curtis, um andarilho violento, invade uma casa abandonada que esconde um segredo tão chocante quanto improvável: quem entra ali é transportado no tempo. Instigado por um comando que parece partir da casa, Harper persegue as “meninas iluminadas” ― garotas cuidadosamente escolhidas em diferentes décadas ― com o objetivo de matá-las. Voltando no tempo após cada assassinato, seus crimes são perfeitos e impossíveis de serem rastreados. Ou pelo menos é o que ele pensa.
+        
+        Chicago, 1992. Kirby Mazrachi viu sua vida ser destroçada após um ataque brutal que por pouco não a levou à morte. Incapaz de esquecer tal acontecimento, Kirby investe seus esforços em encontrar o homem que tentou assassiná-la. Seu único aliado é Dan, um ex-repórter policial que cobriu seu caso e agora aparentemente está apaixonado por ela. À medida que a investigação de Kirby avança, ela descobre outros casos semelhantes ao seu ― e garotas que não tiveram a mesma sorte que ela ― ligados por evidências que parecem impossíveis. Mas, para alguém que deveria estar morto, impossível não significa que não tenha acontecido.
+        
+        Sucesso mundial no ano de seu lançamento, Iluminadas acaba de inspirar a série The Shining Girls, que estreia no Apple TV+ em 29 de abril e é estrelada por Wagner Moura e Elisabeth Moss (The Handmaid’s Tale).`
+    },
+    {
+        title: "Continência ao amor",
+        image: "books/continenciaaoamor-tesswakefield.jpg",
+        author: "Tess Wakefield",
+        link: "https://amzn.to/4711L6z",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["romance", "soldado", "romance para jovens"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,5",
+        specialCategory: [""], 
+        description: `Livro que inspirou fenômeno global da Netflix entra em pré-venda em agosto e chega às lojas em novembro
+
+        Quando um soldado com um passado problemático e uma cantora em dificuldades concordam em entrar em um casamento de fachada para obter benefícios militares, nenhum dos dois espera muita coisa após confirmarem os votos. Até que uma tragédia acontece, e os limites entre o que é real e o que é mentira começam a se confundir neste romance inteligente e surpreendente, perfeito para fãs de Jojo Moyes e Nicholas Sparks.
+        
+        Cassie Salazar e Luke Morrow são totalmente diferentes. A perspicaz Cassie trabalha à noite em um bar em Austin, Texas, onde tenta ganhar a vida enquanto corre atrás do sonho de ser cantora e compositora. Luke é um militar prestes a ir para a guerra que identifica na disciplina implacável do Exército o conforto de que precisa. Mas um encontro fortuito com Cassie muda para sempre o curso da vida dos dois.
+        
+        Cassie está sendo soterrada pelas despesas médicas após receber o diagnóstico de diabetes. Ao encontrar seu velho amigo Frankie, que se alistou ao Exército, ela propõe um acordo: ela se casaria com ele em troca de um plano de saúde melhor e os dois dividiriam o dinheiro a mais que o Exército concede por eles serem uma “família”. Quando Frankie recusa a proposta, seu atraente amigo Luke se oferece para se casar com Cassie no lugar dele. O que ela não sabe é que o jovem militar tem suas próprias razões para concordar com o matrimônio de fachada.
+        
+        Nesta inesquecível história de amor, Cassie e Luke precisam deixar de lado suas profundas diferenças para que o arranjo deles pareça um casamento de verdade... a menos que, ao longo do caminho, o amor faça com que os dois não precisem mais fingir.
+        
+        O filme teve mais de 100 milhões de horas de exibição na Netflix em apenas uma semana após ser lançado, tornando-se o longa mais bem-sucedido da plataforma em 2022. Com uma trama intensa e a química inegável entre os personagens, Continência ao amortem tudo para repetir nas livrarias o estrondoso sucesso que vem demonstrando nas telas.`
+    },
+    {
+        title: "Recomeço",
+        image: "books/recomeco-tembilocke.jpg",
+        author: "Tembi Locke",
+        link: "https://amzn.to/3SuD5yD",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["romance", "superacao", "romance para jovens"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,6",
+        specialCategory: [""], 
+        description: `Inspiração para nova série da Netflix com Zoe Saldaña, Recomeço narra uma emocionante história de amor e superação
+
+        Na Sicília, dizem que toda história começa com um casamento ou uma morte. No caso de Tembi Locke, começou com ambos. Quando Tembi conheceu Saro, um chef de cozinha, em uma rua de Florença, foi amor à primeira vista. Havia apenas um problema: a tradicional família siciliana de Saro não aceitava seu casamento com uma mulher negra, norte-americana e ainda por cima atriz. Mesmo decepcionados, os dois permanecem firmes e não desistem da relação. Constroem uma vida feliz em Los Angeles, investem na carreira, nas amizades e no amor da vida deles: uma menininha que adotam ainda bebê. Mas, quando eles finalmente se reconciliam com a família de Saro, ele já está enfrentando a maior provação de sua vida: um câncer, que arruína todos os sonhos do casal.
+        
+        A narrativa se desenrola a partir dos três verões que Tembi passa com a filha, Zoela, na cidadezinha natal do falecido marido, no interior da Sicília, enquanto tenta reconstruir sua vida. Lá, a atriz encontra apoio na sogra e passa a ter contato com as origens de Saro, além de descobrir os poderes da comida simples, de uma comunidade unida e de tradições atemporais. Durante toda essa jornada, ela reflete sobre os anos com Saro e esse romance que mudou sua vida ― uma história de amor que vai muito além do tempo que passaram juntos.
+        
+        Recomeço é uma história sobre perda, viagens e comida, mas também sobre amar, encontrar um lar e relembrar por meio de sabores. Um livro para todo mundo que já lutou por amor, e um lembrete de que a vida pode ser verdadeiramente deliciosa.`
+    },
+    {
+        title: "Persuasão",
+        image: "books/persuasao-janeausten.jpg",
+        author: "Jane Austen",
+        link: "https://amzn.to/3u9yuYH",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["superacao", "mulher forte", "guerra", "feminismo", "desigualdade"],
+        newcome: "",
+        format: "Capa Dura",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: [""], 
+        description: `"Persuasão” foi o último trabalho completo de Jane Austen. O livro conta a história de Anne Elliot, uma das heroínas mais tranquilas e reservadas de Austen, mas, ao mesmo tempo, uma das mais fortes e abertas às mudanças. O livro enaltece a constância do amor numa época turbulenta na história da Inglaterra: as guerras napoleônicas. Escrito nesse período, o romance descreve como uma mulher pode permanecer fiel ao seu passado e, ainda assim, pensar em um futuro feliz. Austen expõe de maneira sutil como uma mulher pode passar por cima das convenções sociais e das restrições femininas em busca da felicidade.`
+    },
+    {
+        title: "Paper Girls Volume 1 - Reimpressão (Volume 1)",
+        image: "books/papergirls-briankvaughan.jpg",
+        author: "Brian K. Vaughan",
+        link: "https://amzn.to/3tYrBt1",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["aventura", "misterio", "acao", "viagem no tempo", "hq", "historia em quadrinhos"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["amazonprime"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: [""], 
+        description: `Uma nova e intrigante aventura espaço-temporal chega aos leitores pelas mãos de Brian K. Vaughan, o criador de Saga (também publicada pela Devir) e Cliff Chiang, o célebre artista de Mulher-Maravilha. Drama suburbano e mistérios sobrenaturais colidem nesta série sobre nostalgia, primeiros empregos e os últimos dias da infância.
+        Na madrugada depois do Dia das Bruxas de 1988, quatro adolescentes entregadoras de jornal descobrem a história mais importante de todos os tempos. Erin, Mac, Tiffany e KJ se deparam com viajantes do tempo, criaturas aladas bizarras e... o misterioso Grande Pai.
+        
+        Este volume reúne Paper Girls # 01-05.`
+    },
+    {
+        title: "Agente oculto",
+        image: "books/agenteoculto-markgreaney.jpg",
+        author: "Mark Greaney",
+        link: "https://amzn.to/3MwojDV",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["thriller", "policial", "misterio", "investigacao"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: ["Mistérios Urbanos"], 
+        description: `Um thriller de espionagem intenso, cerebral e vertiginoso, adaptado para filme pela NETFLIX com Ryan Gosling e Chris Evans
+
+        Court Gentry, mais conhecido como Agente Oculto, é um renomado e temido mercenário que age nas sombras das grandes disputas internacionais entre agências de governo, milícias, conglomerados empresariais e bilionários que regem as vidas das pessoas comuns. Essas guerras acontecem nas sombras, longe das câmeras dos canais de TV e das páginas dos noticiários, e seus principais agentes atuam de forma incógnita, sem nome, sem passado e sem futuro, mas são extremamente bem remunerados para agir de acordo com os interesses de quem lhes oferece mais vantagens ― ou simplesmente garante sua sobrevivência.
+        
+        Conhecido por nunca falhar, Gentry é o homem de confiança da CIA quando a agência não consegue agir pelos meios usuais. Entretanto, quando Gentry descobre acidentalmente segredos comprometedores que jamais deveriam ser revelados, sua cabeça é colocada a prêmio nos quatro cantos do mundo e ele parte em uma corrida frenética por sua vida e para desmascarar aqueles que podem colocar o destino de milhões de pessoas em risco.
+        
+        Best-seller do New York Times, Agente oculto é o primeiro livro da aclamada série de Mark Greaney. O autor, graduado em relações internacionais e ciência política, visitou mais de 55 países e realizou diversos treinamentos militares, nos quais aprendeu a utilizar armas de fogo, procedimentos de medicina bélica e táticas de combate.`
+    },
+    {
+        title: "Enola Holmes: O caso do marquês desaparecido (Vol. 1)",
+        image: "books/enolaholmes-nancyspringer.jpg",
+        author: "Nancy Springer",
+        link: "https://amzn.to/3udcXhC",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["aventura", "misterio", "policial", "investigacao", "sherlock holmes"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: [""], 
+        description: `Entre disfarces e fugas, a irmã de Sherlock Holmes vai nos mostrar que o sangue investigativo também faz parte dela. Mas será que Enola será capaz de decodificar as pistas necessárias e finalmente encontrar sua mãe? O livro que inspirou o filme da Netflix estrelado por Milly Brown, Henry Cavill e Sam Claflin.
+
+ 
+
+        Em Enola Holmes: O caso do marquês desaparecido, Enola Holmes ― irmã do famoso detetive Sherlock Holmes ― descobre no dia de seu aniversário de catorze anos que sua mãe desapareceu. Por conta dessa descoberta, ela embarca em uma viagem a Londres em busca de pistas que indiquem o paradeiro da mãe. Mas nada poderia preparar Enola para o que a espera na cidade grande.
+        
+        Ao chegar, ela se vê envolvida no sequestro de um jovem marquês. E, no meio de toda a trama, ainda é obrigada a fugir de vilões assassinos e tentar se esquivar de seus astutos irmãos mais velhos ― tudo isso enquanto reúne pistas sobre o estranho desaparecimento de sua mãe.
+        
+        Porém, nessa busca por sua mãe, ela conta com aliado muito importante: um caderno de mensagens cifradas deixado pela mãe. Ele será seu companheiro em todas as aventuras e confusões em que a astuta Enola irá se meter.
+        
+        Enola Holmes: O caso do marquês desaparecido deixa claro que a busca por aquilo que amamos nunca é em vão e os caminhos que devemos percorrer nessa jornada nem sempre serão suaves.`
+    },
+    {
+        title: "Amor & Gelato: 1",
+        image: "books/amoregelato-jennaevanswelch.jpg",
+        author: "Jenna Evan Welch",
+        link: "https://amzn.to/3QrJMix",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["romance", "segredo", "familia", "italia"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: ["netflix"],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: [""], 
+        description: `Um verão na Itália, uma antiga história de amor e um segredo de família
+
+        Depois da morte da mãe, Lina fica com a missão de realizar um último pedido: ir até a Itália para conhecer o pai. Do dia para a noite, ela se vê na famosa paisagem da Toscana, morando em uma casa localizada no mesmo terreno de um cemitério memorial de soldados americanos da Segunda Guerra Mundial, com um homem que nunca tinha ouvido falar. Apesar das belezas arquitetônicas, da história da cidade e das comidas maravilhosas, o que Lina mais quer é ir embora correndo dali.
+        
+        Mas as coisas começam a mudar quando ela recebe um antigo diário da mãe. Nele, a menina embarca em uma misteriosa história de amor, que pode explicar suas próprias origens. No meio desse turbilhão de emoções, Lina ainda conhece Ren e Thomas, dois meninos lindos que vão mexer ainda mais com seu coração.
+        
+        Uma trajetória que fará Lina descobrir o amor, a si mesma e também aprender a lidar com a perda. Amor & gelato é uma deliciosa viagem pelos mais românticos pontos turísticos italianos, com direito a tudo de mais intenso que o lugar tem a oferecer: desde paixões até corações partidos.`
     },
     {
         title: "",
