@@ -3601,10 +3601,200 @@ itemType: "book",
         description: `Geralt de Rívia é um bruxo sagaz e habilidoso. Um assassino impiedoso e de sangue-frio treinado, desde a infância, para caçar e eliminar monstros. Seu único objetivo: destruir as criaturas do mal que assolam o mundo. Um mundo fantástico criado por Sapkowski com claras influências da mitologia eslava. Um mundo em que nem todos os que parecem monstros são maus nem todos os que parecem anjos são bons...`
     },
     {
+        title: "A Espada do Destino: A Saga do Bruxo Geralt de Rívia Livro 2",
+        image: "books/aespadadodestino-andrzej.jpg",
+        author: "Andrzej Sapkowski",
+        link: "https://amzn.to/49rMgWN",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["magia", "acao", "fantasia", "reino", "dragao", "bruxo", "feitico", "jogos", "The Witcher", "games"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: ["gaming"], 
+        description: `No caminho para Brokilon, Geralt tropeça no corpo de um garoto, que provavelmente não tinha mais de quinze anos. O garoto foi morto por uma flecha, obviamente atirada com destreza, que ainda se vê cravada no seu crânio. Por experiência, o bruxo logo percebe o que aconteceu: certamente o garoto tinha se extraviado e entrado no território das dríades. Como para os outros que padeceram antes de igual sorte, provavelmente tinha acontecido o mesmo. Uma história triste, repetida com muita frequência.`
+    },
+    {
+        title: "O Sangue dos Elfos: A Saga do Bruxo Geralt de Rívia Livro 3",
+        image: "books/osanguedoselfos-andrzej.jpg",
+        author: "Andrzej Sapkowski",
+        link: "https://amzn.to/3sqV3aK",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["magia", "acao", "fantasia", "reino", "dragao", "bruxo", "feitico", "jogos", "The Witcher", "games"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: ["gaming"], 
+        description: `Por mais de um século os seres humanos, anões, gnomos e elfos viveram juntos em relativa paz. Mas os tempos mudaram, a paz inquieta está acabada e, mais uma vez, as raças estão lutando entre si. E parece que, para todos, o único elfo bom é um elfo morto. Geralt de Rívia, um bruxo sagaz e habilidoso, tem estado à espera do nascimento de uma criança que profetizou. Essa criança tem o poder de mudar o mundo - para o bem ou para o mal. À medida que a ameaça da guerra paira sobre a terra e a criança é caçada por seus poderes extraordinários, torna-se responsabilidade de Geralt protegê-la de tudo - e o bruxo nunca aceita a derrota como resultado.
+
+        'O sangue dos elfos' é o terceiro livro da saga do bruxo Geralt de Rívia, seguido por 'Tempo do desprezo', também publicado pela Editora WMF Martins Fontes.
+        
+        Fenômeno literário que inspirou a criação do game The Witcher.
+        
+        Mais de 2 milhões de exemplares vendidos.
+        
+        Andrzej Sapkowski é um grande renovador da literatura fantástica de nossos tempos, um gênio da linguagem. Sua prosa enfeitiçou leitores no mundo todo – mais de dois milhões de exemplares foram vendidos na Europa e nos Estados Unidos.
+        
+        Os livros contam a saga do bruxo Geralt de Rívia, um feiticeiro cheio de astúcia. Um matador impiedoso. Um assassino de sangue-frio, treinado desde a infância para caçar e eliminar monstros. Seu único objetivo: destruir as criaturas do mal que assolam o mundo. Um mundo fantástico criado por Sapkowski com claras influências da mitologia eslava. Um mundo em que nem todos os que parecem monstros são maus e nem todos os que parecem anjos são bons...`
+    },
+    {
+        title: "Tempo do Desprezo: A Saga do Bruxo Geralt de Rívia Livro 4",
+        image: "books/tempododesprezo-andrzej.jpg",
+        author: "Andrzej Sapkowski",
+        link: "https://amzn.to/3u9Kvxi",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["magia", "acao", "fantasia", "reino", "dragao", "bruxo", "feitico", "jogos", "The Witcher", "games"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: ["gaming"], 
+        description: `Geralt lutou contra monstros e demônios por todo o país, mas até ele pode não estar preparado para o que está acontecendo com seu mundo. Há intrigas, divergências e rebeliões por todo lado. Os Elfos e outros seres não humanos vivem sob repressão há décadas. Os Magos brigam uns com os outros, alguns a soldo dos reis, outros simpatizantes dos elfos.
+        E, nesse cenário de medo e desprezo, Geralt e sua amante Yennefer precisam proteger Ciri, herdeira órfã e procurada por todos os lados. Ela tem o poder de salvar o mundo ou, talvez, acabar com ele.`    
+    },
+    {
+        title: "Batismo de Fogo: A Saga do Bruxo Geralt de Rívia Livro 5",
+        image: "books/batismodefogo-andrzej.jpg",
+        author: "Andrzej Sapkowski",
+        link: "https://amzn.to/46bRbbo",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["magia", "acao", "fantasia", "reino", "dragao", "bruxo", "feitico", "jogos", "The Witcher", "games"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: ["gaming"], 
+        description: `A Irmandade dos Magos foi esfacelada por um golpe e Geralt ficou seriamente ferido. E agora, que tempos sombrios pairam sobre o mundo, ele não poderá defender os homens contra os monstros perigosos que os aterrorizam.
+        Guerras devastam todos os territórios e o futuro da magia está ameaçado. Mas as feiticeiras que sobreviveram estão determinadas a protegê-lo. É um momento conturbado, e ainda é preciso encontrar a garota Ciri, herdeira do trono de Cintra, que desapareceu. Até que surge o rumor de que ela está na corte de Nilfgaard e vai se casar com o imperador. Ferido ou não, Geralt tem uma missão em suas mãos.
+        
+        'Batismo de fogo' é o quinto livro da saga do bruxo Geralt de Rívia, seguido por 'A torre da andorinha', também publicado pela Editora WMF Martins Fontes.
+        
+        Fenômeno literário que inspirou a criação do game The Witcher.
+        
+        Mais de 2 milhões de exemplares vendidos.
+        
+        Andrzej Sapkowski é um grande renovador da literatura fantástica de nossos tempos, um gênio da linguagem. Sua prosa enfeitiçou leitores no mundo todo – mais de dois milhões de exemplares foram vendidos na Europa e nos Estados Unidos.
+        
+        Os livros contam a saga do bruxo Geralt de Rívia, um feiticeiro cheio de astúcia. Um matador impiedoso. Um assassino de sangue-frio, treinado desde a infância para caçar e eliminar monstros. Seu único objetivo: destruir as criaturas do mal que assolam o mundo. Um mundo fantástico criado por Sapkowski com claras influências da mitologia eslava. Um mundo em que nem todos os que parecem monstros são maus e nem todos os que parecem anjos são bons...`    
+    },
+    {
+        title: "A Torre da Andorinha: A Saga do Bruxo Geralt de Rívia Livro 6",
+        image: "books/atorredaandorinha-andrzej.jpg",
+        author: "Andrzej Sapkowski",
+        link: "https://amzn.to/46bRbbo",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["magia", "acao", "fantasia", "reino", "dragao", "bruxo", "feitico", "jogos", "The Witcher", "games"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: ["gaming"], 
+        description: `O bruxo Geralt de Rívia segue em direção ao sul, convencido de que Ciri vai se casar em breve com o imperador de Nilfgaard. Os assassinos impiedosos de Nilfgaard já estão seguindo os rastros de Ciri, que, gravemente ferida, se recupera no casebre do eremita Vysogota, perdido no meio de um pantanal.
+        Será que o bruxo conseguirá achar Ciri? Qual será o papel da lendária Torre da Andorinha?
+        
+        'A torre da andorinha' é o sexto livro da saga do bruxo Geralt de Rívia, seguido por 'A senhora do lago', também publicado pela Editora WMF Martins Fontes.
+        
+        Fenômeno literário que inspirou a criação do game The Witcher.
+        
+        Mais de 2 milhões de exemplares vendidos.
+        
+        Andrzej Sapkowski é um grande renovador da literatura fantástica de nossos tempos, um gênio da linguagem. Sua prosa enfeitiçou milhões de leitores no mundo todo – mais de dois milhões de exemplares foram vendidos na Europa e nos Estados Unidos.
+        
+        Os livros contam a saga do bruxo Geralt de Rívia, um feiticeiro cheio de astúcia. Um matador impiedoso. Um assassino de sangue-frio, treinado desde a infância para caçar e eliminar monstros. Seu único objetivo: destruir as criaturas do mal que assolam o mundo. Um mundo fantástico criado por Sapkowski com claras influências da mitologia eslava. Um mundo em que nem todos os que parecem monstros são maus e nem todos os que parecem anjos são bons...`    
+    },
+    {
+        title: "A Senhora do Lago: A Saga do Bruxo Geralt de Rívia Livro 7",
+        image: "books/asenhoradolago-andrzej.jpg",
+        author: "Andrzej Sapkowski",
+        link: "https://amzn.to/3Qpnii4",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["magia", "acao", "fantasia", "reino", "dragao", "bruxo", "feitico", "jogos", "The Witcher", "games"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: ["gaming"], 
+        description: `Enquanto Yeneffer permanece prisioneira e Geralt passa o inverno sob o charme de Fringilla, Ciri é projetada em um mundo paralelo ao penetrar na Torre da Andorinha. Agora, sob o domínio do elfo Avallac'h, ela só poderá ser livre se aceitar dar um filho ao rei dos Amieiros. A jovem conseguirá fugir para salvar seus amigos?
+
+        'A senhora do lago' é o último livro da saga do bruxo Geralt de Rívia, publicada pela Editora WMF Martins Fontes.
+        
+        Fenômeno literário que inspirou a criação do game The Witcher.
+        
+        Mais de 2 milhões de exemplares vendidos.
+        
+        Andrzej Sapkowski é um grande renovador da literatura fantástica de nossos tempos, um gênio da linguagem. Sua prosa enfeitiçou leitores no mundo todo – mais de dois milhões de exemplares foram vendidos na Europa e nos Estados Unidos.
+        
+        Os livros contam a saga do bruxo Geralt de Rívia, um feiticeiro cheio de astúcia. Um matador impiedoso. Um assassino de sangue-frio, treinado desde a infância para caçar e eliminar monstros. Seu único objetivo: destruir as criaturas do mal que assolam o mundo. Um mundo fantástico criado por Sapkowski com claras influências da mitologia eslava. Um mundo em que nem todos os que parecem monstros são maus e nem todos os que parecem anjos são bons...`    
+    },
+    {
         title: "God of war (vol. 1)",
         image: "books/godofwar-matthewstover.jpg",
         author: "Matthew Stover e Robert E. Vardeman",
         link: "https://amzn.to/3Qvz8Hl",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["mitologia grega", "acao", "jogos", "guerra", "kratos", "games"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,6",
+        specialCategory: ["gaming"], 
+        description: `Kratos é um guerreiro grego a serviço dos deuses Gregos do Olimpo. Enganado por Ares, o Deus da Guerra, que queria transformá-lo num guerreiro perfeito, Kratos acidentalmente mata sua esposa e sua filha, mas, depois disso, Kratos decide não servir mais a Ares e é amaldiçoado com as cinzas de sua família morta pelo Oráculo da cidade que foi destruída. Kratos é atormentado com memórias de seus atos e faz um trato de servir aos outros deuses do Olimpo por dez anos. Cansado de servir, convoca Atena e, ela afirma que o perdoará por seus atos se ele realizar uma última tarefa: matar Ares. Para isso ele deve encontrar e usar a Caixa de Pandora. Ao recuperar a Caixa de Pandora de Ares, Kratos a abre e usa o seu poder para tomar os poderes de um deus. Apesar dos esforços de Ares para acabar com Kratos, tanto física quanto mentalmente, incluindo ser despojado das Lâminas do Caos, perder os Poderes Divinos, e lutar contra uma Horda de Clones e perder sua família novamente, Kratos sobrevive e mata seu inimigo com a lendária Lâmina dos Deuses. Atenas é salva, e apesar de Atena dizer que seus pecados foram perdoados, seus pesadelos não poderão ser parados. Kratos, então, tenta cometer suicídio lançando-se no Mar Egeu, mas Atena intervém dizendo que não cabe a ele tirar sua própria vida, pois teria matado um deus, e leva-o de volta para o Monte Olimpo. Como recompensa por seus serviços aos deuses, Atena lhe concede as Lâminas de Atena e Kratos se torna o novo Deus da Guerra.`
+    },
+    {
+        title: "God of war - vol. 2",
+        image: "books/godofwarvol2-robertevardeman.jpg",
+        author: "Robert E. Vardeman",
+        link: "https://amzn.to/472IIZm",
         topSeller: false,
         trendingBook: false,
         itemType: "book",
@@ -3691,6 +3881,53 @@ itemType: "book",
         description: `A deluxe boxed set that includes the first three novels in the world of Jack Ryan from #1 New York Times bestselling author Tom Clancy, the "longtime top gun of the military thriller" (Boston Globe).
         This deluxe box set includes:
         THE HUNT FOR RED OCTOBER - PATRIOT GAMES - THE CARDINAL OF THE KREMLIN`
+    },
+    {
+        title: "God Of War",
+        image: "books/godofwar2018-jmbarlog.jpg",
+        author: "J.M. Barlog",
+        link: "https://amzn.to/3ueSZ68",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["aventura", "acao", "fantasia", "reino", "mitologia nordica", "nórdica", "guerra", "kratos", "games", "jogos"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,8",
+        specialCategory: ["gaming"], 
+        description: `As aventuras de Kratos e seu filho Atreus na jornada mais emocionante e instigante de God Of War Kratos, o Deus da Guerra, deixou para trás sua vingança contra os deuses do Olimpo. Agora, vive como um homem comum, refugiado no reino dos deuses e monstros nórdicos. Mais do que lutar pela sua própria sobrevivência, deve ensinar seu filho Atreus a conviver em um mundo hostil e cheio de desafios. Pai e filho empreendem uma jornada empolgante e de incríveis descobertas. Esta releitura surpreendente da saga God Of War reúne os elementos da série em uma poderosa narrativa, que vai prender você do começo ao fim.`
+    },
+    {
+        title: "The Call of Cthulhu (English Edition)",
+        image: "books/callofcthulhu-hplovecraft.jpg",
+        author: "H.P. Lovecraft",
+        link: "https://amzn.to/3ubbCrS",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["terror", "misterio", "contos", "lenda", "monstro"],
+        newcome: "",
+        format: "eBook",
+        language: "ingles",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,3",
+        specialCategory: ["gaming", "noitesemclaro"], 
+        description: `First published in 1928, "The Call of Cthulhu" is one of H. P. Lovecraft's best-known short stories. 
+
+        "The Call of Cthulhu" is the only story written by Lovecraft in which the extraterrestrial entity Cthulhu himself makes a major appearance.
+        It is written in a documentary style, with three independent narratives linked together by the device of a narrator discovering notes left by a deceased relative. 
+        
+        In tales such as the iconic ‘The Call of Cthulhu’, Lovecraft reaches into the cosmos, bridging the divide between horror and science fiction. The extra-terrestrial ‘gods’ and cursed histories that would emerge from these stories now form the cornerstones of Lovecraft’s unique mythology: the Cthulhu Mythos. This fictional universe, built in large part by his friend and most ardent supporter August Derleth, has in the years since been reimagined in myriad forms, and continues to act as a haunted playground for countless illustrators, fans and authors.`
     },
     {
         title: "",
