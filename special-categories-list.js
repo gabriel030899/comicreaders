@@ -82,6 +82,13 @@ export const specialCategories = [
         image: "",
         link: "",
         tooltip: "Piratas se esticando, titãs invadindo cidades e muito mais."
+    },
+    {
+        title: "Gaming",
+        name: "gaming",
+        image: "",
+        link: "",
+        tooltip: "Quem disse que jogadores não podem ler?"
     }
     
 ]
