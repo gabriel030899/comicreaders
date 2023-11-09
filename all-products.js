@@ -3930,6 +3930,33 @@ itemType: "book",
         In tales such as the iconic ‘The Call of Cthulhu’, Lovecraft reaches into the cosmos, bridging the divide between horror and science fiction. The extra-terrestrial ‘gods’ and cursed histories that would emerge from these stories now form the cornerstones of Lovecraft’s unique mythology: the Cthulhu Mythos. This fictional universe, built in large part by his friend and most ardent supporter August Derleth, has in the years since been reimagined in myriad forms, and continues to act as a haunted playground for countless illustrators, fans and authors.`
     },
     {
+        title: "Prisioneiros da mente",
+        image: "books/priosineirosdamente-augustocury.jpg",
+        author: "Augusto Cury",
+        link: "https://amzn.to/3FSO2m8",
+        topSeller: false,
+        trendingBook: false,
+        itemType: "book",
+        genre: ["realidade", "drama"],
+        newcome: "",
+        format: "Capa Comum",
+        language: "portugues",
+        priceRange: "",
+        streaming: [""],
+        price: "",
+        promotion:"Black Friday",
+        oldPrice: "",
+        classification: "4,7",
+        specialCategory: [""], 
+        description: `E se você estivesse preso em sua própria mente?  
+
+        Com mais de 200 mil exemplares vendidos, este livronesta ficção deAugusto Cury nos faz refletir sobre aos milhões de pessoas que vivem prisioneiras de seus próprios egos, ― de anônimos a celebridades, de desprovidos a milionários. E se você também estivesse preso em sua própria mente? 
+        
+        Um magnata poderoso. Um império tecnológico. E uma família dilacerada. Filho de um sobrevivente do Holocausto, Theo Fester conseguiu vencer uma infância de pobreza e bullying para se tornar um empreendedor mundialmente conhecido e bem-sucedido. Sua vida pessoal, entretanto, não seguiu o mesmo caminho: ele e seus filhos vivem uma farsa, se digladiando por poder e atenção. Ao se dar conta de que sua família está aprisionada por cárceres mentais, Theo precisará se reinventar mais uma vez e mudar radicalmente seus relacionamentos, antes que seja tarde demais. 
+        
+        Prisioneiros da mente é mais um romance intenso e estimulante do dr. Augusto Cury que o leitor não vai esquecer tão cedo. `
+    },
+    {
         title: "",
         image: "books/.jpg",
         author: "",
