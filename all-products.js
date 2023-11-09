@@ -42,7 +42,7 @@ export const products = [
         ✔ Como implementar completamente o tratamento de erro sem obscurecer a lógica
         
         ✔ Como aplicar testes de unidade e praticar o desenvolvimento dirigido a testes
-        specialcategory: [""],         description:
+        
         Este livro é essencial para qualquer desenvolvedor, engenheiro de software, gerente de projeto, líder de equipes ou analistas de sistemas com interesse em construir códigos melhores.`
     },
     {
@@ -94,7 +94,7 @@ export const products = [
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,7",
-        specialCategory: ["Arrumando a cama"], 
+        specialCategory: ["arrumandoacama"], 
         description: `Este livro é sobre prazer. É também sobre sofrimento. Mas mais importante, é um livro que trata de como encontrar o delicado equilíbrio entre os dois, e por que hoje em dia, mais do que nunca, encontrar o equilíbrio é essencial. Estamos vivendo em uma época de excessos, de acesso sem precedentes a estímulos de alta recompensa e alta dopamina: drogas, comida, notícias, jogos, compras, sexo, redes sociais. A variedade e a potência desses estímulos são impressionantes - assim como seu poder adictivo. Nossos telefones celulares oferecem dopamina digital 24 horas por dia, 7 dias por semana, para uma sociedade ao mesmo tempo conectada e alheia do que acontece ao redor. Estamos todos vulneráveis ao consumo excessivo e à compulsão.
 
         Em Nação dopamina, Dra. Anna Lembke, psiquiatra e professora da Escola de Medicina da renomada Universidade Stanford, explora as novas e empolgantes descobertas científicas que explicam por que a busca incansável do prazer gera mais sofrimento do que felicidade - e o que podemos fazer a respeito.
@@ -238,7 +238,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,7",
-        specialCategory: ["Arrumando a cama"], 
+        specialCategory: ["arrumandoacama"], 
         description: `PRIMEIRO LUGAR NA LISTA DO THE NEW YORK TIMES.
 
         Como aceitar a própria vulnerabilidade, vencer a vergonha e ousar ser quem você é.
@@ -298,7 +298,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,6",
-        specialCategory: ["Noites em Claro"], 
+        specialCategory: ["noitesemclaro"], 
         description: `Uma história que vai surpreender até os leitores de suspense mais calejados.
 
         Quem leu A mulher na janela e A garota no trem não vai conseguir colocar este livro de lado até chegar à inacreditável conclusão.
@@ -334,7 +334,7 @@ itemType: "book",
         promotion:"Super Promoção",
         oldPrice: "",
         classification: "4,7",
-        specialCategory: ["Noites em Claro"], 
+        specialCategory: ["noitesemclaro"], 
         description: `Summit Lake, uma pequena cidade entre montanhas, é esse tipo de lugar, bucólico e com encantadoras casas dispostas à beira de um longo trecho de água intocada.Duas semanas atrás, a estudante de direito Becca Eckersley foi brutalmente assassinada em uma dessas casas. Filha de um poderoso advogado, Becca estava no auge de sua vida. Atraída instintivamente pela notícia, a repórter Kelsey Castle vai até a cidade para investigar o caso. ...E LOGO SE ESTABELECE UMA CONEXÃO ÍNTIMA QUANDO UM VIVO CAMINHA NAS MESMAS PEGADAS DOS MORTOS...E enquanto descobre sobre as amizades de Becca, sua vida amorosa e os segredos que ela guardava, a repórter fica cada vez mais convencida de que a verdade sobre o que aconteceu com Becca pode ser a chave para superar as marcas sombrias de seu próprio passado.`
     },
     {
@@ -519,7 +519,7 @@ itemType: "book",
         promotion:"Super Promoção",
         oldPrice: "",
         classification: "4,6",
-        specialCategory: ["Arrumando a cama"], 
+        specialCategory: ["arrumandoacama"], 
         description: `Chega de tentar buscar um sucesso que só existe na sua cabeça. Chega de se torturar para pensar positivo enquanto sua vida vai ladeira abaixo. Chega de se sentir inferior por não ver o lado bom de estar no fundo do poço.
 
         Coaching, autoajuda, desenvolvimento pessoal, mentalização positiva - sem querer desprezar o valor de nada disso, a grande verdade é que às vezes nos sentimos quase sufocados diante da pressão infinita por parecermos otimistas o tempo todo. É um pecado social se deixar abater quando as coisas não vão bem. Ninguém pode fracassar simplesmente, sem aprender nada com isso. Não dá mais. É insuportável. E é aí que entra a revolucionária e sutil arte de ligar o foda-se.
@@ -573,7 +573,7 @@ itemType: "book",
         promotion:"Pré-Venda",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Anime-se"], 
+        specialCategory: ["animese"], 
         description: `O misterioso Guts, o "Espadachim Negro", carrega em sua mão mecânica uma enorme espada, e em seu pescoço uma estranha marca que atrai forças demoníacas. Em sua busca por vingança contra um antigo inimigo, nem tudo sai a seu favor, e ele recebe ajuda de uma fantástica criatura.`
     },
     {
@@ -709,7 +709,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Anime-se"], 
+        specialCategory: ["animese"], 
         description: `Denji é um jovem extremamente pobre que junto de Pochita, seu demônio de estimação, trabalha feito um condenado como Caçador de Demônios para pagar a imensa dívida que possui. Mas sua vida de miséria está prestes a mudar graças a uma traição brutal!! Aqui começa a história de um novo anti-herói que com um demônio em seu corpo, caça demônios!!`
     },
     {
@@ -730,7 +730,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,7",
-        specialCategory: ["Arrumando a cama"], 
+        specialCategory: ["arrumandoacama"], 
         description: `Em seu primeiro livro, Thiago Nigro, criador da plataforma O Primo Rico, ensina aos leitores os três pilares para atingir a independência financeira: gastar bem, investir melhor e ganhar mais. Por meio de dados e de sua própria experiência como investidor e assessor, Nigro mostra que a riqueza é possível para todos – basta estar disposto a aprender e se dedicar.`
     },
     {
@@ -1448,7 +1448,7 @@ itemType: "book",
         promotion:"",
         oldPrice: "",
         classification: "4,7",
-        specialCategory: [""], 
+        specialCategory: ["animese"], 
         description: `Luffy deseja tornar-se um pirata por conta da admiração que sente por Shanks. O garoto acaba consumindo a Gomugomu-no-mi e mais tarde se envolve em uma briga com bandidos, na qual Shanks aparece para salvá-lo, porém, o pirata de cabelos vermelhos perde seu braço esquerdo na ocasião. Anos depois, Luffy conhece Coby, um faz-tudo que sonha em se tornar um oficial da marinha, e ambos rumam para uma ilha em que há uma base da Marinha, onde o famoso espadachim e caçador de piratas, Roronoa Zoro, se encontra aprisionado. Como será o desenrolar desse encontro...?!`
     },
     {
@@ -1653,7 +1653,7 @@ itemType: "book",
         promotion:"",
         oldPrice: "",
         classification: "4,7",
-        specialCategory: [""], 
+        specialCategory: ["arrumandoacama"], 
         description: `Charles Duhigg, repórter investigativo do New York Times, mostra que a chave para o sucesso é entender como os hábitos funcionam - e como podemos transformá-los.
 
         Durante os últimos dois anos, uma jovem transformou quase todos os aspectos de sua vida. Parou de fumar, correu uma maratona e foi promovida. Em um laboratório, neurologistas descobriram que os padrões dentro do cérebro dela mudaram de maneira fundamental. Publicitários da Procter & Gamble observaram vídeos de pessoas fazendo a cama. Tentavam desesperadamente descobrir como vender um novo produto chamado Febreze, que estava prestes a se tornar um dos maiores fracassos na história da empresa. De repente, um deles detecta um padrão quase imperceptível - e, com uma sutil mudança na campanha publicitária, Febreze começa a vender um bilhão de dólares por anos. Um diretor executivo pouco conhecido assume uma das maiores empresas norte-americanas. Seu primeiro passo é atacar um único padrão entre os funcionários - a maneira como lidam com a segurança no ambiente de trabalho -, e logo a empresa começa a ter o melhor desempenho no índice Dow Jones.
@@ -1699,7 +1699,7 @@ itemType: "book",
         promotion:"",
         oldPrice: "",
         classification: "5,0",
-        specialCategory: ["Brazuca"], 
+        specialCategory: ["brazuca"], 
         description: `BRINDES EXCLUSIVOS PARA O LANÇAMENTO*
 
         Edição de luxo da primeira autobiografia de Rita Lee
@@ -1994,7 +1994,7 @@ itemType: "book",
         promotion:"",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: [""], 
+        specialCategory: ["mundomagico"], 
         description: `A magia há muito abandonou Adarlan.  Um perverso rei governa, punindo impiedosamente as minorias rebeldes. Mas tudo pode mudar quando uma assassina é chamada para o castelo. Em Trono de vidro, livro que da início a série bestseller com mais de um milhão de cópias vendidas e legiões de fãs no mundo todo, Celaena tem uma perigosa missão que pode lhe garantir sua tão sonhada liberdade ou ser a sua sentença de morte.
 
  
@@ -2108,7 +2108,7 @@ itemType: "book",
         promotion:"",
         oldPrice: "",
         classification: "4,4",
-        specialCategory: [""], 
+        specialCategory: ["noitesemclaro"], 
         description: `Um dos maiores sucessos da literatura de suspense nos últimos anos, A família perfeita chega ao Brasil com trama recheada de reviravoltas perturbadoras
 
         Logo após seu vigésimo quinto aniversário, Libby Jones chega em casa e encontra a carta que esperou por toda a sua vida. Ao abri-la, a jovem tem apenas uma coisa em mente: enfim vai saber quem ela é.
@@ -2277,7 +2277,7 @@ itemType: "book",
         promotion:"",
         oldPrice: "",
         classification: "4,7",
-        specialCategory: [""], 
+        specialCategory: ["amorproibido"], 
         description: `Aos dezessete anos, Layla só quer ser uma garota normal, mesmo sabendo que tem um dom, que é cobiçado e ao mesmo tempo uma maldição para ela. Tendo sido adotada e abrigada na casa dos Guardiões desde pequena, ela nutre uma paixão secreta por Zayne ― um guardião que, para sua decepção, a trata como irmã. Enquanto tenta se adaptar à vida na escola e aos dilemas de sua adolescência nada convencional, ela conhece Roth, um demônio que afirma conhecer seu dom e saber dos seus segredos. Em pouco tempo, ela se vê em meio a uma disputa entre guardiões e demônios que pode colocar em risco a existência da humanidade, e descobrirá que pode ser a causa desta batalha. Em qual lado deverá confiar? Conseguirá Layla resistir aos encantos de Roth, lidar com seu passado e, ao mesmo tempo, lutar para sobreviver em meio à caçada realizada por seus inimigos? Classificação indicativa: 16 anos`
     },
     {
@@ -2367,7 +2367,7 @@ itemType: "book",
         promotion:"",
         oldPrice: "",
         classification: "4,6",
-        specialCategory: [""], 
+        specialCategory: ["noitesemclaro"], 
         description: `Cinco alunos entram em detenção na escola e apenas quatro saem com vida. Todos são suspeitos e cada um tem algo a esconder. Até onde você iria para proteger o seu segredo? Esta é a história de Um de nós está mentindo, livro que deu inicio a duologia de sucesso Um de nós, e teve enredo adaptado para uma série de TV eletrizante na Netflix. 
 
  
@@ -2488,7 +2488,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Mundo Mágico"], 
+        specialCategory: ["mundomagico"], 
         description: `Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural. Pelo contrário. Até os 10 anos, Harry foi uma espécie de gata borralheira: maltratado pelos tios, herdava roupas velhas do primo gorducho, tinha óculos remendados e era tratado como um estorvo. No dia de seu aniversário de 11 anos, entretanto, ele parece deslizar por um buraco sem fundo, como o de Alice no país das maravilhas, que o conduz a um mundo mágico. Descobre sua verdadeira história e seu destino: ser um aprendiz de feiticeiro até o dia em que terá que enfrentar a pior força do mal, o homem que assassinou seus pais. O menino de olhos verde, magricela e desengonçado, tão habituado à rejeição, descobre, também, que é um herói no universo dos magos. Potter fica sabendo que é a única pessoa a ter sobrevivido a um ataque do tal bruxo do mal e essa é a causa da marca em forma de raio que ele carrega na testa. Ele não é um garoto qualquer, ele sequer é um feiticeiro qualquer ele é Harry Potter, símbolo de poder, resistência e um líder natural entre os sobrenaturais. A fábula, recheada de fantasmas, paredes que falam, caldeirões, sapos, unicórnios, dragões e gigantes, não é, entretanto, apenas um passatempo.`
     },
     {
@@ -2509,7 +2509,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Mundo Mágico"], 
+        specialCategory: ["mundomagico"], 
         description: `Depois de férias aborrecidas na casa dos tios trouxas, está na hora de Harry Potter voltar a estudar. Coisas acontecem, no entanto, para dificultar o regresso de Harry. Persistente e astuto, o herói não se deixa intimidar pelos obstáculos e, com a ajuda dos fiéis amigos Weasley, começa o ano letivo na Escola de Magia e Bruxaria de Hogwarts. As novidades não são poucas. Novos colegas, novos professores, muitas e boas descobertas e um grande e perigosos desafio. Alguém ou alguma coisa ameaça a segurança e a tranquilidade dos membros de Hogwarts.`
     },
     {
@@ -2530,7 +2530,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Mundo Mágico"], 
+        specialCategory: ["mundomagico"], 
         description: `As aulas estão de volta à Hogwarts e Harry Potter não vê a hora de embarcar no expresso a vapor que o levará de volta à escola de bruxaria. Mais uma vez suas férias na rua dos Alfeneiros foi triste e solitária. Com muita ação, humor e magia, 'Harry Potter e o prisioneiro de Azkaban' traz de volta o gigante atrapalhado Rúbeo Hagrid, o sábio diretor Alvo Dumbledore, a exigente professora de transformação Minerva MacGonagall e o novo mestre Lupin, que guarda grandes surpresas para Harry.`
     },
     {
@@ -2551,7 +2551,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Mundo Mágico"], 
+        specialCategory: ["mundomagico"], 
         description: `Nesta aventura, o feiticeiro cresceu e está com 14 anos. O início do ano letivo de Harry Potter reserva muitas emoções, mágicas, e acontecimentos inesperados, além de um novo torneio em que os alunos de Hogwarts terão de demonstrar todas as habilidade mágicas e nãomágicas que vêm adquirindo ao longo de suas vidas. Harry é escolhido pelo Cálice de Fogo para competir como um dos campeões de Hogwarts, tendo ao lado seus fiéis amigos. Muitos desafios, feitiços, poções e confusões estão reservados para Harry. Além disso, ele terá que lidar ainda com os problemas comuns da adolescência amor, amizade, aceitação e rejeição.`
     },
     {
@@ -2572,7 +2572,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Mundo Mágico"], 
+        specialCategory: ["mundomagico"], 
         description: `Harry não é mais um garoto. Aos 15 anos, continua sofrendo a rejeição dos Dursdley, sua estranha família no mundo dos 'trouxas'. Também continua contando com Rony Weasley e Hermione Granger, seus melhores amigos em Hogwarts, para levar adiante suas investigações e aventuras. Mas o bruxinho começa a sentir e descobrir coisas novas, como o primeiro amor e a sexualidade. Nos volumes anteriores, J. K. Rowling mostrou como Harry foi transformado em celebridade no mundo da magia por ter derrotado, ainda bebê, Voldemort, o todopoderoso bruxo das trevas que assassinou seus pais. Neste quinto livro da saga, o protagonista, numa crise típica da adolescência, tem ataques de mau humor com a perseguição da imprensa, que o segue por todos os lugares e chega a inventar declarações que nunca deu. Harry vai enfrentar as investidas de Voldemort sem a proteção de Dumbledore, já que o diretor de Hogwarts é afastado da escola. E vai ser sem a ajuda de seu protetor que o jovem herói enfrentará descobertas sobre a personalidade controversa de seu pai, Tiago Potter, e a morte de alguém muito próximo.`
     },
     {
@@ -2593,7 +2593,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Mundo Mágico"], 
+        specialCategory: ["mundomagico"], 
         description: `Harry Potter e o enigma do príncipe' dá continuidade à saga do jovem bruxo Harry Potter a partir do ponto em que o livro anterior parou o momento em que fica provado que o poder de Voldemort e dos Comensais da Morte, seus seguidores, cresce mais a cada dia, em meio à batalha entre o bem e o mal. A onda de terror provocada pelo Lorde das Trevas estaria afetando, até mesmo, o mundo dos trouxas (nãobruxos), e sendo agravada pela ação dos dementadores, criaturas mágicas aterrorizantes que 'sugam' a esperança e a felicidade das pessoas. Harry, que acabou de completar 16 anos, parte rumo ao sexto ano na Escola de Magia e Bruxaria de Hogwarts, animado e ao mesmo tempo apreensivo com a perspectiva de ter aulas particulares com o professor Dumbledore, o diretor da escola e o bruxo mais respeitado em toda comunidade mágica. Harry, longe de ser aquele menino magricela que vivia no quarto debaixo da escada na casa dos tios trouxas, é um dos principais nomes entre aqueles que lutam contra Voldemort, e se vê cada vez mais isolado à medida que os rumores de que ele é O Eleito o único capaz de derrotar o Lorde das Trevas, se espalham pelo mundo dos bruxos. Dois atentados contra a vida de estudantes, a certeza de Harry quanto ao envolvimento de Draco Malfoy com os Comensais da Morte e o comportamento de Snape, suspeito como sempre, adicionam ainda mais tensão ao já inquietante período. Apesar de tudo isso, Harry e os amigos são adolescentes típicos dividem tarefas escolares e dormitórios bagunçados, correm das aulas para os treinos de quadribol, e namoram.`
     },
     {
@@ -2614,7 +2614,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Mundo Mágico"], 
+        specialCategory: ["mundomagico"], 
         description: `Harry Potter e as relíquias da morte', de J.K. Rowling, é o sétimo e último livro da série. Voldemorte está cada vez mais forte e Harry Potter precisa encontrar e aniquilar as Horcruxes para enfraquecer o lorde e poder enfrentálo. Nessa busca desenfreada, contando apenas com os amigos Rony e Hermione, Harry descobre as Relíquias da Morte, que serão úteis na batalha do bem contra o mal.`
     },
     {
@@ -2635,7 +2635,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Reinos Perdidos"], 
+        specialCategory: ["reinosperdidos"], 
         description: `Apesar de ter sido publicado em três volumes – a sociedade do anel, as duas torres e o retorno do rei – desde os anos 1950, o senhor dos anéis não é exatamente uma trilogia, mas um único grande romance que só pode ser compreendido em seu conjunto, segundo a concepção de seu autor, j.r.r. Tolkien. Com design cuidadosamente pensado para refletir a unidade da obra e os desenhos originais feitos por tolkien para as capas de cada volume, este box reúne os três livros da saga do anel e oferece aos leitores uma nova oportunidade de mergulhar no notável mundo da terra-média.`
     },
     {
@@ -2656,7 +2656,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,9",
-        specialCategory: ["Reinos Perdidos"], 
+        specialCategory: ["reinosperdidos"], 
         description: `O Silmarillion é o relato dos Dias Antigos da Primeira Era do mundo criado por J.R.R. Tolkien. É a história longínqua para a qual os personagens de O Senhor dos Anéis e O Hobbit olham para trás, e em cujos eventos alguns deles, como Elrond e Galadriel, tomaram parte. Os contos de O Silmarillion se passam na época em que Morgoth, o Primeiro Senhor Sombrio, habitava a Terra-média, e os Altos-Elfos guerreavam contra ele pela recuperação das Silmarils, as joias que continham a pura luz de Valinor. O livro começa com o "Ainulindalë", o mito da criação do Universo, seguido pelo "Valaquenta", onde estão descritas a natureza e os poderes de cada um dos deuses. Em o “Quenta Silmarillion” há o início da contagem dos dias em Arda (o mundo onde está inserido o continente da Terra-média), a história dos Elfos na Terra Abençoada do Oeste, seus êxodos e o desenrolar das guerras élficas em Beleriand, que culminaram com o final da Primeira Era. O "Akallabêth" narra o apogeu e a queda do reino da grande ilha de Númenor no final da Segunda Era. Por fim, "Dos Anéis de Poder" fala dos grandes eventos no final da Terceira Era, como narrado em O Senhor dos Anéis.
 
         O livro começa com "O Ainulindalë", o mito da criação do Universo, seguido pelo "Valaquenta", onde estão descritas a natureza e os poderes de cada um dos deuses. O "Akallâbeth" narra o apogeu e a queda do reino da grande ilha de Númenor no final da Segunda Era e "Dos Anéis de Poder" fala dos grandes eventos no final da Terceira Era, como narrado em "O Senhor dos Anéis".`
@@ -2679,7 +2679,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Mundo Mágico"], 
+        specialCategory: ["mundomagico"], 
         description: `Agora, os fãs da série podem ter, reunidos em um box especial, com edição limitada e design exclusivo, os cinco livros da saga que consagrou o autor Rick Riordan:
 
         O ladrão de raios, em que Percy descobre sua ligação com os deuses do Olimpo e precisa impedir uma guerra entre eles, que acabaria com toda a civilização ocidental;
@@ -2742,7 +2742,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Reinos Perdidos"], 
+        specialCategory: ["reinosperdidos"], 
         description: `A vida do jovem Paul Atreides está prestes a mudar radicalmente. Após a visita de uma mulher misteriosa, ele é obrigado a deixar seu planeta natal para sobreviver ao ambiente árido e severo de Arrakis, o Planeta Deserto. Envolvido numa intrincada teia política e religiosa, Paul divide-se entre as obrigações de herdeiro e seu treinamento nas doutrinas secretas de uma antiga irmandade, que vê nele a esperança de realização de um plano urdido há séculos. Ecos de profecias ancestrais também o cercam entre os nativos de Arrakis. Seria ele o eleito que tornaria viáveis seus sonhos e planos ocultos?
         `
     },
@@ -2764,7 +2764,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,7",
-        specialCategory: ["Reinos Perdidos"], 
+        specialCategory: ["reinosperdidos"], 
         description: `Messias de Duna, de Frank Herbert, é o segundo volume da série que se tornou um verdadeiro marco da ficção científica. A continuação é responsável pela expansão e aprofundamento do universo criado em Duna, aliando discussões políticas, filosóficas e religiosas à sua épica história de poder, vingança e redenção.
 
         O livro revela mais profundamente o lado humano de Paul e de sua irmã, Alia Atreides. Embora vistos como seres dotados de capacidades sobrenaturais, ambos carregam dentro de si dúvidas e incertezas, medos e paixões. E apoiados nestas emoções, eles enfrentarão o propósito terrível de um audacioso grupo de conspiradores.
@@ -2789,7 +2789,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Reinos Perdidos"], 
+        specialCategory: ["reinosperdidos"], 
         description: `O Imperium vive um interregno após Paul Atreides abdicar de seu título de imperador e entregar-se ao deserto. Sua irmã, Alia, ascende ao poder como regente enquanto os filhos de Muad'Dib não são capazes de assumir o Trono do Leão. Herdeiros não só do poder político e econômico de seu pai, os gêmeos também carregam em suas veias toda a carga genética manipulada por séculos pela Irmandade Bene Gesserit. Mas a hegemonia dos Atreides está ameaçada.
 
         De seu exílio em Salusa Secundus, os membros da despojada Casa Corrino tramam uma complexa teia para retomar as rédeas do Imperium e se vingar de todos os envolvidos em sua queda. Filhos de Duna fecha com brilhantismo o arco de história iniciado com Paul Atreides no épico Duna e em sua sequência, Messias de Duna, retomando os temas políticos e existenciais com a mesma maestria dos livros que o precederam.`
@@ -2812,7 +2812,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Reinos Perdidos"], 
+        specialCategory: ["reinosperdidos"], 
         description: `Milênios se passaram em Arrakis desde os eventos narrados em Duna, e o planeta, que antes era desértico, agora está verdejante e vigoroso. O Imperador Deus de Duna, que garantiu uma paz forçada em todos os planetas, consegue entender o futuro, e sabe, com uma terrível certeza, que sua raça será extinta a menos que ele crie novas qualidades para a espécie. As regras do Imperador não são benevolentes. Sua transformação não deixou apenas sua aparência desumana, mas também seu senso de moral. Nasce então uma rebelião para se opor ao déspota, liderada por Siona, da família Atreides. Mas Siona não sabe que a visão do Imperador para o Caminho Dourado exige que ela aceite um destino que nunca quis ou que algum dia poderia conceber. Narrado sob uma ótica particular, Imperador Deus de Duna inicia um novo arco de história na saga. Neste quarto volume, Frank Herbert apresenta um de seus personagens mais marcantes e discute temas como política, religião, amor e os rumos tomados pela sociedade.`
     },
     {
@@ -2833,7 +2833,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Reinos Perdidos"], 
+        specialCategory: ["reinosperdidos"], 
         description: `Mais de mil anos após a liderança do Imperador Deus Leto II, o planeta Rakis está em ruínas. Do deserto ao verde fértil e de volta à aridez, o mundo completou um ciclo e foi abandonado por milhões de habitantes, que por milênios tiveram suas ambições destruídas. Agora, o povo da Dispersão está retornando dos lugares mais distantes do universo, dividido em facções que buscam poder sobre o que restou do Império. Em meio a essas mudanças, as Bene Gesserit encontram uma garota chamada Sheeana, que possui as habilidades dos Fremen. Essa garota, que causa furor religioso e pode realizar uma antiga profecia, tem o potencial de ser uma peça-chave para o destino da humanidade.`
     },
     {
@@ -2854,7 +2854,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Reinos Perdidos"], 
+        specialCategory: ["reinosperdidos"], 
         description: `Após a ação arrasadora de um misterioso culto matriarcal, a ordem Bene Gesserit se vê quase dizimada, o que representa uma terrível ameaça aos valores do Antigo Império.
         A fim de se defender, a Irmandade recua para o planeta de Casa Capitular, seu reduto mais oculto, levando consigo os segredos dos vermes da areia e da produção de mélange. E é a partir desse mundo misterioso que elas organizam sua resistência, suas ações e a restauração de seus planos, iniciados nos longínquos tempos de Duna.
         Último livro escrito por Frank Herbert, Herdeiras de Duna fecha maravilhosamente a série original. Seu enredo empolgante, aliado ao rico universo histórico, filosófico e religioso da saga, confirma ainda mais a Série Duna como uma das jornadas mais extraordinárias da ficção científica mundial.`
@@ -2932,7 +2932,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,6",
-        specialCategory: ["Busque seus lencinhos"], 
+        specialCategory: ["busqueseuslencinhos"], 
         description: `Uma menina escreve cartas para sua mãe morta. Através delas ficamos sabendo que teve que ir morar com a tia e as primas, que não gostam dela. Não se cansam de lembrar que deveria fazer um esforço para disfarçar sua cor e ficar mais parecida com uma pessoa branca. Sua avó está sempre desgostosa, com ela e com a vida em geral. Mas a autora das cartas começa lentamente a descobrir um mundo além de seus problemas familiares. À medida que faz amigos ― entre outros, um jovem que também tem problemas com a família e uma velha que é ao mesmo tempo jardineira e bruxa ― suas feridas começam a cicatrizar. A menina fica cada vez mais forte, consegue ganhar o respeito dos outros e aprende a aceitar a si mesma a aos outros. Este é um romance emocionante sobre perdas irreparáveis e sobre o poder restaurador do amor e do autorespeito. Ambientada em Cuba, a narrativa desafia nossas crenças sobre essa ilha que, afinal, conhecemos tão pouco.`
     },
     {
@@ -2953,7 +2953,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Brazuca"], 
+        specialCategory: ["brazuca"], 
         description: `Desde o seu lançamento, em 1937, Capitães da Areia causou escândalo: inúmeros exemplares do livro foram queimados em praça pública, por determinação do Estado Novo. Ao longo de sete décadas a narrativa não perdeu viço nem atualidade, pelo contrário: a vida urbana dos meninos pobres e infratores ganhou contornos trágicos e urgentes. Várias gerações de brasileiros sofreram o impacto e a sedução desses meninos que moram num trapiche abandonado no areal do cais de Salvador, vivendo à margem das convenções sociais. Verdadeiro romance de formação, o livro nos torna íntimos de suas pequenas criaturas, cada uma delas com suas carências e suas ambições: do líder Pedro Bala ao religioso Pirulito, do ressentido e cruel Sem-Pernas ao aprendiz de cafetão Gato, do sensato Professor ao rústico sertanejo Volta Seca. Com a força envolvente da sua prosa, Jorge Amado nos aproxima desses garotos e nos contagia com seu intenso desejo de liberdade.`
     },
     {
@@ -2974,7 +2974,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Brazuca"], 
+        specialCategory: ["brazuca"], 
         description: `Vidas secas é reconhecidamente o mais importante livro de Graciliano Ramos e um dos maiores clássicos da literatura nacional. Publicado pela primeira vez em 1938, o aclamado livro retrata a vida miserável de uma familia de retirantes em sua peregrinação pelo sertão nordestino. Se tornando uma das obras-símbolo do modernismo literário brasileiro, Vidas secas é um retrato atual, emocionante e cruelmente verdadeiro sobre o Brasil.`
     },
     {
@@ -2995,7 +2995,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Brazuca"], 
+        specialCategory: ["brazuca"], 
         description: `Um clássico da literatura brasileira, com adaptações para a televisão, o cinema e o teatro, O Meu Pé de Laranja Lima é desses livros que marcam época. Lançado em 1968, trata-se de uma história fortemente autobiográfica, que demonstra a mão de um escritor experiente, ciente do efeito que pode provocar nos leitores com suas cenas e a composição de seus personagens. O protagonista Zezé tem 6 anos e mora num bairro modesto, na zona norte do Rio de Janeiro. O pai está desempregado, e a família passa por dificuldades. O menino vive aprontando, sem jamais se conformar com as limitações que o mundo lhe impõe – viaja com sua imaginação, brinca, explora, descobre, responde aos adultos, mete-se em confusões, causa pequenos desastres. As surras que lhe aplicam seu pai e sua irmã mais velha são seu suplício, a ponto de fazê-lo querer desistir da vida. No entanto, o apego ao mundo que criou felizmente sempre fala mais alto. Só não há remédio para a dor, para a perda. E Zezé muito cedo descobrirá isso. A alegria e a tristeza não poderiam estar mais bem combinadas do que nestas páginas. E isso, se não explica, justifica a imensa popularidade alcançada pelo livro.`
     },
     {
@@ -3184,7 +3184,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Reinos Perdidos"], 
+        specialCategory: ["reinosperdidos"], 
         description: `A arrebatadora história dos Targaryen ganha vida neste novo livro de George R.R. Martin, autor de As Crônicas de Gelo e Fogo, série que inspirou a adaptação de sucesso da HBO, Game of Thrones.
 
         Séculos antes dos eventos de A guerra dos tronos, a Casa Targaryen – única família de senhores dos dragões a sobreviver à Destruição de Valíria – tomou residência em Pedra do Dragão. A história de Fogo e sangue começa com o lendário Aegon, o Conquistador, criador do Trono de Ferro, e segue narrando as gerações de Targaryen que lutaram para manter o assento, até a guerra civil que quase destruiu sua dinastia.
@@ -3209,7 +3209,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,6",
-        specialCategory: ["Mundo Magico"], 
+        specialCategory: ["mundomagico"], 
         description: `No povoado de Gavaldon, a cada quatro anos, dois adolescentes somem misteriosamente há mais de dois séculos. Os pais trancam e protegem seus filhos, apavorados com o possível sequestro, que acontece segundo uma antiga lenda: os jovens desaparecidos são levados para a Escola do Bem e do Mal, onde estudam para se tornar os heróis e os vilões das histórias. Sophie torce para ser uma das escolhidas e admitida na Escola do Bem. Com seu vestido cor-de-rosa e sapatos de cristal, ela sonha em se tornar uma princesa. Sua melhor amiga, Agatha, porém, não se conforma como uma cidade inteira pode acreditar em tanta baboseira. Ela é o oposto da amiga, que, mesmo assim, é a única que a entende. O destino, no entanto, prega uma peça nas duas, que iniciam uma aventura que dará pistas sobre quem elas realmente são. Este best-seller é o primeiro livro de uma trilogia que mostra uma jornada épica em um mundo novo e deslumbrante, no qual a única saída para fugir das lendas sobre contos de fadas e histórias encantadas é viver intensamente uma delas.`
     },
     {
@@ -3271,7 +3271,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,7",
-        specialCategory: ["Brazuca"], 
+        specialCategory: ["brazuca"], 
         description: `Divertido e cativante, Carina Rissi vai derreter seu coração neste Procura-se um marido: o livro que inspirou o primeiro filme brasileiro da HBO Max, com Camila Queiroz e Klebber Toledo nos papéis principais.
 
  
@@ -3310,7 +3310,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,5",
-        specialCategory: ["Brazuca"], 
+        specialCategory: ["brazuca"], 
         description: `O livro que inspirou a série da Netflix.
 
         O que você faria se pudesse voltar no tempo?
@@ -3336,7 +3336,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,5",
-        specialCategory: ["Quando o medo chama"], 
+        specialCategory: ["quandoomedochama"], 
         description: `Publicado anteriormente no Brasil sob o título Fantasmas do Século XX, este livro inventivo e tenebroso tem histórias que vão de temas clássicos da literatura de horror até contos sobre mundos fantásticos, O telefone preto e outras histórias estabelece Joe Hill como um autor premiado, aclamado pela crítica e um dos "maiores escritores de ficção fantástica do século XXI", como afirma o Washington Post.
 
         Um fantasma que assombra o Teatro Rosebud e já viu todos os filmes que já entraram em cartaz; uma criança solitária que não consegue fazer amigos porque é o único menino inflável da cidade; um gafanhoto de dois metros e meio de altura, que faz todos em Calliphora tremerem ao ouvi-lo cantar; dois irmãos que constroem um forte de papelão com portas que levam a outros mundos; um menino trancado em um porão manchado com o sangue de meia dúzia de crianças assassinadas e um telefone antigo há muito desconectado… mas que toca a noite inteira, com ligações dos mortos.
@@ -3382,7 +3382,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Mistérios Urbanos"], 
+        specialCategory: ["misteriosurbanos"], 
         description: `Com elementos de thriller policial, ficção científica e romance histórico, livro de Lauren Beukes ganha adaptação para o Apple TV+ estrelada por Elisabeth Moss e Wagner Moura
 
         Chicago, 1931. Harper Curtis, um andarilho violento, invade uma casa abandonada que esconde um segredo tão chocante quanto improvável: quem entra ali é transportado no tempo. Instigado por um comando que parece partir da casa, Harper persegue as “meninas iluminadas” ― garotas cuidadosamente escolhidas em diferentes décadas ― com o objetivo de matá-las. Voltando no tempo após cada assassinato, seus crimes são perfeitos e impossíveis de serem rastreados. Ou pelo menos é o que ele pensa.
@@ -3512,7 +3512,7 @@ itemType: "book",
         promotion:"Black Friday",
         oldPrice: "",
         classification: "4,8",
-        specialCategory: ["Mistérios Urbanos"], 
+        specialCategory: ["misteriosurbanos"], 
         description: `Um thriller de espionagem intenso, cerebral e vertiginoso, adaptado para filme pela NETFLIX com Ryan Gosling e Chris Evans
 
         Court Gentry, mais conhecido como Agente Oculto, é um renomado e temido mercenário que age nas sombras das grandes disputas internacionais entre agências de governo, milícias, conglomerados empresariais e bilionários que regem as vidas das pessoas comuns. Essas guerras acontecem nas sombras, longe das câmeras dos canais de TV e das páginas dos noticiários, e seus principais agentes atuam de forma incógnita, sem nome, sem passado e sem futuro, mas são extremamente bem remunerados para agir de acordo com os interesses de quem lhes oferece mais vantagens ― ou simplesmente garante sua sobrevivência.

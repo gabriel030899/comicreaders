@@ -9,7 +9,7 @@ export  function    createCategoriesElement(category) {
     const producttext = document.createElement("a");
     producttext.textContent = category.title;
     producttext.href = "#";
-    producttext.className =category.title;
+    producttext.className =category.name;
     producttext.classList.add("category-option");
 
     categoryLi.appendChild(productImage);
