@@ -1,6 +1,6 @@
 // Importar dados de produtos e funções auxiliares
-import { products } from './all-products.js';
-import { createBooksElement } from './create-books-page-gallery.js';
+import { products } from '../lists/all-products.js';
+import { createBooksElement } from '../functions/create-books-page-gallery.js';
 
 // Configuração inicial
 const itemsPerPage = 20;

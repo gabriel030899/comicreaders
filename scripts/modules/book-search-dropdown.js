@@ -1,4 +1,7 @@
-import { createBooksElement } from './create-book-selected-info.js';
+// Referência ao banco de dados de livros (substitua pelo seu banco de dados real)
+import { products } from '../lists/all-products.js';
+import { createBooksElement } from '../functions/create-book-selected-info.js';
+
 
 // Referência ao elemento de pesquisa para a primeira div
 const searchInputOne = document.getElementById('searchInputOne');
@@ -10,8 +13,7 @@ const searchInputTwo = document.getElementById('searchInputTwo');
 // Referência à lista de opções para a segunda div
 const optionsListTwo = document.getElementById('optionsListTwo');
 
-// Referência ao banco de dados de livros (substitua pelo seu banco de dados real)
-import { products } from './all-products.js';
+
 
 // Inicialize objetos para os produtos escolhidos em cada entrada
 let selectedProductOne = null;

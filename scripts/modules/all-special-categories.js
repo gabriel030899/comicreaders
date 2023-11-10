@@ -1,7 +1,7 @@
 
-import { specialCategories } from './special-categories-list.js';
+import { specialCategories } from '../lists/special-categories-list.js';
 
-import { createCategoriesElement } from './create-categories-filter-list.js';
+import { createCategoriesElement } from '../functions/create-categories-filter-list.js';
 
 // Adicione produtos à galeria
 const specialCategoyGallery = document.querySelector(".special-categories");

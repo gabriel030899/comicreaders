@@ -1,6 +1,6 @@
 
         // Suponha que você tenha uma lista de produtos
-        import { products } from './all-products.js';
+        import { products } from '../lists/all-products.js';
 
 
         // Função para criar os elementos HTML dos produtos

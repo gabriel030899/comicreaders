@@ -1,5 +1,5 @@
-import { products } from './all-products.js';
-import { createBooksElement } from './create-books-gallery.js';
+import { products } from '../lists/all-products.js';
+import { createBooksElement } from '../lists/create-books-gallery.js';
 
 // Adicione produtos à galeria
 const topSellersBooksGallery = document.querySelector("#trending-books");

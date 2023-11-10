@@ -1,5 +1,5 @@
 // Referência ao banco de dados de livros (substitua pelo seu banco de dados real)
-import { products } from './all-products.js';
+import { products } from '../lists/all-products.js';
 
 // Função para extrair e listar os títulos dos produtos
 function listProductTitles() {

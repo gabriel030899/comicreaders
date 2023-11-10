@@ -1,7 +1,7 @@
 
-import { genres } from './genres-list.js';
+import { genres } from '../lists/genres-list.js';
 
-import { createGenresElement } from './create-genres-filter-list.js';
+import { createGenresElement } from '../functions/create-genres-filter-list.js';
 
 // Adicione produtos à galeria
 const genresGallery = document.querySelector(".genres");

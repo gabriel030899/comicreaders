@@ -9,7 +9,7 @@ body, * {
 body {
     box-sizing: border-box; /* Adjust box-sizing to border-box for consistency */
     background: #D0D0D0;
-    background-image: url(assets/comic-backgorund-escuro.png);
+    background-image: url(../assets/comic-backgorund-escuro.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
